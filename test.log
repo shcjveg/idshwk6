@@ -1,0 +1,1138 @@
+2020年 4月28日 星期二 10时54分52秒 CST
+
+Darwin 19.3.0
+
+Darwin changjiedeMBP 19.3.0 Darwin Kernel Version 19.3.0: Thu Jan  9 20:58:23 PST 2020; root:xnu-6153.81.5~1/RELEASE_X86_64 x86_64
+
+Hardware:
+
+    Hardware Overview:
+
+      Model Name: MacBook Pro
+      Model Identifier: MacBookPro15,1
+      Processor Name: 6-Core Intel Core i7
+      Processor Speed: 2.2 GHz
+      Number of Processors: 1
+      Total Number of Cores: 6
+      L2 Cache (per Core): 256 KB
+      L3 Cache: 9 MB
+      Hyper-Threading Technology: Enabled
+      Memory: 16 GB
+      Boot ROM Version: 1037.80.53.0.0 (iBridge: 17.16.13050.0.0,0)
+      Serial Number (system): C02X32HPJGH5
+      Hardware UUID: 16C2D468-BE4B-5626-B498-444F12A59560
+      Activation Lock Status: Enabled
+
+machdep.cpu.max_basic: 22
+machdep.cpu.max_ext: 2147483656
+machdep.cpu.vendor: GenuineIntel
+machdep.cpu.brand_string: Intel(R) Core(TM) i7-8750H CPU @ 2.20GHz
+machdep.cpu.family: 6
+machdep.cpu.model: 158
+machdep.cpu.extmodel: 9
+machdep.cpu.extfamily: 0
+machdep.cpu.stepping: 10
+machdep.cpu.feature_bits: 9221959987971750911
+machdep.cpu.leaf7_feature_bits: 43804591 1073741824
+machdep.cpu.leaf7_feature_bits_edx: 2617254912
+machdep.cpu.extfeature_bits: 1241984796928
+machdep.cpu.signature: 591594
+machdep.cpu.brand: 0
+machdep.cpu.features: FPU VME DE PSE TSC MSR PAE MCE CX8 APIC SEP MTRR PGE MCA CMOV PAT PSE36 CLFSH DS ACPI MMX FXSR SSE SSE2 SS HTT TM PBE SSE3 PCLMULQDQ DTES64 MON DSCPL VMX EST TM2 SSSE3 FMA CX16 TPR PDCM SSE4.1 SSE4.2 x2APIC MOVBE POPCNT AES PCID XSAVE OSXSAVE SEGLIM64 TSCTMR AVX1.0 RDRAND F16C
+machdep.cpu.leaf7_features: RDWRFSGS TSC_THREAD_OFFSET SGX BMI1 AVX2 SMEP BMI2 ERMS INVPCID FPU_CSDS MPX RDSEED ADX SMAP CLFSOPT IPT SGXLC MDCLEAR TSXFA IBRS STIBP L1DF SSBD
+machdep.cpu.extfeatures: SYSCALL XD 1GBPAGE EM64T LAHF LZCNT PREFETCHW RDTSCP TSCI
+machdep.cpu.logical_per_package: 16
+machdep.cpu.cores_per_package: 8
+machdep.cpu.microcode_version: 202
+machdep.cpu.processor_flag: 5
+machdep.cpu.mwait.linesize_min: 64
+machdep.cpu.mwait.linesize_max: 64
+machdep.cpu.mwait.extensions: 3
+machdep.cpu.mwait.sub_Cstates: 286531872
+machdep.cpu.thermal.sensor: 1
+machdep.cpu.thermal.dynamic_acceleration: 1
+machdep.cpu.thermal.invariant_APIC_timer: 1
+machdep.cpu.thermal.thresholds: 2
+machdep.cpu.thermal.ACNT_MCNT: 1
+machdep.cpu.thermal.core_power_limits: 1
+machdep.cpu.thermal.fine_grain_clock_mod: 1
+machdep.cpu.thermal.package_thermal_intr: 1
+machdep.cpu.thermal.hardware_feedback: 0
+machdep.cpu.thermal.energy_policy: 1
+machdep.cpu.xsave.extended_state: 31 832 1088 0
+machdep.cpu.xsave.extended_state1: 15 832 256 0
+machdep.cpu.arch_perf.version: 4
+machdep.cpu.arch_perf.number: 4
+machdep.cpu.arch_perf.width: 48
+machdep.cpu.arch_perf.events_number: 7
+machdep.cpu.arch_perf.events: 0
+machdep.cpu.arch_perf.fixed_number: 3
+machdep.cpu.arch_perf.fixed_width: 48
+machdep.cpu.cache.linesize: 64
+machdep.cpu.cache.L2_associativity: 4
+machdep.cpu.cache.size: 256
+machdep.cpu.tlb.inst.large: 8
+machdep.cpu.tlb.data.small: 64
+machdep.cpu.tlb.data.small_level1: 64
+machdep.cpu.address_bits.physical: 39
+machdep.cpu.address_bits.virtual: 48
+machdep.cpu.core_count: 6
+machdep.cpu.thread_count: 12
+machdep.cpu.tsc_ccc.numerator: 184
+machdep.cpu.tsc_ccc.denominator: 2
+hw.ncpu: 12
+hw.byteorder: 1234
+hw.memsize: 17179869184
+hw.activecpu: 12
+hw.physicalcpu: 6
+hw.physicalcpu_max: 6
+hw.logicalcpu: 12
+hw.logicalcpu_max: 12
+hw.cputype: 7
+hw.cpusubtype: 8
+hw.cpu64bit_capable: 1
+hw.cpufamily: 260141638
+hw.cacheconfig: 12 2 2 12 0 0 0 0 0 0
+hw.cachesize: 17179869184 32768 262144 9437184 0 0 0 0 0 0
+hw.pagesize: 4096
+hw.pagesize32: 4096
+hw.busfrequency: 400000000
+hw.busfrequency_min: 400000000
+hw.busfrequency_max: 400000000
+hw.cpufrequency: 2200000000
+hw.cpufrequency_min: 2200000000
+hw.cpufrequency_max: 2200000000
+hw.cachelinesize: 64
+hw.l1icachesize: 32768
+hw.l1dcachesize: 32768
+hw.l2cachesize: 262144
+hw.l3cachesize: 9437184
+hw.tbfrequency: 1000000000
+hw.packages: 1
+hw.optional.floatingpoint: 1
+hw.optional.mmx: 1
+hw.optional.sse: 1
+hw.optional.sse2: 1
+hw.optional.sse3: 1
+hw.optional.supplementalsse3: 1
+hw.optional.sse4_1: 1
+hw.optional.sse4_2: 1
+hw.optional.x86_64: 1
+hw.optional.aes: 1
+hw.optional.avx1_0: 1
+hw.optional.rdrand: 1
+hw.optional.f16c: 1
+hw.optional.enfstrg: 1
+hw.optional.fma: 1
+hw.optional.avx2_0: 1
+hw.optional.bmi1: 1
+hw.optional.bmi2: 1
+hw.optional.rtm: 0
+hw.optional.hle: 0
+hw.optional.adx: 1
+hw.optional.mpx: 0
+hw.optional.sgx: 0
+hw.optional.avx512f: 0
+hw.optional.avx512cd: 0
+hw.optional.avx512dq: 0
+hw.optional.avx512bw: 0
+hw.optional.avx512vl: 0
+hw.optional.avx512ifma: 0
+hw.optional.avx512vbmi: 0
+hw.targettype: Mac
+hw.cputhreadtype: 1
+
+uptime
+11:38  up 2 days, 20:37, 3 users, load averages: 1.91 1.89 1.84
+
+services information
+PID	Status	Label
+-	0	com.apple.SafariHistoryServiceAgent
+40631	0	com.apple.progressd
+-	0	com.google.keystone.user.xpcservice
+2176	0	com.apple.cloudphotod
+478	0	com.apple.Finder
+40630	0	com.apple.homed
+557	0	com.apple.SafeEjectGPUAgent
+-	0	com.apple.quicklook
+-	0	com.apple.parentalcontrols.check
+-	0	com.apple.PackageKit.InstallStatus
+505	0	com.apple.mediaremoteagent
+-	0	com.apple.FontWorker
+457	0	com.apple.bird
+-	0	com.apple.amp.mediasharingd
+-	0	com.apple.familycontrols.useragent
+-	0	com.apple.AssetCache.agent
+6188	0	com.apple.universalaccessAuthWarn
+405	0	com.apple.nsurlsessiond
+7464	0	com.apple.devicecheckd
+-	0	com.apple.syncservices.uihandler
+488	0	com.apple.iconservices.iconservicesagent
+-	0	com.apple.ContactsAgent
+528	0	com.apple.SafariBookmarksSyncAgent
+-	0	com.apple.ManagedClientAgent.agent
+-	0	com.apple.localizationswitcherd
+-	0	com.apple.screensharing.agent
+492	0	com.apple.commerce
+-	0	com.apple.TMHelperAgent.SetupOffer
+-	0	com.apple.AddressBook.SourceSync
+-	0	com.apple.installerauthagent
+32943	0	com.apple.dt.Xcode.20200
+-	0	com.apple.languageassetd
+-	0	com.apple.familynotificationd
+2165	0	com.apple.photolibraryd
+-	0	com.docker.helper
+-	0	com.apple.xpc.otherbsd
+-	0	com.apple.sysdiagnose_agent
+640	0	com.apple.TextInputMenuAgent
+-	0	com.apple.bluetoothUIServer
+-	0	com.apple.universalaccessHUD
+911	0	com.apple.assistant_service
+407	0	com.apple.xpc.launchd.oneshot.0x10000004.Typora
+-	0	com.apple.MRTa
+-	0	com.apple.touristd
+423	0	com.apple.CommCenter
+398	0	com.apple.trustd.agent
+-	0	com.apple.MailServiceAgent
+-	0	com.apple.mdworker.mail
+-	0	com.apple.appkit.xpc.ColorSampler
+387	0	com.apple.cfprefsd.xpc.agent
+-	0	com.apple.coreimportd
+464	0	com.apple.TrustedPeersHelper
+-	0	com.apple.DataDetectorsLocalSources
+-	0	com.apple.unmountassistant.useragent
+-	0	com.apple.java.InstallOnDemand
+718	0	com.apple.keyboardservicesd
+527	0	com.apple.quicklook.ThumbnailsAgent
+-	0	com.apple.csuseragent
+420	0	com.apple.ContextStoreAgent
+-	0	com.apple.AOSPushRelay
+626	0	com.apple.SocialPushAgent
+-	0	com.apple.accessibility.AXVisualSupportAgent
+780	0	com.apple.xpc.loginitemregisterd
+717	0	com.apple.applespell
+-	0	com.apple.coreservices.UASharedPasteboardProgressUI
+40429	0	com.apple.xpc.launchd.oneshot.0x1000004a.IINA
+-	0	com.apple.screensharing.menuextra
+447	0	com.apple.AddressBook.ContactsAccountsService
+471	0	com.sogou.inputmethod.sogou.14816
+-	0	com.apple.warmd_agent
+-	0	com.apple.universalaccesscontrol
+553	0	com.apple.Safari.SafeBrowsing.Service
+-	0	com.apple.findmymacmessenger
+12582	0	com.tencent.wemeet.WemeetLauncher.20304
+-	0	com.apple.FilesystemUI
+425	0	com.apple.ScreenTimeAgent
+-	0	com.apple.pluginkit.pkreporter
+-	0	com.apple.systemprofiler
+400	0	com.apple.cloudd
+2179	0	com.apple.noticeboard.agent
+-	0	com.apple.UserNotificationCenterAgent
+555	0	com.apple.cmfsyncagent
+-	0	com.apple.dt.CommandLineTools.installondemand
+32598	0	com.xunlei.Thunder.20524
+-	0	com.apple.ATS.FontValidator
+596	0	com.apple.diagnostics_agent
+-	0	com.apple.appleseed.seedusaged
+1315	0	com.apple.LocalAuthentication.UIAgent
+438	0	com.apple.ap.adprivacyd
+-	0	com.apple.PhotoLibraryMigrationUtility.XPC
+417	0	com.apple.apfsuseragent
+416	0	com.apple.networkserviceproxy
+449	0	com.apple.AMPLibraryAgent
+41246	0	com.openssh.ssh-agent
+-	0	com.apple.atsd
+42158	0	com.apple.mdworker.shared.03000000-0200-0000-0000-000000000000
+-	0	com.apple.tonelibraryd
+40615	0	com.apple.CloudPhotosConfiguration
+-	0	com.apple.mdworker.bundles
+439	0	com.apple.ctkd
+42160	0	com.apple.mdworker.shared.04000000-0300-0000-0000-000000000000
+422	0	com.apple.secinitd
+-	0	com.apple.facebook.xpc
+-	0	com.apple.contacts.donation-agent
+-	0	com.apple.ServicesUIAgent
+-	78	com.microsoft.update.agent
+-	0	com.apple.ctkbind
+-	0	com.apple.mediastream.mstreamd
+-	0	com.apple.alf.useragent
+-	78	com.expressvpn.ExpressVPN.agent
+404	0	com.apple.tccd
+594	0	com.apple.replayd
+1402	0	com.apple.coreservices.uiagent
+-	0	com.apple.icloud.searchpartyuseragent
+-	0	com.apple.AccessibilityVisualsAgent
+629	0	com.apple.Siri.agent
+-	0	com.apple.installd.user
+445	0	com.apple.akd
+542	0	com.apple.CallHistoryPluginHelper
+-	0	com.colliderli.iina.14680
+495	0	com.apple.storeaccountd
+-	0	com.apple.AddressBook.AssistantService
+40431	0	com.apple.PIPAgent
+-	0	com.apple.mbfloagent
+-	-9	com.sogou.SogouTaskManager
+1034	0	com.apple.printtool.agent
+428	0	com.apple.nsurlstoraged
+633	0	com.apple.askpermissiond
+1018	0	com.apple.USBAgent
+-	0	com.apple.ssinvitationagent
+-	0	com.apple.webinspectord
+-	0	com.apple.speech.synthesisserver
+-	0	com.apple.WebKit.PluginAgent
+-	0	com.apple.DiagnosticReportCleanup.plist
+1036	0	com.apple.storeuid
+-	0	com.apple.rcd
+-	0	com.apple.printuitool.agent
+-	0	com.apple.NVMeAgent
+-	0	com.apple.speech.speechdatainstallerd
+-	0	com.apple.AOSHeartbeat
+644	0	com.apple.CryptoTokenKit.ahp.agent
+-	0	com.apple.SafariNotificationAgent
+-	0	com.apple.coredatad
+12559	0	com.tencent.qq.17180
+36526	0	com.apple.remindd
+-	0	com.apple.appsleep
+502	0	com.apple.coreservices.useractivityd
+-	0	com.apple.screencaptureui.agent
+-	0	com.apple.cvmsCompAgent3600_x86_64_1
+-	0	com.apple.ContainerRepairAgent
+-	0	com.apple.netauth.user.auth
+-	0	com.apple.siri-distributed-evaluation
+462	0	com.apple.ViewBridgeAuxiliary
+-	0	com.apple.mbbackgrounduseragent
+-	0	com.apple.cvmsCompAgent_x86_64
+396	0	com.apple.lsd
+482	0	com.apple.siri.context.service
+-	0	com.apple.weibo.xpc
+441	0	com.apple.pluginkit.pkd
+-	0	com.apple.security.XPCTimeStampingService
+12564	0	FN2V63AD2J.com.tencent.ScreenCapture2.20556
+592	0	com.apple.cache_delete
+493	0	com.apple.AMPDeviceDiscoveryAgent
+-	0	com.apple.accessibility.dfrhud
+-	0	com.apple.CallHistorySyncHelper
+625	0	com.sogou.SogouServices
+1037	0	com.apple.colorsync.useragent
+419	0	com.apple.parsecd
+476	0	com.apple.Dock.agent
+427	0	com.apple.parsec-fbf
+424	0	com.apple.dmd
+4339	0	com.apple.transparencyd
+450	0	com.apple.AppSSOAgent
+-	0	com.apple.mbuseragent
+408	0	com.apple.security.cloudkeychainproxy3
+390	0	com.apple.UserEventAgent-Aqua
+515	0	com.apple.followupd
+-	0	com.apple.ReportPanic
+32600	0	com.xunlei.Thunder.ThunderHelper
+421	0	com.apple.identityservicesd
+435	0	com.apple.telephonyutilities.callservicesd
+-	0	com.apple.DwellControl
+4035	0	com.apple.security.DiskUnmountWatcher
+522	0	com.apple.CoreLocationAgent
+393	0	com.apple.SecureBackupDaemon
+-	0	com.apple.security.agent
+-	0	com.apple.cfnetwork.AuthBrokerAgent
+33018	0	com.apple.Terminal.13448
+638	0	com.apple.cloudpaird
+598	0	com.apple.storedownloadd
+645	0	com.mediaatelier.CheatSheet.14644
+-	0	com.apple.SpacesTouchBarAgent.app
+2257	0	com.apple.coreparsec.silhouette
+401	0	com.apple.coreservices.sharedfilelistd
+458	0	com.apple.pboard
+40430	0	com.apple.nowplayingtouchui
+-	0	com.apple.MobileAccessoryUpdater.fudHelperAgent
+-	0	com.apple.reversetemplated
+556	0	com.apple.SafariCloudHistoryPushAgent
+-	0	com.apple.AskPermissionUI
+-	0	com.apple.thermaltrap
+411	0	com.apple.rapportd
+727	0	com.apple.SoftwareUpdateNotificationManager
+-	0	com.apple.accounts.dom
+-	0	com.apple.metadata.mdflagwriter
+1067	0	com.apple.DictionaryServiceHelper
+784	0	com.apple.speech.speechsynthesisd
+-	0	com.apple.mdworker.shared
+-	0	com.apple.usermanagerhelper
+-	0	com.apple.installandsetup.migrationhelper.user
+558	0	com.apple.SafeEjectGPUService
+443	0	com.apple.imdpersistence.IMDPersistenceAgent
+-	0	com.apple.TrustEvaluationAgent
+-	0	com.apple.preference.displays.MirrorDisplays
+465	0	com.apple.neagent.878568F8-CCE5-4157-8315-22F20DC8FB0A
+410	0	com.apple.accountsd
+466	0	com.apple.cdpd
+412	0	com.apple.routined
+-	0	com.apple.KeyboardAccessAgent
+-	0	com.apple.storelegacy
+1585	0	com.apple.OSDUIHelper
+544	0	com.apple.audio.AudioComponentRegistrar
+549	0	com.apple.AssetCacheLocatorService
+414	0	com.apple.lockoutagent
+755	0	com.apple.locationmenu
+-	0	com.apple.videosubscriptionsd
+508	0	com.apple.pbs
+426	0	com.apple.notificationcenterui.agent
+-	0	com.apple.protectedcloudstorage.protectedcloudkeysyncing
+468	0	com.apple.imklaunchagent
+599	0	com.apple.FileProvider
+-	0	com.apple.imcore.imtransferagent
+-	0	com.apple.btsa
+554	0	com.apple.icdd
+7436	0	com.apple.EscrowSecurityAlert
+543	0	com.apple.metadata.mdwrite
+-	0	com.apple.loginwindow.LWWeeklyMessageTracer
+418	0	com.apple.CalendarAgent
+-	0	com.apple.securityuploadd
+-	0	com.apple.RapportUIAgent
+912	0	com.apple.siriknowledged
+2139	0	com.apple.powerchime
+500	0	com.apple.sharingd
+-	0	com.apple.iCloudUserNotificationsd
+-	0	com.apple.storeassetd
+444	0	com.apple.familycircled
+-	0	com.apple.FontRegistryUIAgent
+648	0	com.apple.TextInputSwitcher
+2263	0	com.apple.AMPArtworkAgent
+440	0	com.apple.imagent
+-	0	com.apple.sidecar-relay
+20383	0	com.apple.photoanalysisd
+-	0	com.apple.syncservices.SyncServer
+7483	0	com.apple.imautomatichistorydeletionagent
+477	0	com.apple.SystemUIServer.agent
+-	0	com.apple.ATS.FontValidatorConduit
+461	0	com.apple.talagent
+475	0	com.apple.suggestd
+-	0	com.apple.navd
+40877	0	com.apple.Safari.13012
+-	0	com.apple.RemoteDesktop.agent
+642	0	com.apple.amsaccountsd
+-	0	com.apple.VoiceOver
+-	0	com.apple.AssistiveControl
+507	0	com.apple.icloud.fmfd
+584	0	com.apple.CoreSimulator.SimulatorTrampoline
+583	0	com.apple.CoreSimulator.CoreSimulatorService
+397	0	com.apple.secd
+472	0	com.apple.hiservices-xpcservice
+2262	0	com.apple.BKAgentService
+-	0	com.apple.cvmsCompAgent_x86_64_1
+-	0	com.apple.tencentweibo.xpc
+42170	0	com.apple.mdworker.shared.08000000-0300-0000-0000-000000000000
+-	0	com.apple.FCiCloudPrefUpdater
+437	0	com.apple.assistantd
+40612	0	com.apple.studentd
+-	0	com.apple.FollowUpUI
+-	0	com.apple.videoconference.camera
+-	0	com.apple.corespotlightservice
+-	0	com.apple.uikitsystemapp
+415	0	com.apple.controlstrip
+-	0	com.apple.mediaanalysisd
+-	0	com.apple.DiskArbitrationAgent
+-	0	com.apple.exchange.exchangesyncd
+588	0	com.apple.scopedbookmarksagent.xpc
+35108	0	com.apple.ReportCrash
+-	0	com.microsoft.OneDriveStandaloneUpdater
+1631	0	com.apple.UsageTrackingAgent
+-	0	com.apple.email.maild
+646	0	com.adobe.CCXProcess.14512
+-	0	com.apple.menuextra.battery.helper
+-	0	com.apple.appleseed.seedusaged.postinstall
+432	0	com.apple.Maps.mapspushd
+-	0	com.apple.voicememod
+-	0	com.apple.gamed
+-	0	com.apple.STMUIHelper
+392	0	com.apple.knowledge-agent
+-	0	com.apple.midiserver
+402	0	com.apple.backgroundtaskmanagementagent
+-	0	com.apple.mobiledeviceupdater
+-	0	com.apple.helpd
+-	0	com.apple.quicklook.ui.helper
+429	0	com.apple.wifi.WiFiAgent
+-	0	com.apple.screensharing.MessagesAgent
+-	0	com.apple.diskspaced
+5891	0	com.apple.passd
+433	0	com.apple.xpc.launchd.oneshot.0x10000006.PDF Expert
+-	0	com.apple.DictationIM
+-	0	com.apple.mdmclient.agent
+41954	0	com.apple.iCloudHelper
+523	0	com.apple.CharacterPicker.FileService
+42852	0	com.apple.mdworker.shared.0F000000-0200-0000-0000-000000000000
+-	0	com.apple.cvmsCompAgent3425AMD_x86_64
+-	0	com.apple.linkedin.xpc
+-	0	com.apple.security.XPCKeychainSandboxCheck
+-	0	com.apple.mdworker.single
+2261	0	com.apple.podcasts.PodcastContentService
+-	0	com.apple.twitter.xpc
+386	0	com.apple.CoreAuthentication.agent
+-	0	com.apple.syncdefaultsd
+-	0	com.apple.sidecar-display-agent
+-	0	com.apple.accessibility.heard
+620	0	com.apple.corespeechd
+-	0	com.apple.scrod
+31660	0	com.qiuyuzhou.ShadowsocksX-NG.14632
+-	0	com.adobe.ccxprocess
+572	0	com.apple.spindump_agent
+-	0	com.apple.AquaAppearanceHelper
+-	0	com.apple.security.keychain-circle-notification
+611	0	com.apple.icloud.findmydeviced.findmydevice-user-agent
+-	0	com.google.keystone.user.agent
+-	0	com.apple.ap.adservicesd
+-	0	com.apple.AirPortBaseStationAgent
+-	0	com.apple.proactiveeventtrackerd
+-	0	com.apple.universalaccessd
+-	0	com.apple.accessibility.MotionTrackingAgent
+650	0	com.crowdcafe.windowmagnet.14668
+-	0	com.apple.neagent
+545	0	com.apple.SafariLaunchAgent
+-	0	com.apple.idsfoundation.IDSRemoteURLConnectionAgent
+719	0	com.apple.recentsd
+-	0	abnerworks.Typora.14608
+506	0	com.apple.WiFiVelocityAgent
+413	0	com.apple.usernoted
+-	0	com.apple.SafariPlugInUpdateNotifier
+-	0	com.apple.AddressBook.abd
+-	0	com.apple.ScreenReaderUIServer
+636	0	com.sangfor.ECAgentProxy
+456	0	com.apple.swcd
+637	0	com.apple.AirPlayUIAgent
+787	0	com.apple.corespotlightservice.90F9F991-6605-7A06-4D9A-64771EA6A797
+454	0	com.apple.corespotlightd
+-	0	com.apple.netauth.user.gui
+459	0	com.apple.xtyped
+-	0	com.apple.TMHelperAgent
+-	0	com.qiuyuzhou.shadowsocksX-NG.kcptun
+484	0	com.apple.Spotlight
+842	0	com.apple.appstoreagent
+-	0	com.apple.AMPDevicesAgent
+857	0	com.apple.accessibility.mediaaccessibilityd
+-	0	com.apple.cvmsCompAgent3425AMD_x86_64_1
+-	0	com.apple.mdworker.sizing
+-	0	com.apple.SpeechRecognitionCore.brokerd
+-	0	com.apple.metadata.mdbulkimport
+-	0	com.apple.iokit.IOServiceAuthorizeAgent
+485	0	com.apple.Safari.History
+-	0	com.apple.cvmsCompAgent3600_x86_64
+-	0	com.apple.CoreRoutine.helperservice
+394	0	com.apple.distnoted.xpc.agent
+442	0	com.apple.geod
+
+nic information
+lo0: flags=8049<UP,LOOPBACK,RUNNING,MULTICAST> mtu 16384
+	options=1203<RXCSUM,TXCSUM,TXSTATUS,SW_TIMESTAMP>
+	inet 127.0.0.1 netmask 0xff000000 
+	inet6 ::1 prefixlen 128 
+	inet6 fe80::1%lo0 prefixlen 64 scopeid 0x1 
+	nd6 options=201<PERFORMNUD,DAD>
+gif0: flags=8010<POINTOPOINT,MULTICAST> mtu 1280
+stf0: flags=0<> mtu 1280
+en5: flags=8863<UP,BROADCAST,SMART,RUNNING,SIMPLEX,MULTICAST> mtu 1500
+	ether ac:de:48:00:11:22 
+	inet6 fe80::aede:48ff:fe00:1122%en5 prefixlen 64 scopeid 0x4 
+	nd6 options=201<PERFORMNUD,DAD>
+	media: autoselect (100baseTX <full-duplex>)
+	status: active
+ap1: flags=8802<BROADCAST,SIMPLEX,MULTICAST> mtu 1500
+	options=400<CHANNEL_IO>
+	ether f2:18:98:0a:c0:c1 
+	media: autoselect
+	status: inactive
+en0: flags=8863<UP,BROADCAST,SMART,RUNNING,SIMPLEX,MULTICAST> mtu 1500
+	options=400<CHANNEL_IO>
+	ether f0:18:98:0a:c0:c1 
+	inet6 fe80::8e:b864:1ce2:2dc1%en0 prefixlen 64 secured scopeid 0x6 
+	inet 192.168.1.114 netmask 0xffffff00 broadcast 192.168.1.255
+	inet6 2409:8a3c:4053:1ab0:4c4:95b2:8fc:2e09 prefixlen 64 autoconf secured 
+	inet6 2409:8a3c:4053:1ab0:2071:fa75:6bb4:e5ee prefixlen 64 autoconf temporary 
+	nd6 options=201<PERFORMNUD,DAD>
+	media: autoselect
+	status: active
+p2p0: flags=8843<UP,BROADCAST,RUNNING,SIMPLEX,MULTICAST> mtu 2304
+	options=400<CHANNEL_IO>
+	ether 02:18:98:0a:c0:c1 
+	media: autoselect
+	status: inactive
+awdl0: flags=8943<UP,BROADCAST,RUNNING,PROMISC,SIMPLEX,MULTICAST> mtu 1484
+	options=400<CHANNEL_IO>
+	ether ba:34:65:16:c6:2b 
+	inet6 fe80::b834:65ff:fe16:c62b%awdl0 prefixlen 64 scopeid 0x8 
+	nd6 options=201<PERFORMNUD,DAD>
+	media: autoselect
+	status: active
+llw0: flags=8863<UP,BROADCAST,SMART,RUNNING,SIMPLEX,MULTICAST> mtu 1500
+	options=400<CHANNEL_IO>
+	ether ba:34:65:16:c6:2b 
+	inet6 fe80::b834:65ff:fe16:c62b%llw0 prefixlen 64 scopeid 0x9 
+	nd6 options=201<PERFORMNUD,DAD>
+	media: autoselect
+	status: active
+en1: flags=8963<UP,BROADCAST,SMART,RUNNING,PROMISC,SIMPLEX,MULTICAST> mtu 1500
+	options=460<TSO4,TSO6,CHANNEL_IO>
+	ether 82:fa:6e:08:8c:01 
+	media: autoselect <full-duplex>
+	status: inactive
+en2: flags=8963<UP,BROADCAST,SMART,RUNNING,PROMISC,SIMPLEX,MULTICAST> mtu 1500
+	options=460<TSO4,TSO6,CHANNEL_IO>
+	ether 82:fa:6e:08:8c:00 
+	media: autoselect <full-duplex>
+	status: inactive
+en3: flags=8963<UP,BROADCAST,SMART,RUNNING,PROMISC,SIMPLEX,MULTICAST> mtu 1500
+	options=460<TSO4,TSO6,CHANNEL_IO>
+	ether 82:fa:6e:08:8c:05 
+	media: autoselect <full-duplex>
+	status: inactive
+en4: flags=8963<UP,BROADCAST,SMART,RUNNING,PROMISC,SIMPLEX,MULTICAST> mtu 1500
+	options=460<TSO4,TSO6,CHANNEL_IO>
+	ether 82:fa:6e:08:8c:04 
+	media: autoselect <full-duplex>
+	status: inactive
+bridge0: flags=8863<UP,BROADCAST,SMART,RUNNING,SIMPLEX,MULTICAST> mtu 1500
+	options=63<RXCSUM,TXCSUM,TSO4,TSO6>
+	ether 82:fa:6e:08:8c:01 
+	Configuration:
+		id 0:0:0:0:0:0 priority 0 hellotime 0 fwddelay 0
+		maxage 0 holdcnt 0 proto stp maxaddr 100 timeout 1200
+		root id 0:0:0:0:0:0 priority 0 ifcost 0 port 0
+		ipfilter disabled flags 0x2
+	member: en1 flags=3<LEARNING,DISCOVER>
+	        ifmaxaddr 0 port 10 priority 0 path cost 0
+	member: en2 flags=3<LEARNING,DISCOVER>
+	        ifmaxaddr 0 port 11 priority 0 path cost 0
+	member: en3 flags=3<LEARNING,DISCOVER>
+	        ifmaxaddr 0 port 12 priority 0 path cost 0
+	member: en4 flags=3<LEARNING,DISCOVER>
+	        ifmaxaddr 0 port 13 priority 0 path cost 0
+	nd6 options=201<PERFORMNUD,DAD>
+	media: <unknown type>
+	status: inactive
+utun0: flags=8051<UP,POINTOPOINT,RUNNING,MULTICAST> mtu 1380
+	inet6 fe80::97fc:6576:42e7:615e%utun0 prefixlen 64 scopeid 0xf 
+	nd6 options=201<PERFORMNUD,DAD>
+utun1: flags=8051<UP,POINTOPOINT,RUNNING,MULTICAST> mtu 2000
+	inet6 fe80::d532:bac6:3b31:b131%utun1 prefixlen 64 scopeid 0x10 
+	nd6 options=201<PERFORMNUD,DAD>
+
+route information
+Routing tables
+
+Internet:
+Destination        Gateway            Flags        Netif Expire
+default            192.168.1.1        UGSc           en0       
+127                127.0.0.1          UCS            lo0       
+127.0.0.1          127.0.0.1          UH             lo0       
+169.254            link#6             UCS            en0      !
+192.168.1          link#6             UCS            en0      !
+192.168.1.1/32     link#6             UCS            en0      !
+192.168.1.1        8c:53:d2:a4:57:19  UHLWIir        en0   1194
+192.168.1.114/32   link#6             UCS            en0      !
+192.168.1.251      58:e6:ba:d1:72:81  UHLWIi         en0     20
+224.0.0/4          link#6             UmCS           en0      !
+224.0.0.251        1:0:5e:0:0:fb      UHmLWI         en0       
+239.255.255.250    1:0:5e:7f:ff:fa    UHmLWI         en0       
+255.255.255.255/32 link#6             UCS            en0      !
+
+Internet6:
+Destination                             Gateway                         Flags         Netif Expire
+default                                 fe80::1%en0                     UGc             en0       
+default                                 fe80::%utun0                    UGcI          utun0       
+default                                 fe80::%utun1                    UGcI          utun1       
+::1                                     ::1                             UHL             lo0       
+2409:8a3c:4053:1ab0::/64                link#6                          UC              en0       
+2409:8a3c:4053:1ab0:4c4:95b2:8fc:2e09   f0:18:98:a:c0:c1                UHL             lo0       
+2409:8a3c:4053:1ab0:2071:fa75:6bb4:e5ee f0:18:98:a:c0:c1                UHL             lo0       
+fe80::%lo0/64                           fe80::1%lo0                     UcI             lo0       
+fe80::1%lo0                             link#1                          UHLI            lo0       
+fe80::%en5/64                           link#4                          UCI             en5       
+fe80::aede:48ff:fe00:1122%en5           ac:de:48:0:11:22                UHLI            lo0       
+fe80::aede:48ff:fe33:4455%en5           ac:de:48:33:44:55               UHLWIi          en5       
+fe80::%en0/64                           link#6                          UCI             en0       
+fe80::1%en0                             8c:53:d2:a4:57:19               UHLWIir         en0       
+fe80::8e:b864:1ce2:2dc1%en0             f0:18:98:a:c0:c1                UHLI            lo0       
+fe80::8e53:d2ff:fea4:5719%en0           8c:53:d2:a4:57:19               UHLWI           en0       
+fe80::%awdl0/64                         link#8                          UCI           awdl0       
+fe80::b834:65ff:fe16:c62b%awdl0         ba:34:65:16:c6:2b               UHLI            lo0       
+fe80::%llw0/64                          link#9                          UCI            llw0       
+fe80::b834:65ff:fe16:c62b%llw0          ba:34:65:16:c6:2b               UHLI            lo0       
+fe80::%utun0/64                         fe80::97fc:6576:42e7:615e%utun0 UcI           utun0       
+fe80::97fc:6576:42e7:615e%utun0         link#15                         UHLI            lo0       
+fe80::%utun1/64                         fe80::d532:bac6:3b31:b131%utun1 UcI           utun1       
+fe80::d532:bac6:3b31:b131%utun1         link#16                         UHLI            lo0       
+ff01::%lo0/32                           ::1                             UmCI            lo0       
+ff01::%en5/32                           link#4                          UmCI            en5       
+ff01::%en0/32                           link#6                          UmCI            en0       
+ff01::%awdl0/32                         link#8                          UmCI          awdl0       
+ff01::%llw0/32                          link#9                          UmCI           llw0       
+ff01::%utun0/32                         fe80::97fc:6576:42e7:615e%utun0 UmCI          utun0       
+ff01::%utun1/32                         fe80::d532:bac6:3b31:b131%utun1 UmCI          utun1       
+ff02::%lo0/32                           ::1                             UmCI            lo0       
+ff02::%en5/32                           link#4                          UmCI            en5       
+ff02::%en0/32                           link#6                          UmCI            en0       
+ff02::%awdl0/32                         link#8                          UmCI          awdl0       
+ff02::%llw0/32                          link#9                          UmCI           llw0       
+ff02::%utun0/32                         fe80::97fc:6576:42e7:615e%utun0 UmCI          utun0       
+ff02::%utun1/32                         fe80::d532:bac6:3b31:b131%utun1 UmCI          utun1       
+
+arp information
+? (192.168.1.1) at 8c:53:d2:a4:57:19 on en0 ifscope [ethernet]
+ipad (192.168.1.251) at (incomplete) on en0 ifscope [ethernet]
+
+information of processes
+USER               PID  %CPU %MEM      VSZ    RSS   TT  STAT STARTED      TIME COMMAND
+shcjveg          12559   3.7  3.7  7280256 617100   ??  S    日01下午 120:55.25 /Applications/QQ.app/Contents/MacOS/QQ USER=shcjveg PATH=/usr/bin:/bin:/usr/sbin:/sbin LOGNAME=shcjveg SSH_AUTH_SOCK=/private/tmp/com.apple.launchd.CcC9BwPYF4/Listeners HOME=/Users/shcjveg SHELL=/bin/bash __CF_USER_TEXT_ENCODING=0x1F5:0x19:0x34 TMPDIR=/var/folders/r0/_s4g94s95db201lhl035tww80000gn/T/ XPC_SERVICE_NAME=com.tencent.qq.17180 XPC_FLAGS=1
+shcjveg          33253   0.0  2.5  5694628 421884   ??  Ss    9:09下午   0:09.91 /Applications/Xcode.app/Contents/SharedFrameworks/LLDBRPC.framework/Resources/lldb-rpc-server --unix-fd 46 --fd-passing-socket 48 DYLD_FRAMEWORK_PATH=/Applications/Xcode.app/Contents/SharedFrameworks HOME=/Users/shcjveg LOGNAME=shcjveg PATH=/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin USER=shcjveg
+shcjveg            433   1.1  1.9  9963912 320196   ??  S    六03下午  35:47.91 /Applications/PDF Expert.app/Contents/MacOS/PDF Expert -psn_0_90134 SECURITYSESSIONID=186a6 USER=shcjveg COMMAND_MODE=unix2003 PATH=/usr/bin:/bin:/usr/sbin:/sbin HOME=/Users/shcjveg SHELL=/bin/bash LaunchInstanceID=A00EB08A-2E54-4382-A344-4098CE41F561 __CF_USER_TEXT_ENCODING=0x1F5:0x19:0x34 XPC_SERVICE_NAME=com.apple.xpc.launchd.oneshot.0x10000006.PDF Expert SSH_AUTH_SOCK=/private/tmp/com.apple.launchd.CcC9BwPYF4/Listeners XPC_FLAGS=1 LOGNAME=shcjveg TMPDIR=/var/folders/r0/_s4g94s95db201lhl035tww80000gn/T/
+shcjveg          41573   0.0  1.5 90429944 250436   ??  Ss   11:11上午   0:46.39 /System/Library/Frameworks/WebKit.framework/Versions/A/XPCServices/com.apple.WebKit.WebContent.xpc/Contents/MacOS/com.apple.WebKit.WebContent LaunchInstanceID=403B7AC6-43FE-427E-AC08-1B1EA5F44078 XPC_SERVICE_NAME=com.apple.WebKit.WebContent PATH=/usr/bin:/bin:/usr/sbin:/sbin SSH_AUTH_SOCK=/private/tmp/com.apple.launchd.CcC9BwPYF4/Listeners HOME=/Users/shcjveg __CF_USER_TEXT_ENCODING=0x1F5:0x19:0x34 TMPDIR=/var/folders/r0/_s4g94s95db201lhl035tww80000gn/T/ XPC_FLAGS=19 LOGNAME=shcjveg USER=shcjveg SHELL=/bin/bash
+shcjveg          42042   0.0  1.5 106851104 245088   ??  Ss   11:45上午   0:10.40 /System/Library/Frameworks/WebKit.framework/Versions/A/XPCServices/com.apple.WebKit.WebContent.xpc/Contents/MacOS/com.apple.WebKit.WebContent LaunchInstanceID=5F2DA6A6-EF11-46A2-9483-536E3930AB3F XPC_SERVICE_NAME=com.apple.WebKit.WebContent PATH=/usr/bin:/bin:/usr/sbin:/sbin SSH_AUTH_SOCK=/private/tmp/com.apple.launchd.CcC9BwPYF4/Listeners HOME=/Users/shcjveg __CF_USER_TEXT_ENCODING=0x1F5:0x19:0x34 TMPDIR=/var/folders/r0/_s4g94s95db201lhl035tww80000gn/T/ XPC_FLAGS=19 LOGNAME=shcjveg USER=shcjveg SHELL=/bin/bash
+shcjveg          32943   0.0  1.4  6784020 241144   ??  S     8:51下午   4:08.38 /Applications/Xcode.app/Contents/MacOS/Xcode USER=shcjveg MallocNanoZone=0 PATH=/usr/bin:/bin:/usr/sbin:/sbin LOGNAME=shcjveg SSH_AUTH_SOCK=/private/tmp/com.apple.launchd.CcC9BwPYF4/Listeners HOME=/Users/shcjveg SHELL=/bin/bash __CF_USER_TEXT_ENCODING=0x1F5:0x19:0x34 TMPDIR=/var/folders/r0/_s4g94s95db201lhl035tww80000gn/T/ XPC_SERVICE_NAME=com.apple.dt.Xcode.20200 XPC_FLAGS=1
+shcjveg          40456   0.0  1.4 106904552 237688   ??  Ss    9:42上午   2:47.91 /System/Library/Frameworks/WebKit.framework/Versions/A/XPCServices/com.apple.WebKit.WebContent.xpc/Contents/MacOS/com.apple.WebKit.WebContent LaunchInstanceID=EA0B372C-E423-4E3A-9594-334B1281E563 XPC_SERVICE_NAME=com.apple.WebKit.WebContent PATH=/usr/bin:/bin:/usr/sbin:/sbin SSH_AUTH_SOCK=/private/tmp/com.apple.launchd.CcC9BwPYF4/Listeners HOME=/Users/shcjveg __CF_USER_TEXT_ENCODING=0x1F5:0x19:0x34 TMPDIR=/var/folders/r0/_s4g94s95db201lhl035tww80000gn/T/ XPC_FLAGS=19 LOGNAME=shcjveg USER=shcjveg SHELL=/bin/bash
+shcjveg          41298   0.0  1.3 90186416 219624   ??  Ss   10:53上午   0:17.40 /System/Library/Frameworks/WebKit.framework/Versions/A/XPCServices/com.apple.WebKit.WebContent.xpc/Contents/MacOS/com.apple.WebKit.WebContent LaunchInstanceID=977E590F-E4EA-4FAC-A649-472A33367AFC XPC_SERVICE_NAME=com.apple.WebKit.WebContent PATH=/usr/bin:/bin:/usr/sbin:/sbin SSH_AUTH_SOCK=/private/tmp/com.apple.launchd.CcC9BwPYF4/Listeners HOME=/Users/shcjveg __CF_USER_TEXT_ENCODING=0x1F5:0x19:0x34 TMPDIR=/var/folders/r0/_s4g94s95db201lhl035tww80000gn/T/ XPC_FLAGS=19 LOGNAME=shcjveg USER=shcjveg SHELL=/bin/bash
+shcjveg          41338   0.0  1.3 107079420 214540   ??  Ss   10:56上午   0:21.71 /System/Library/Frameworks/WebKit.framework/Versions/A/XPCServices/com.apple.WebKit.WebContent.xpc/Contents/MacOS/com.apple.WebKit.WebContent LaunchInstanceID=6959D977-AAAA-4C12-95F8-FB2D65EF9C71 XPC_SERVICE_NAME=com.apple.WebKit.WebContent PATH=/usr/bin:/bin:/usr/sbin:/sbin SSH_AUTH_SOCK=/private/tmp/com.apple.launchd.CcC9BwPYF4/Listeners HOME=/Users/shcjveg __CF_USER_TEXT_ENCODING=0x1F5:0x19:0x34 TMPDIR=/var/folders/r0/_s4g94s95db201lhl035tww80000gn/T/ XPC_FLAGS=19 LOGNAME=shcjveg USER=shcjveg SHELL=/bin/bash
+root             23030   0.0  1.2  5997164 205180   ??  Ss    2:04下午   5:13.36 /System/Library/Frameworks/CoreServices.framework/Frameworks/Metadata.framework/Versions/A/Support/mds_stores
+shcjveg          41949   0.0  1.1 89681800 185396   ??  Ss   11:40上午   0:12.10 /System/Library/Frameworks/WebKit.framework/Versions/A/XPCServices/com.apple.WebKit.WebContent.xpc/Contents/MacOS/com.apple.WebKit.WebContent LaunchInstanceID=F652FA43-108C-4E4B-901E-F4DEAFADB4C6 XPC_SERVICE_NAME=com.apple.WebKit.WebContent PATH=/usr/bin:/bin:/usr/sbin:/sbin SSH_AUTH_SOCK=/private/tmp/com.apple.launchd.CcC9BwPYF4/Listeners HOME=/Users/shcjveg __CF_USER_TEXT_ENCODING=0x1F5:0x19:0x34 TMPDIR=/var/folders/r0/_s4g94s95db201lhl035tww80000gn/T/ XPC_FLAGS=19 LOGNAME=shcjveg USER=shcjveg SHELL=/bin/bash
+shcjveg          41310   0.0  1.1 89856456 179576   ??  Ss   10:54上午   0:10.37 /System/Library/Frameworks/WebKit.framework/Versions/A/XPCServices/com.apple.WebKit.WebContent.xpc/Contents/MacOS/com.apple.WebKit.WebContent LaunchInstanceID=0BCEF6FB-8497-4868-94B8-6258E09842AB XPC_SERVICE_NAME=com.apple.WebKit.WebContent PATH=/usr/bin:/bin:/usr/sbin:/sbin SSH_AUTH_SOCK=/private/tmp/com.apple.launchd.CcC9BwPYF4/Listeners HOME=/Users/shcjveg __CF_USER_TEXT_ENCODING=0x1F5:0x19:0x34 TMPDIR=/var/folders/r0/_s4g94s95db201lhl035tww80000gn/T/ XPC_FLAGS=19 LOGNAME=shcjveg USER=shcjveg SHELL=/bin/bash
+shcjveg          40877   0.0  1.1  6946756 178644   ??  S    10:22上午   2:49.37 /Applications/Safari.app/Contents/MacOS/Safari USER=shcjveg PATH=/usr/bin:/bin:/usr/sbin:/sbin LOGNAME=shcjveg SSH_AUTH_SOCK=/private/tmp/com.apple.launchd.CcC9BwPYF4/Listeners HOME=/Users/shcjveg SHELL=/bin/bash __CF_USER_TEXT_ENCODING=0x1F5:0x19:0x34 TMPDIR=/var/folders/r0/_s4g94s95db201lhl035tww80000gn/T/ XPC_SERVICE_NAME=com.apple.Safari.13012 XPC_FLAGS=1
+shcjveg            471   0.0  1.0  5642088 173724   ??  S    六03下午   3:55.79 /Library/Input Methods/SogouInput.app/Contents/MacOS/SogouInput USER=shcjveg PATH=/usr/bin:/bin:/usr/sbin:/sbin LOGNAME=shcjveg SSH_AUTH_SOCK=/private/tmp/com.apple.launchd.CcC9BwPYF4/Listeners HOME=/Users/shcjveg SHELL=/bin/bash __CF_USER_TEXT_ENCODING=0x1F5:0x19:0x34 TMPDIR=/var/folders/r0/_s4g94s95db201lhl035tww80000gn/T/ XPC_SERVICE_NAME=com.sogou.inputmethod.sogou.14816 XPC_FLAGS=1
+shcjveg          42129   0.0  1.0 106766800 164828   ??  Ss   11:51上午   0:05.99 /System/Library/Frameworks/WebKit.framework/Versions/A/XPCServices/com.apple.WebKit.WebContent.xpc/Contents/MacOS/com.apple.WebKit.WebContent LaunchInstanceID=F486D030-A725-48A2-A97B-2D5E530841FB XPC_SERVICE_NAME=com.apple.WebKit.WebContent PATH=/usr/bin:/bin:/usr/sbin:/sbin SSH_AUTH_SOCK=/private/tmp/com.apple.launchd.CcC9BwPYF4/Listeners HOME=/Users/shcjveg __CF_USER_TEXT_ENCODING=0x1F5:0x19:0x34 TMPDIR=/var/folders/r0/_s4g94s95db201lhl035tww80000gn/T/ XPC_FLAGS=19 LOGNAME=shcjveg USER=shcjveg SHELL=/bin/bash
+shcjveg            478   0.0  1.0  6401528 164516   ??  S    六03下午  14:24.51 /System/Library/CoreServices/Finder.app/Contents/MacOS/Finder XPC_SERVICE_NAME=com.apple.Finder SSH_AUTH_SOCK=/private/tmp/com.apple.launchd.CcC9BwPYF4/Listeners PATH=/usr/bin:/bin:/usr/sbin:/sbin XPC_FLAGS=1 LOGNAME=shcjveg USER=shcjveg HOME=/Users/shcjveg SHELL=/bin/bash TMPDIR=/var/folders/r0/_s4g94s95db201lhl035tww80000gn/T/
+shcjveg          42853   0.0  0.9 89960628 156628   ??  Ss   11:54上午   0:06.29 /System/Library/Frameworks/WebKit.framework/Versions/A/XPCServices/com.apple.WebKit.WebContent.xpc/Contents/MacOS/com.apple.WebKit.WebContent LaunchInstanceID=1A3BBC38-8E9B-4F88-B80C-2ABAFFEF3AC7 XPC_SERVICE_NAME=com.apple.WebKit.WebContent PATH=/usr/bin:/bin:/usr/sbin:/sbin SSH_AUTH_SOCK=/private/tmp/com.apple.launchd.CcC9BwPYF4/Listeners HOME=/Users/shcjveg __CF_USER_TEXT_ENCODING=0x1F5:0x19:0x34 TMPDIR=/var/folders/r0/_s4g94s95db201lhl035tww80000gn/T/ XPC_FLAGS=19 LOGNAME=shcjveg USER=shcjveg SHELL=/bin/bash
+shcjveg          41065   0.0  0.9 90234460 151176   ??  Ss   10:37上午   0:33.03 /System/Library/Frameworks/WebKit.framework/Versions/A/XPCServices/com.apple.WebKit.WebContent.xpc/Contents/MacOS/com.apple.WebKit.WebContent LaunchInstanceID=35B18FB2-7B39-4D6D-AAE1-A19D27E63B85 XPC_SERVICE_NAME=com.apple.WebKit.WebContent PATH=/usr/bin:/bin:/usr/sbin:/sbin SSH_AUTH_SOCK=/private/tmp/com.apple.launchd.CcC9BwPYF4/Listeners HOME=/Users/shcjveg __CF_USER_TEXT_ENCODING=0x1F5:0x19:0x34 TMPDIR=/var/folders/r0/_s4g94s95db201lhl035tww80000gn/T/ XPC_FLAGS=19 LOGNAME=shcjveg USER=shcjveg SHELL=/bin/bash
+shcjveg          40429   6.8  0.9  5671420 149452   ??  S     9:42上午   9:06.25 /Applications/IINA.app/Contents/MacOS/IINA -psn_0_2687632 USER=shcjveg COMMAND_MODE=unix2003 PATH=/usr/bin:/bin:/usr/sbin:/sbin LOGNAME=shcjveg SSH_AUTH_SOCK=/private/tmp/com.apple.launchd.CcC9BwPYF4/Listeners HOME=/Users/shcjveg SHELL=/bin/bash TMPDIR=/var/folders/r0/_s4g94s95db201lhl035tww80000gn/T/ __CF_USER_TEXT_ENCODING=0x1F5:0x19:0x34 XPC_SERVICE_NAME=com.apple.xpc.launchd.oneshot.0x1000004a.IINA XPC_FLAGS=1
+shcjveg          41648   0.0  0.9 106930080 145188   ??  Ss   11:18上午   0:04.21 /System/Library/Frameworks/WebKit.framework/Versions/A/XPCServices/com.apple.WebKit.WebContent.xpc/Contents/MacOS/com.apple.WebKit.WebContent LaunchInstanceID=6EEAEF19-3602-4F26-AD31-F2319698E1FC XPC_SERVICE_NAME=com.apple.WebKit.WebContent PATH=/usr/bin:/bin:/usr/sbin:/sbin SSH_AUTH_SOCK=/private/tmp/com.apple.launchd.CcC9BwPYF4/Listeners HOME=/Users/shcjveg __CF_USER_TEXT_ENCODING=0x1F5:0x19:0x34 TMPDIR=/var/folders/r0/_s4g94s95db201lhl035tww80000gn/T/ XPC_FLAGS=19 LOGNAME=shcjveg USER=shcjveg SHELL=/bin/bash
+shcjveg          42031   0.0  0.8 89615572 133292   ??  Ss   11:44上午   0:04.95 /System/Library/Frameworks/WebKit.framework/Versions/A/XPCServices/com.apple.WebKit.WebContent.xpc/Contents/MacOS/com.apple.WebKit.WebContent LaunchInstanceID=72E63EFB-72C1-4E61-8763-FAECDC1658B5 XPC_SERVICE_NAME=com.apple.WebKit.WebContent PATH=/usr/bin:/bin:/usr/sbin:/sbin SSH_AUTH_SOCK=/private/tmp/com.apple.launchd.CcC9BwPYF4/Listeners HOME=/Users/shcjveg __CF_USER_TEXT_ENCODING=0x1F5:0x19:0x34 TMPDIR=/var/folders/r0/_s4g94s95db201lhl035tww80000gn/T/ XPC_FLAGS=19 LOGNAME=shcjveg USER=shcjveg SHELL=/bin/bash
+shcjveg          41340   0.0  0.8 106792636 130560   ??  Ss   10:56上午   0:03.57 /System/Library/Frameworks/WebKit.framework/Versions/A/XPCServices/com.apple.WebKit.WebContent.xpc/Contents/MacOS/com.apple.WebKit.WebContent LaunchInstanceID=3CFAB6A3-0A5F-4609-9DD0-33F8943F9F8E XPC_SERVICE_NAME=com.apple.WebKit.WebContent PATH=/usr/bin:/bin:/usr/sbin:/sbin SSH_AUTH_SOCK=/private/tmp/com.apple.launchd.CcC9BwPYF4/Listeners HOME=/Users/shcjveg __CF_USER_TEXT_ENCODING=0x1F5:0x19:0x34 TMPDIR=/var/folders/r0/_s4g94s95db201lhl035tww80000gn/T/ XPC_FLAGS=19 LOGNAME=shcjveg USER=shcjveg SHELL=/bin/bash
+_windowserver      257   3.5  0.8 11000176 126516   ??  Ss   六03下午 129:38.01 /System/Library/PrivateFrameworks/SkyLight.framework/Resources/WindowServer -daemon
+shcjveg          41848   0.0  0.7 106484396 125532   ??  Ss   11:32上午   0:02.59 /System/Library/Frameworks/WebKit.framework/Versions/A/XPCServices/com.apple.WebKit.WebContent.xpc/Contents/MacOS/com.apple.WebKit.WebContent LaunchInstanceID=87F9720E-52FA-4926-8974-277F85F37BF4 XPC_SERVICE_NAME=com.apple.WebKit.WebContent PATH=/usr/bin:/bin:/usr/sbin:/sbin SSH_AUTH_SOCK=/private/tmp/com.apple.launchd.CcC9BwPYF4/Listeners HOME=/Users/shcjveg __CF_USER_TEXT_ENCODING=0x1F5:0x19:0x34 TMPDIR=/var/folders/r0/_s4g94s95db201lhl035tww80000gn/T/ XPC_FLAGS=19 LOGNAME=shcjveg USER=shcjveg SHELL=/bin/bash
+shcjveg          42102   0.0  0.7 106474984 125328   ??  Ss   11:50上午   0:03.55 /System/Library/Frameworks/WebKit.framework/Versions/A/XPCServices/com.apple.WebKit.WebContent.xpc/Contents/MacOS/com.apple.WebKit.WebContent LaunchInstanceID=317984B5-42F6-40CE-AD96-8DC98F371CC7 XPC_SERVICE_NAME=com.apple.WebKit.WebContent PATH=/usr/bin:/bin:/usr/sbin:/sbin SSH_AUTH_SOCK=/private/tmp/com.apple.launchd.CcC9BwPYF4/Listeners HOME=/Users/shcjveg __CF_USER_TEXT_ENCODING=0x1F5:0x19:0x34 TMPDIR=/var/folders/r0/_s4g94s95db201lhl035tww80000gn/T/ XPC_FLAGS=19 LOGNAME=shcjveg USER=shcjveg SHELL=/bin/bash
+shcjveg            476   0.8  0.7  5319440 125148   ??  S    六03下午   7:54.76 /System/Library/CoreServices/Dock.app/Contents/MacOS/Dock XPC_SERVICE_NAME=com.apple.Dock.agent SSH_AUTH_SOCK=/private/tmp/com.apple.launchd.CcC9BwPYF4/Listeners PATH=/usr/bin:/bin:/usr/sbin:/sbin XPC_FLAGS=1 LOGNAME=shcjveg USER=shcjveg HOME=/Users/shcjveg SHELL=/bin/bash TMPDIR=/var/folders/r0/_s4g94s95db201lhl035tww80000gn/T/
+shcjveg          41715   0.0  0.7 89668696 123360   ??  Ss   11:23上午   0:05.07 /System/Library/Frameworks/WebKit.framework/Versions/A/XPCServices/com.apple.WebKit.WebContent.xpc/Contents/MacOS/com.apple.WebKit.WebContent LaunchInstanceID=11D49050-6881-43F2-95B0-4E21C4664E9C XPC_SERVICE_NAME=com.apple.WebKit.WebContent PATH=/usr/bin:/bin:/usr/sbin:/sbin SSH_AUTH_SOCK=/private/tmp/com.apple.launchd.CcC9BwPYF4/Listeners HOME=/Users/shcjveg __CF_USER_TEXT_ENCODING=0x1F5:0x19:0x34 TMPDIR=/var/folders/r0/_s4g94s95db201lhl035tww80000gn/T/ XPC_FLAGS=19 LOGNAME=shcjveg USER=shcjveg SHELL=/bin/bash
+shcjveg          42118   0.0  0.7 106503332 123120   ??  Ss   11:51上午   0:03.67 /System/Library/Frameworks/WebKit.framework/Versions/A/XPCServices/com.apple.WebKit.WebContent.xpc/Contents/MacOS/com.apple.WebKit.WebContent LaunchInstanceID=D2E78119-BFA7-4A8F-8756-AAA873099F0A XPC_SERVICE_NAME=com.apple.WebKit.WebContent PATH=/usr/bin:/bin:/usr/sbin:/sbin SSH_AUTH_SOCK=/private/tmp/com.apple.launchd.CcC9BwPYF4/Listeners HOME=/Users/shcjveg __CF_USER_TEXT_ENCODING=0x1F5:0x19:0x34 TMPDIR=/var/folders/r0/_s4g94s95db201lhl035tww80000gn/T/ XPC_FLAGS=19 LOGNAME=shcjveg USER=shcjveg SHELL=/bin/bash
+shcjveg          41503   0.1  0.7 90033148 122844   ??  Ss   11:05上午   0:21.41 /System/Library/Frameworks/WebKit.framework/Versions/A/XPCServices/com.apple.WebKit.WebContent.xpc/Contents/MacOS/com.apple.WebKit.WebContent LaunchInstanceID=B83E7D8A-68D0-4C10-94D7-F3376F67F94F XPC_SERVICE_NAME=com.apple.WebKit.WebContent PATH=/usr/bin:/bin:/usr/sbin:/sbin SSH_AUTH_SOCK=/private/tmp/com.apple.launchd.CcC9BwPYF4/Listeners HOME=/Users/shcjveg __CF_USER_TEXT_ENCODING=0x1F5:0x19:0x34 TMPDIR=/var/folders/r0/_s4g94s95db201lhl035tww80000gn/T/ XPC_FLAGS=19 LOGNAME=shcjveg USER=shcjveg SHELL=/bin/bash
+shcjveg          42910   0.0  0.7 106483364 122216   ??  Ss   12:00下午   0:02.19 /System/Library/Frameworks/WebKit.framework/Versions/A/XPCServices/com.apple.WebKit.WebContent.xpc/Contents/MacOS/com.apple.WebKit.WebContent LaunchInstanceID=9650ABA7-4A9A-46DC-8278-03F604F61FFA XPC_SERVICE_NAME=com.apple.WebKit.WebContent PATH=/usr/bin:/bin:/usr/sbin:/sbin SSH_AUTH_SOCK=/private/tmp/com.apple.launchd.CcC9BwPYF4/Listeners HOME=/Users/shcjveg __CF_USER_TEXT_ENCODING=0x1F5:0x19:0x34 TMPDIR=/var/folders/r0/_s4g94s95db201lhl035tww80000gn/T/ XPC_FLAGS=19 LOGNAME=shcjveg USER=shcjveg SHELL=/bin/bash
+shcjveg            547   0.3  0.7 106606716 111796   ??  Ss   六03下午   2:03.31 /System/Library/Frameworks/WebKit.framework/Versions/A/XPCServices/com.apple.WebKit.WebContent.xpc/Contents/MacOS/com.apple.WebKit.WebContent LaunchInstanceID=5E9F5EA1-F38B-4DF9-9846-AD69A49A09A1 XPC_SERVICE_NAME=com.apple.WebKit.WebContent PATH=/usr/bin:/bin:/usr/sbin:/sbin SSH_AUTH_SOCK=/private/tmp/com.apple.launchd.CcC9BwPYF4/Listeners HOME=/Users/shcjveg __CF_USER_TEXT_ENCODING=0x1F5:0x19:0x34 TMPDIR=/var/folders/r0/_s4g94s95db201lhl035tww80000gn/T/ XPC_FLAGS=19 LOGNAME=shcjveg USER=shcjveg SHELL=/bin/bash
+shcjveg            899   0.0  0.6  4795880 105576   ??  Ss   六03下午   0:17.05 /System/Library/PrivateFrameworks/AssistantServices.framework/Versions/A/XPCServices/com.apple.siri.embeddedspeech.xpc/Contents/MacOS/com.apple.siri.embeddedspeech LaunchInstanceID=8790463E-433A-4A0D-8DDE-730879FF8655 XPC_SERVICE_NAME=com.apple.siri.embeddedspeech PATH=/usr/bin:/bin:/usr/sbin:/sbin SSH_AUTH_SOCK=/private/tmp/com.apple.launchd.CcC9BwPYF4/Listeners HOME=/Users/shcjveg TMPDIR=/var/folders/r0/_s4g94s95db201lhl035tww80000gn/T/ XPC_FLAGS=19 LOGNAME=shcjveg USER=shcjveg SHELL=/bin/bash
+shcjveg          33018   1.1  0.6  5325320 104612   ??  R     8:54下午   1:12.02 /System/Applications/Utilities/Terminal.app/Contents/MacOS/Terminal USER=shcjveg PATH=/usr/bin:/bin:/usr/sbin:/sbin LOGNAME=shcjveg SSH_AUTH_SOCK=/private/tmp/com.apple.launchd.CcC9BwPYF4/Listeners HOME=/Users/shcjveg SHELL=/bin/bash __CF_USER_TEXT_ENCODING=0x1F5:0x19:0x34 TMPDIR=/var/folders/r0/_s4g94s95db201lhl035tww80000gn/T/ XPC_SERVICE_NAME=com.apple.Terminal.13448 XPC_FLAGS=1
+shcjveg            407   1.1  0.6  6788000 103060   ??  S    六03下午   6:50.32 /Applications/Typora.app/Contents/MacOS/Typora -psn_0_73746 SECURITYSESSIONID=186a6 USER=shcjveg COMMAND_MODE=unix2003 PATH=/usr/bin:/bin:/usr/sbin:/sbin HOME=/Users/shcjveg SHELL=/bin/bash LaunchInstanceID=A00EB08A-2E54-4382-A344-4098CE41F561 __CF_USER_TEXT_ENCODING=0x1F5:0x19:0x34 XPC_SERVICE_NAME=com.apple.xpc.launchd.oneshot.0x10000004.Typora SSH_AUTH_SOCK=/private/tmp/com.apple.launchd.CcC9BwPYF4/Listeners XPC_FLAGS=1 LOGNAME=shcjveg TMPDIR=/var/folders/r0/_s4g94s95db201lhl035tww80000gn/T/
+shcjveg          41474   0.0  0.6 90154064 100036   ??  Ss   11:02上午   0:20.33 /System/Library/Frameworks/WebKit.framework/Versions/A/XPCServices/com.apple.WebKit.WebContent.xpc/Contents/MacOS/com.apple.WebKit.WebContent LaunchInstanceID=71E21CA5-AA3F-4D8D-AC3A-938075CD91FB XPC_SERVICE_NAME=com.apple.WebKit.WebContent PATH=/usr/bin:/bin:/usr/sbin:/sbin SSH_AUTH_SOCK=/private/tmp/com.apple.launchd.CcC9BwPYF4/Listeners HOME=/Users/shcjveg __CF_USER_TEXT_ENCODING=0x1F5:0x19:0x34 TMPDIR=/var/folders/r0/_s4g94s95db201lhl035tww80000gn/T/ XPC_FLAGS=19 LOGNAME=shcjveg USER=shcjveg SHELL=/bin/bash
+shcjveg          32960   0.0  0.6  4718436  96304   ??  Ss    8:52下午   1:48.31 /Applications/Xcode.app/Contents/SharedFrameworks/SourceKit.framework/Versions/A/XPCServices/com.apple.dt.SKAgent.xpc/Contents/MacOS/com.apple.dt.SKAgent XPC_SERVICE_NAME=com.apple.dt.SKAgent PATH=/usr/bin:/bin:/usr/sbin:/sbin SSH_AUTH_SOCK=/private/tmp/com.apple.launchd.CcC9BwPYF4/Listeners HOME=/Users/shcjveg __CF_USER_TEXT_ENCODING=0x1F5:0x19:0x34 TMPDIR=/var/folders/r0/_s4g94s95db201lhl035tww80000gn/T/ XPC_FLAGS=19 LOGNAME=shcjveg USER=shcjveg SHELL=/bin/bash
+shcjveg            484   0.0  0.6  5669980  93320   ??  S    六03下午   0:54.19 /System/Library/CoreServices/Spotlight.app/Contents/MacOS/Spotlight XPC_SERVICE_NAME=com.apple.Spotlight SSH_AUTH_SOCK=/private/tmp/com.apple.launchd.CcC9BwPYF4/Listeners PATH=/usr/bin:/bin:/usr/sbin:/sbin XPC_FLAGS=1 LOGNAME=shcjveg USER=shcjveg HOME=/Users/shcjveg SHELL=/bin/bash TMPDIR=/var/folders/r0/_s4g94s95db201lhl035tww80000gn/T/
+shcjveg          42029   0.0  0.5 89531760  84196   ??  Ss   11:44上午   0:01.43 /System/Library/Frameworks/WebKit.framework/Versions/A/XPCServices/com.apple.WebKit.WebContent.xpc/Contents/MacOS/com.apple.WebKit.WebContent LaunchInstanceID=F5F65EEF-2388-4226-8E1D-C4D333F15742 XPC_SERVICE_NAME=com.apple.WebKit.WebContent PATH=/usr/bin:/bin:/usr/sbin:/sbin SSH_AUTH_SOCK=/private/tmp/com.apple.launchd.CcC9BwPYF4/Listeners HOME=/Users/shcjveg __CF_USER_TEXT_ENCODING=0x1F5:0x19:0x34 TMPDIR=/var/folders/r0/_s4g94s95db201lhl035tww80000gn/T/ XPC_FLAGS=19 LOGNAME=shcjveg USER=shcjveg SHELL=/bin/bash
+shcjveg            717   0.0  0.5  4963728  81196   ??  S    六03下午   0:24.98 /System/Library/Services/AppleSpell.service/Contents/MacOS/AppleSpell XPC_SERVICE_NAME=com.apple.applespell SSH_AUTH_SOCK=/private/tmp/com.apple.launchd.CcC9BwPYF4/Listeners PATH=/usr/bin:/bin:/usr/sbin:/sbin XPC_FLAGS=19 LOGNAME=shcjveg USER=shcjveg HOME=/Users/shcjveg SHELL=/bin/bash TMPDIR=/var/folders/r0/_s4g94s95db201lhl035tww80000gn/T/
+root               134   0.0  0.5  4549588  79304   ??  Ss   六03下午   2:43.53 /usr/libexec/logd
+shcjveg          32601   0.4  0.4 106459860  70884   ??  Ss    8:23下午   0:29.65 /System/Library/Frameworks/WebKit.framework/Versions/A/XPCServices/com.apple.WebKit.WebContent.xpc/Contents/MacOS/com.apple.WebKit.WebContent LaunchInstanceID=C7AA10DB-D363-412E-9B38-77A8CF4ACFD0 XPC_SERVICE_NAME=com.apple.WebKit.WebContent PATH=/usr/bin:/bin:/usr/sbin:/sbin SSH_AUTH_SOCK=/private/tmp/com.apple.launchd.CcC9BwPYF4/Listeners HOME=/Users/shcjveg __CF_USER_TEXT_ENCODING=0x1F5:0x19:0x34 TMPDIR=/var/folders/r0/_s4g94s95db201lhl035tww80000gn/T/ XPC_FLAGS=19 LOGNAME=shcjveg USER=shcjveg SHELL=/bin/bash
+shcjveg            475   0.0  0.4  4760956  68172   ??  S    六03下午   0:17.14 /System/Library/PrivateFrameworks/CoreSuggestions.framework/Versions/A/Support/suggestd XPC_SERVICE_NAME=com.apple.suggestd SSH_AUTH_SOCK=/private/tmp/com.apple.launchd.CcC9BwPYF4/Listeners PATH=/usr/bin:/bin:/usr/sbin:/sbin XPC_FLAGS=19 LOGNAME=shcjveg USER=shcjveg HOME=/Users/shcjveg SHELL=/bin/bash TMPDIR=/var/folders/r0/_s4g94s95db201lhl035tww80000gn/T/
+shcjveg          32598  28.6  0.4  5225352  66136   ??  S     8:23下午  46:44.26 /Applications/Thunder.app/Contents/MacOS/Thunder USER=shcjveg PATH=/usr/bin:/bin:/usr/sbin:/sbin LOGNAME=shcjveg SSH_AUTH_SOCK=/private/tmp/com.apple.launchd.CcC9BwPYF4/Listeners HOME=/Users/shcjveg SHELL=/bin/bash __CF_USER_TEXT_ENCODING=0x1F5:0x19:0x34 TMPDIR=/var/folders/r0/_s4g94s95db201lhl035tww80000gn/T/ XPC_SERVICE_NAME=com.xunlei.Thunder.20524 XPC_FLAGS=1
+shcjveg          41366   0.0  0.4 89679200  61580   ??  Ss   10:57上午   0:01.77 /System/Library/Frameworks/WebKit.framework/Versions/A/XPCServices/com.apple.WebKit.WebContent.xpc/Contents/MacOS/com.apple.WebKit.WebContent LaunchInstanceID=E442505D-5378-42B8-B423-E3B4202EB1AA XPC_SERVICE_NAME=com.apple.WebKit.WebContent PATH=/usr/bin:/bin:/usr/sbin:/sbin SSH_AUTH_SOCK=/private/tmp/com.apple.launchd.CcC9BwPYF4/Listeners HOME=/Users/shcjveg __CF_USER_TEXT_ENCODING=0x1F5:0x19:0x34 TMPDIR=/var/folders/r0/_s4g94s95db201lhl035tww80000gn/T/ XPC_FLAGS=19 LOGNAME=shcjveg USER=shcjveg SHELL=/bin/bash
+shcjveg            426   0.0  0.4  5422396  59432   ??  S    六03下午   0:19.06 /System/Library/CoreServices/NotificationCenter.app/Contents/MacOS/NotificationCenter XPC_SERVICE_NAME=com.apple.notificationcenterui.agent SSH_AUTH_SOCK=/private/tmp/com.apple.launchd.CcC9BwPYF4/Listeners PATH=/usr/bin:/bin:/usr/sbin:/sbin XPC_FLAGS=1 LOGNAME=shcjveg USER=shcjveg HOME=/Users/shcjveg SHELL=/bin/bash TMPDIR=/var/folders/r0/_s4g94s95db201lhl035tww80000gn/T/
+shcjveg          40880   0.0  0.3  4488300  57372   ??  Ss   10:22上午   0:39.34 /System/Library/Frameworks/WebKit.framework/Versions/A/XPCServices/com.apple.WebKit.Networking.xpc/Contents/MacOS/com.apple.WebKit.Networking LaunchInstanceID=75327A4D-F520-49C7-9075-DE7A7EA8BBB9 XPC_SERVICE_NAME=com.apple.WebKit.Networking PATH=/usr/bin:/bin:/usr/sbin:/sbin SSH_AUTH_SOCK=/private/tmp/com.apple.launchd.CcC9BwPYF4/Listeners HOME=/Users/shcjveg __CF_USER_TEXT_ENCODING=0x1F5:0x19:0x34 TMPDIR=/var/folders/r0/_s4g94s95db201lhl035tww80000gn/T/ XPC_FLAGS=19 LOGNAME=shcjveg USER=shcjveg SHELL=/bin/bash
+root             23029   0.0  0.3  4700516  55012   ??  Ss    2:04下午   1:45.28 /System/Library/Frameworks/CoreServices.framework/Frameworks/Metadata.framework/Support/mds
+root              1574   0.0  0.3  4456196  53428   ??  Ss   六04下午   6:55.08 /System/Library/PrivateFrameworks/XprotectFramework.framework/Versions/A/XPCServices/XprotectService.xpc/Contents/MacOS/XprotectService
+shcjveg            541   0.0  0.3  4697600  46440   ??  Ss   六03下午   3:26.17 /System/Library/Frameworks/QuickLook.framework/Versions/A/XPCServices/QuickLookSatellite.xpc/Contents/MacOS/QuickLookSatellite LaunchInstanceID=AA3F2501-A25E-400F-A743-CC8EBAB08C9B XPC_SERVICE_NAME=com.apple.quicklook.satellite PATH=/usr/bin:/bin:/usr/sbin:/sbin SSH_AUTH_SOCK=/private/tmp/com.apple.launchd.CcC9BwPYF4/Listeners HOME=/Users/shcjveg TMPDIR=/var/folders/r0/_s4g94s95db201lhl035tww80000gn/T/ XPC_FLAGS=19 LOGNAME=shcjveg USER=shcjveg SHELL=/bin/bash
+shcjveg            192   0.0  0.3  4589228  45952   ??  Ss   六03下午   0:27.88 /System/Library/CoreServices/loginwindow.app/Contents/MacOS/loginwindow console
+shcjveg            454   0.0  0.2  4902712  40740   ??  S    六03下午   0:14.69 /System/Library/Frameworks/CoreServices.framework/Frameworks/Metadata.framework/Versions/A/Support/corespotlightd XPC_SERVICE_NAME=com.apple.corespotlightd SSH_AUTH_SOCK=/private/tmp/com.apple.launchd.CcC9BwPYF4/Listeners PATH=/usr/bin:/bin:/usr/sbin:/sbin XPC_FLAGS=19 LOGNAME=shcjveg USER=shcjveg HOME=/Users/shcjveg SHELL=/bin/bash TMPDIR=/var/folders/r0/_s4g94s95db201lhl035tww80000gn/T/
+shcjveg          33009   0.0  0.2  5119876  40068   ??  Ss    8:54下午   0:04.95 /System/Library/Frameworks/AppKit.framework/Versions/C/XPCServices/com.apple.appkit.xpc.openAndSavePanelService.xpc/Contents/MacOS/com.apple.appkit.xpc.openAndSavePanelService XPC_SERVICE_NAME=com.apple.appkit.xpc.openAndSavePanelService PATH=/usr/bin:/bin:/usr/sbin:/sbin SSH_AUTH_SOCK=/private/tmp/com.apple.launchd.CcC9BwPYF4/Listeners HOME=/Users/shcjveg __CF_USER_TEXT_ENCODING=0x1F5:0x19:0x34 TMPDIR=/var/folders/r0/_s4g94s95db201lhl035tww80000gn/T/ XPC_FLAGS=19 LOGNAME=shcjveg USER=shcjveg SHELL=/bin/bash
+shcjveg            410   0.0  0.2  4529504  39660   ??  S    六03下午   1:28.01 /System/Library/Frameworks/Accounts.framework/Versions/A/Support/accountsd XPC_SERVICE_NAME=com.apple.accountsd SSH_AUTH_SOCK=/private/tmp/com.apple.launchd.CcC9BwPYF4/Listeners PATH=/usr/bin:/bin:/usr/sbin:/sbin XPC_FLAGS=19 LOGNAME=shcjveg USER=shcjveg HOME=/Users/shcjveg SHELL=/bin/bash TMPDIR=/var/folders/r0/_s4g94s95db201lhl035tww80000gn/T/
+shcjveg            553   0.0  0.2  4465292  37476   ??  S    六03下午   0:16.57 /System/Library/PrivateFrameworks/SafariSafeBrowsing.framework/com.apple.Safari.SafeBrowsing.Service XPC_SERVICE_NAME=com.apple.Safari.SafeBrowsing.Service SSH_AUTH_SOCK=/private/tmp/com.apple.launchd.CcC9BwPYF4/Listeners PATH=/usr/bin:/bin:/usr/sbin:/sbin XPC_FLAGS=19 LOGNAME=shcjveg USER=shcjveg HOME=/Users/shcjveg SHELL=/bin/bash TMPDIR=/var/folders/r0/_s4g94s95db201lhl035tww80000gn/T/
+shcjveg          32599   0.3  0.2  4500400  34756   ??  Ss    8:23下午  10:53.25 /Applications/Thunder.app/Contents/XPCServices/DownloadService.xpc/Contents/MacOS/DownloadService XPC_SERVICE_NAME=com.xunlei.Thunder.DownloadService PATH=/usr/bin:/bin:/usr/sbin:/sbin SSH_AUTH_SOCK=/private/tmp/com.apple.launchd.CcC9BwPYF4/Listeners HOME=/Users/shcjveg __CF_USER_TEXT_ENCODING=0x1F5:0x19:0x34 TMPDIR=/var/folders/r0/_s4g94s95db201lhl035tww80000gn/T/ XPC_FLAGS=19 LOGNAME=shcjveg USER=shcjveg SHELL=/bin/bash
+shcjveg          13497   0.0  0.2  5144652  33968   ??  Ss   日03下午   0:03.39 /System/Library/PrivateFrameworks/Lookup.framework/Versions/A/XPCServices/LookupViewService.xpc/Contents/MacOS/LookupViewService XPC_SERVICE_NAME=com.apple.LookupViewService PATH=/usr/bin:/bin:/usr/sbin:/sbin SSH_AUTH_SOCK=/private/tmp/com.apple.launchd.CcC9BwPYF4/Listeners HOME=/Users/shcjveg __CF_USER_TEXT_ENCODING=0x1F5:0x19:0x34 TMPDIR=/var/folders/r0/_s4g94s95db201lhl035tww80000gn/T/ XPC_FLAGS=19 LOGNAME=shcjveg USER=shcjveg SHELL=/bin/bash
+shcjveg            415   0.0  0.2  4980684  32972   ??  S    六03下午   0:55.12 /System/Library/CoreServices/ControlStrip.app/Contents/MacOS/ControlStrip XPC_SERVICE_NAME=com.apple.controlstrip SSH_AUTH_SOCK=/private/tmp/com.apple.launchd.CcC9BwPYF4/Listeners PATH=/usr/bin:/bin:/usr/sbin:/sbin XPC_FLAGS=1 LOGNAME=shcjveg USER=shcjveg HOME=/Users/shcjveg SHELL=/bin/bash TMPDIR=/var/folders/r0/_s4g94s95db201lhl035tww80000gn/T/
+shcjveg          12564   0.0  0.2  5111520  30752   ??  S    日01下午   0:11.65 /Applications/QQ.app/Contents/Library/LoginItems/QQ jietu plugin.app/Contents/MacOS/QQ jietu plugin USER=shcjveg PATH=/usr/bin:/bin:/usr/sbin:/sbin LOGNAME=shcjveg SSH_AUTH_SOCK=/private/tmp/com.apple.launchd.CcC9BwPYF4/Listeners HOME=/Users/shcjveg SHELL=/bin/bash __CF_USER_TEXT_ENCODING=0x1F5:0x19:0x34 TMPDIR=/var/folders/r0/_s4g94s95db201lhl035tww80000gn/T/ XPC_SERVICE_NAME=FN2V63AD2J.com.tencent.ScreenCapture2.20556 XPC_FLAGS=1
+root               389   0.0  0.2  4434920  29548   ??  Ss   六03下午   0:04.67 /usr/sbin/spindump
+_coreaudiod        227   6.4  0.2  4455204  29372   ??  Ss   六03下午  95:11.11 /usr/sbin/coreaudiod
+shcjveg            645   0.0  0.2  5167544  28716   ??  S    六03下午   7:59.16 /Applications/CheatSheet.app/Contents/MacOS/CheatSheet USER=shcjveg SECURITYSESSIONID=186a6 PATH=/usr/bin:/bin:/usr/sbin:/sbin HOME=/Users/shcjveg SHELL=/bin/bash LaunchInstanceID=A00EB08A-2E54-4382-A344-4098CE41F561 __CF_USER_TEXT_ENCODING=0x1F5:0x19:0x34 XPC_SERVICE_NAME=com.mediaatelier.CheatSheet.14644 SSH_AUTH_SOCK=/private/tmp/com.apple.launchd.CcC9BwPYF4/Listeners XPC_FLAGS=1 LOGNAME=shcjveg TMPDIR=/var/folders/r0/_s4g94s95db201lhl035tww80000gn/T/
+shcjveg            911   0.0  0.2  4449488  25912   ??  S    六03下午   0:30.25 /System/Library/PrivateFrameworks/AssistantServices.framework/Versions/A/Support/assistant_service XPC_SERVICE_NAME=com.apple.assistant_service SSH_AUTH_SOCK=/private/tmp/com.apple.launchd.CcC9BwPYF4/Listeners PATH=/usr/bin:/bin:/usr/sbin:/sbin XPC_FLAGS=19 LOGNAME=shcjveg USER=shcjveg HOME=/Users/shcjveg SHELL=/bin/bash TMPDIR=/var/folders/r0/_s4g94s95db201lhl035tww80000gn/T/
+shcjveg            485   0.0  0.2  4444240  25456   ??  S    六03下午   0:12.18 /System/Library/PrivateFrameworks/SafariShared.framework/Versions/A/XPCServices/com.apple.Safari.History.xpc/Contents/MacOS/com.apple.Safari.History XPC_SERVICE_NAME=com.apple.Safari.History PATH=/usr/bin:/bin:/usr/sbin:/sbin XPC_FLAGS=19 LOGNAME=shcjveg USER=shcjveg HOME=/Users/shcjveg SHELL=/bin/bash TMPDIR=/var/folders/r0/_s4g94s95db201lhl035tww80000gn/T/
+root               127   0.0  0.1  4444508  25112   ??  Ss   六03下午   5:57.73 /usr/sbin/systemstats --daemon
+shcjveg            437   0.0  0.1  4474960  24736   ??  S    六03下午   3:53.33 /System/Library/PrivateFrameworks/AssistantServices.framework/Versions/A/Support/assistantd DEFAULT_NETWORK_PRIVACY_LEVEL=public XPC_SERVICE_NAME=com.apple.assistantd SSH_AUTH_SOCK=/private/tmp/com.apple.launchd.CcC9BwPYF4/Listeners PATH=/usr/bin:/bin:/usr/sbin:/sbin XPC_FLAGS=19 LOGNAME=shcjveg USER=shcjveg HOME=/Users/shcjveg SHELL=/bin/bash TMPDIR=/var/folders/r0/_s4g94s95db201lhl035tww80000gn/T/
+shcjveg          31660   0.0  0.1  5072508  24652   ??  S     7:05下午   0:04.78 /Applications/ShadowsocksX-NG-R8.app/Contents/MacOS/ShadowsocksX-NG USER=shcjveg PATH=/usr/bin:/bin:/usr/sbin:/sbin LOGNAME=shcjveg SSH_AUTH_SOCK=/private/tmp/com.apple.launchd.CcC9BwPYF4/Listeners HOME=/Users/shcjveg SHELL=/bin/bash __CF_USER_TEXT_ENCODING=0x1F5:0x19:0x34 TMPDIR=/var/folders/r0/_s4g94s95db201lhl035tww80000gn/T/ XPC_SERVICE_NAME=com.qiuyuzhou.ShadowsocksX-NG.14632 XPC_FLAGS=1
+shcjveg            418   0.0  0.1  4458976  24180   ??  S    六03下午   0:14.26 /System/Library/PrivateFrameworks/CalendarAgent.framework/Executables/CalendarAgent NSRunningFromLaunchd=1 XPC_SERVICE_NAME=com.apple.CalendarAgent SSH_AUTH_SOCK=/private/tmp/com.apple.launchd.CcC9BwPYF4/Listeners PATH=/usr/bin:/bin:/usr/sbin:/sbin XPC_FLAGS=19 LOGNAME=shcjveg USER=shcjveg HOME=/Users/shcjveg SHELL=/bin/bash TMPDIR=/var/folders/r0/_s4g94s95db201lhl035tww80000gn/T/
+shcjveg            528   0.0  0.1  4432376  23536   ??  S    六03下午   0:44.46 /Library/Apple/System/Library/CoreServices/SafariSupport.bundle/Contents/MacOS/SafariBookmarksSyncAgent XPC_SERVICE_NAME=com.apple.SafariBookmarksSyncAgent SSH_AUTH_SOCK=/private/tmp/com.apple.launchd.CcC9BwPYF4/Listeners PATH=/usr/bin:/bin:/usr/sbin:/sbin XPC_FLAGS=19 LOGNAME=shcjveg USER=shcjveg HOME=/Users/shcjveg SHELL=/bin/bash TMPDIR=/var/folders/r0/_s4g94s95db201lhl035tww80000gn/T/
+shcjveg          21024   0.0  0.1  5085836  23148   ??  Ss   一10上午   0:34.34 /System/Library/Frameworks/Quartz.framework/Versions/A/Frameworks/QuickLookUI.framework/Versions/A/XPCServices/QuickLookUIService.xpc/Contents/MacOS/QuickLookUIService XPC_SERVICE_NAME=com.apple.quicklook.QuickLookUIService PATH=/usr/bin:/bin:/usr/sbin:/sbin SSH_AUTH_SOCK=/private/tmp/com.apple.launchd.CcC9BwPYF4/Listeners HOME=/Users/shcjveg __CF_USER_TEXT_ENCODING=0x1F5:0x19:0x34 TMPDIR=/var/folders/r0/_s4g94s95db201lhl035tww80000gn/T/ XPC_FLAGS=19 LOGNAME=shcjveg USER=shcjveg SHELL=/bin/bash
+shcjveg          40612   0.0  0.1  4479064  22532   ??  S     9:58上午   0:00.98 /usr/libexec/studentd XPC_SERVICE_NAME=com.apple.studentd SSH_AUTH_SOCK=/private/tmp/com.apple.launchd.CcC9BwPYF4/Listeners PATH=/usr/bin:/bin:/usr/sbin:/sbin XPC_FLAGS=19 LOGNAME=shcjveg USER=shcjveg HOME=/Users/shcjveg SHELL=/bin/bash TMPDIR=/var/folders/r0/_s4g94s95db201lhl035tww80000gn/T/
+shcjveg            784   0.0  0.1  4465868  22392   ??  S    六03下午   0:23.09 /System/Library/Frameworks/ApplicationServices.framework/Frameworks/SpeechSynthesis.framework/Resources/com.apple.speech.speechsynthesisd XPC_SERVICE_NAME=com.apple.speech.speechsynthesisd PATH=/usr/bin:/bin:/usr/sbin:/sbin XPC_FLAGS=9 LOGNAME=shcjveg USER=shcjveg HOME=/Users/shcjveg SHELL=/bin/bash TMPDIR=/var/folders/r0/_s4g94s95db201lhl035tww80000gn/T/
+shcjveg          32961   0.0  0.1  4543288  22324   ??  S     8:52下午   0:02.91 /Applications/Xcode.app/Contents/SharedFrameworks/XCBuild.framework/Versions/A/PlugIns/XCBBuildService.bundle/Contents/MacOS/XCBBuildService LOGNAME=shcjveg __CF_USER_TEXT_ENCODING=0x1F5:0x19:0x34 SHELL=/bin/bash CA_ASSERT_MAIN_THREAD_TRANSACTIONS=1 USER=shcjveg CA_DEBUG_TRANSACTIONS=1 XPC_FLAGS=0x0 PATH=/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin MallocNanoZone=0 HOME=/Users/shcjveg XPC_SERVICE_NAME=com.apple.dt.Xcode.20200 TMPDIR=/var/folders/r0/_s4g94s95db201lhl035tww80000gn/T/ SSH_AUTH_SOCK=/private/tmp/com.apple.launchd.CcC9BwPYF4/Listeners
+shcjveg          42160   0.0  0.1  4411004  22248   ??  S    11:52上午   0:00.92 /System/Library/Frameworks/CoreServices.framework/Frameworks/Metadata.framework/Versions/A/Support/mdworker_shared -s mdworker -c MDSImporterWorker -m com.apple.mdworker.shared LaunchInstanceID=04000000-0300-0000-0000-000000000000 XPC_SERVICE_NAME=com.apple.mdworker.shared MallocCorruptionAbort=1 PATH=/usr/bin:/bin:/usr/sbin:/sbin XPC_FLAGS=19 LOGNAME=shcjveg USER=shcjveg HOME=/Users/shcjveg SHELL=/bin/bash TMPDIR=/var/folders/r0/_s4g94s95db201lhl035tww80000gn/T/
+shcjveg            400   0.0  0.1  4453264  22192   ??  S    六03下午   0:45.68 /System/Library/PrivateFrameworks/CloudKitDaemon.framework/Support/cloudd XPC_SERVICE_NAME=com.apple.cloudd SSH_AUTH_SOCK=/private/tmp/com.apple.launchd.CcC9BwPYF4/Listeners PATH=/usr/bin:/bin:/usr/sbin:/sbin XPC_FLAGS=19 LOGNAME=shcjveg USER=shcjveg HOME=/Users/shcjveg SHELL=/bin/bash TMPDIR=/var/folders/r0/_s4g94s95db201lhl035tww80000gn/T/
+root                 1   0.0  0.1  4420716  21912   ??  Ss   六03下午   5:47.21 /sbin/launchd
+shcjveg            477   0.0  0.1  5072208  21268   ??  S    六03下午   0:40.10 /System/Library/CoreServices/SystemUIServer.app/Contents/MacOS/SystemUIServer XPC_SERVICE_NAME=com.apple.SystemUIServer.agent SSH_AUTH_SOCK=/private/tmp/com.apple.launchd.CcC9BwPYF4/Listeners PATH=/usr/bin:/bin:/usr/sbin:/sbin XPC_FLAGS=1 LOGNAME=shcjveg USER=shcjveg HOME=/Users/shcjveg SHELL=/bin/bash TMPDIR=/var/folders/r0/_s4g94s95db201lhl035tww80000gn/T/
+shcjveg          42852   0.0  0.1  4411024  21260   ??  S    11:54上午   0:00.49 /System/Library/Frameworks/CoreServices.framework/Frameworks/Metadata.framework/Versions/A/Support/mdworker_shared -s mdworker -c MDSImporterWorker -m com.apple.mdworker.shared LaunchInstanceID=0F000000-0200-0000-0000-000000000000 XPC_SERVICE_NAME=com.apple.mdworker.shared MallocCorruptionAbort=1 PATH=/usr/bin:/bin:/usr/sbin:/sbin XPC_FLAGS=19 LOGNAME=shcjveg USER=shcjveg HOME=/Users/shcjveg SHELL=/bin/bash TMPDIR=/var/folders/r0/_s4g94s95db201lhl035tww80000gn/T/
+shcjveg          33016   0.0  0.1  4989888  21108   ??  Ss    8:54下午   0:01.62 /System/Library/Frameworks/Quartz.framework/Versions/A/Frameworks/QuickLookUI.framework/Versions/A/XPCServices/QuickLookUIService.xpc/Contents/MacOS/QuickLookUIService XPC_SERVICE_NAME=com.apple.quicklook.QuickLookUIService PATH=/usr/bin:/bin:/usr/sbin:/sbin SSH_AUTH_SOCK=/private/tmp/com.apple.launchd.CcC9BwPYF4/Listeners HOME=/Users/shcjveg TMPDIR=/var/folders/r0/_s4g94s95db201lhl035tww80000gn/T/ XPC_FLAGS=19 LOGNAME=shcjveg USER=shcjveg SHELL=/bin/bash
+shcjveg           1402   0.0  0.1  4590756  21072   ??  S    六03下午   0:06.36 /System/Library/CoreServices/CoreServicesUIAgent.app/Contents/MacOS/CoreServicesUIAgent XPC_SERVICE_NAME=com.apple.coreservices.uiagent SSH_AUTH_SOCK=/private/tmp/com.apple.launchd.CcC9BwPYF4/Listeners PATH=/usr/bin:/bin:/usr/sbin:/sbin XPC_FLAGS=19 LOGNAME=shcjveg USER=shcjveg HOME=/Users/shcjveg SHELL=/bin/bash TMPDIR=/var/folders/r0/_s4g94s95db201lhl035tww80000gn/T/
+root             25161   0.0  0.1  4434224  21052   ??  Ss    3:05下午   0:19.55 /usr/libexec/PerfPowerServices
+shcjveg            500   0.0  0.1  4442852  21052   ??  S    六03下午   0:26.10 /usr/libexec/sharingd XPC_SERVICE_NAME=com.apple.sharingd SSH_AUTH_SOCK=/private/tmp/com.apple.launchd.CcC9BwPYF4/Listeners PATH=/usr/bin:/bin:/usr/sbin:/sbin XPC_FLAGS=9 LOGNAME=shcjveg USER=shcjveg HOME=/Users/shcjveg SHELL=/bin/bash TMPDIR=/var/folders/r0/_s4g94s95db201lhl035tww80000gn/T/
+root               181   0.0  0.1  4473424  20520   ??  Ss   六03下午   3:58.19 /usr/libexec/syspolicyd
+shcjveg          42158   0.0  0.1  4411004  20404   ??  S    11:52上午   0:00.86 /System/Library/Frameworks/CoreServices.framework/Frameworks/Metadata.framework/Versions/A/Support/mdworker_shared -s mdworker -c MDSImporterWorker -m com.apple.mdworker.shared LaunchInstanceID=03000000-0200-0000-0000-000000000000 XPC_SERVICE_NAME=com.apple.mdworker.shared MallocCorruptionAbort=1 PATH=/usr/bin:/bin:/usr/sbin:/sbin XPC_FLAGS=19 LOGNAME=shcjveg USER=shcjveg HOME=/Users/shcjveg SHELL=/bin/bash TMPDIR=/var/folders/r0/_s4g94s95db201lhl035tww80000gn/T/
+root               348   0.1  0.1  4553076  19636   ??  Ss   六03下午   9:53.03 /usr/libexec/TouchBarServer
+shcjveg          42976   0.0  0.1 106115964  19340   ??  Ss   12:05下午   0:00.08 /System/Library/Frameworks/WebKit.framework/Versions/A/XPCServices/com.apple.WebKit.WebContent.xpc/Contents/MacOS/com.apple.WebKit.WebContent LaunchInstanceID=6700072D-3791-40A7-8128-071F3F4D590B XPC_SERVICE_NAME=com.apple.WebKit.WebContent PATH=/usr/bin:/bin:/usr/sbin:/sbin SSH_AUTH_SOCK=/private/tmp/com.apple.launchd.CcC9BwPYF4/Listeners HOME=/Users/shcjveg __CF_USER_TEXT_ENCODING=0x1F5:0x19:0x34 TMPDIR=/var/folders/r0/_s4g94s95db201lhl035tww80000gn/T/ XPC_FLAGS=19 LOGNAME=shcjveg USER=shcjveg SHELL=/bin/bash
+shcjveg          42907   0.0  0.1  4910464  19260   ??  Ss   11:59上午   0:00.14 /System/Library/Frameworks/Metal.framework/Versions/A/XPCServices/MTLCompilerService.xpc/Contents/MacOS/MTLCompilerService LaunchInstanceID=004EEA02-CB00-4CD3-8EC6-3E7805A5DBBF XPC_SERVICE_NAME=com.apple.MTLCompilerService MallocNanoZone=1 PATH=/usr/bin:/bin:/usr/sbin:/sbin SSH_AUTH_SOCK=/private/tmp/com.apple.launchd.CcC9BwPYF4/Listeners HOME=/Users/shcjveg __CF_USER_TEXT_ENCODING=0x1F5:0x19:0x34 TMPDIR=/var/folders/r0/_s4g94s95db201lhl035tww80000gn/T/ XPC_FLAGS=19 LOGNAME=shcjveg USER=shcjveg SHELL=/bin/bash
+shcjveg          20383   0.0  0.1  4442044  18968   ??  S    一09上午   0:12.36 /System/Library/PrivateFrameworks/PhotoAnalysis.framework/Versions/A/Support/photoanalysisd XPC_SERVICE_NAME=com.apple.photoanalysisd SSH_AUTH_SOCK=/private/tmp/com.apple.launchd.CcC9BwPYF4/Listeners PATH=/usr/bin:/bin:/usr/sbin:/sbin XPC_FLAGS=19 LOGNAME=shcjveg USER=shcjveg HOME=/Users/shcjveg SHELL=/bin/bash TMPDIR=/var/folders/r0/_s4g94s95db201lhl035tww80000gn/T/
+shcjveg            397   0.0  0.1  4436964  18936   ??  S    六03下午   0:16.94 /usr/libexec/secd WAIT4DEBUGGER=NO DEBUGSCOPE=-policy-node,policy-set,policy,alloc,trust,bind,profile,trace,dbconn,OTR,serverxpc,sqlite3,error_thee_well,ringSigning XPC_SERVICE_NAME=com.apple.secd PATH=/usr/bin:/bin:/usr/sbin:/sbin XPC_FLAGS=19 LOGNAME=shcjveg USER=shcjveg HOME=/Users/shcjveg SHELL=/bin/bash TMPDIR=/var/folders/r0/_s4g94s95db201lhl035tww80000gn/T/
+shcjveg            783   0.0  0.1  5067964  18908   ??  Ss   六03下午   1:28.61 /System/Library/CoreServices/Siri.app/Contents/XPCServices/SiriNCService.xpc/Contents/MacOS/SiriNCService XPC_SERVICE_NAME=com.apple.SiriNCService PATH=/usr/bin:/bin:/usr/sbin:/sbin SSH_AUTH_SOCK=/private/tmp/com.apple.launchd.CcC9BwPYF4/Listeners HOME=/Users/shcjveg TMPDIR=/var/folders/r0/_s4g94s95db201lhl035tww80000gn/T/ XPC_FLAGS=19 LOGNAME=shcjveg USER=shcjveg SHELL=/bin/bash
+shcjveg          41295   0.0  0.1 89381024  18852   ??  Ss   10:52上午   0:00.93 /System/Library/Frameworks/WebKit.framework/Versions/A/XPCServices/com.apple.WebKit.WebContent.xpc/Contents/MacOS/com.apple.WebKit.WebContent LaunchInstanceID=EB9ADDA0-6AD3-4F8E-AC26-5F8FC90C82C4 XPC_SERVICE_NAME=com.apple.WebKit.WebContent PATH=/usr/bin:/bin:/usr/sbin:/sbin SSH_AUTH_SOCK=/private/tmp/com.apple.launchd.CcC9BwPYF4/Listeners HOME=/Users/shcjveg __CF_USER_TEXT_ENCODING=0x1F5:0x19:0x34 TMPDIR=/var/folders/r0/_s4g94s95db201lhl035tww80000gn/T/ XPC_FLAGS=19 LOGNAME=shcjveg USER=shcjveg SHELL=/bin/bash
+shcjveg          40630   0.0  0.1  4430720  18360   ??  S     9:58上午   0:06.11 /System/Library/PrivateFrameworks/HomeKitDaemon.framework/Support/homed XPC_SERVICE_NAME=com.apple.homed SSH_AUTH_SOCK=/private/tmp/com.apple.launchd.CcC9BwPYF4/Listeners PATH=/usr/bin:/bin:/usr/sbin:/sbin XPC_FLAGS=19 LOGNAME=shcjveg USER=shcjveg HOME=/Users/shcjveg SHELL=/bin/bash TMPDIR=/var/folders/r0/_s4g94s95db201lhl035tww80000gn/T/
+shcjveg          42055   0.0  0.1  4908416  18200   ??  Ss   11:46上午   0:00.10 /System/Library/Frameworks/Metal.framework/Versions/A/XPCServices/MTLCompilerService.xpc/Contents/MacOS/MTLCompilerService LaunchInstanceID=7ECB30B0-82E3-4E46-A482-04CDACEE12C4 XPC_SERVICE_NAME=com.apple.MTLCompilerService MallocNanoZone=1 PATH=/usr/bin:/bin:/usr/sbin:/sbin SSH_AUTH_SOCK=/private/tmp/com.apple.launchd.CcC9BwPYF4/Listeners HOME=/Users/shcjveg __CF_USER_TEXT_ENCODING=0x1F5:0x19:0x34 TMPDIR=/var/folders/r0/_s4g94s95db201lhl035tww80000gn/T/ XPC_FLAGS=19 LOGNAME=shcjveg USER=shcjveg SHELL=/bin/bash
+root               239   0.0  0.1  4432828  17984   ??  Ss   六03下午   0:15.32 /usr/libexec/mobileassetd
+shcjveg            488   0.0  0.1  4612104  17528   ??  S    六03下午   0:21.42 /System/Library/CoreServices/iconservicesagent XPC_SERVICE_NAME=com.apple.iconservices.iconservicesagent SSH_AUTH_SOCK=/private/tmp/com.apple.launchd.CcC9BwPYF4/Listeners PATH=/usr/bin:/bin:/usr/sbin:/sbin XPC_FLAGS=19 LOGNAME=shcjveg USER=shcjveg HOME=/Users/shcjveg SHELL=/bin/bash TMPDIR=/var/folders/r0/_s4g94s95db201lhl035tww80000gn/T/
+shcjveg            640   0.0  0.1  5267416  17476   ??  S    六03下午   0:10.83 /System/Library/CoreServices/TextInputMenuAgent.app/Contents/MacOS/TextInputMenuAgent XPC_SERVICE_NAME=com.apple.TextInputMenuAgent SSH_AUTH_SOCK=/private/tmp/com.apple.launchd.CcC9BwPYF4/Listeners PATH=/usr/bin:/bin:/usr/sbin:/sbin XPC_FLAGS=19 LOGNAME=shcjveg USER=shcjveg HOME=/Users/shcjveg SHELL=/bin/bash TMPDIR=/var/folders/r0/_s4g94s95db201lhl035tww80000gn/T/
+shcjveg            842   0.0  0.1  4473996  17096   ??  S    六03下午   0:19.75 /System/Library/PrivateFrameworks/AppStoreDaemon.framework/Support/appstoreagent XPC_SERVICE_NAME=com.apple.appstoreagent SSH_AUTH_SOCK=/private/tmp/com.apple.launchd.CcC9BwPYF4/Listeners PATH=/usr/bin:/bin:/usr/sbin:/sbin XPC_FLAGS=19 LOGNAME=shcjveg USER=shcjveg HOME=/Users/shcjveg SHELL=/bin/bash TMPDIR=/var/folders/r0/_s4g94s95db201lhl035tww80000gn/T/
+shcjveg          40430   0.0  0.1  4983140  17096   ??  S     9:42上午   0:27.03 /System/Library/CoreServices/NowPlayingTouchUI.app/Contents/MacOS/NowPlayingTouchUI XPC_SERVICE_NAME=com.apple.nowplayingtouchui SSH_AUTH_SOCK=/private/tmp/com.apple.launchd.CcC9BwPYF4/Listeners PATH=/usr/bin:/bin:/usr/sbin:/sbin XPC_FLAGS=1 LOGNAME=shcjveg USER=shcjveg HOME=/Users/shcjveg SHELL=/bin/bash TMPDIR=/var/folders/r0/_s4g94s95db201lhl035tww80000gn/T/
+root               295   0.0  0.1  4438912  16424   ??  Ss   六03下午   2:02.20 /usr/libexec/airportd
+shcjveg            392   0.0  0.1  4441748  15964   ??  S    六03下午   0:19.88 /usr/libexec/knowledge-agent XPC_SERVICE_NAME=com.apple.knowledge-agent SSH_AUTH_SOCK=/private/tmp/com.apple.launchd.CcC9BwPYF4/Listeners PATH=/usr/bin:/bin:/usr/sbin:/sbin XPC_FLAGS=19 LOGNAME=shcjveg USER=shcjveg HOME=/Users/shcjveg SHELL=/bin/bash TMPDIR=/var/folders/r0/_s4g94s95db201lhl035tww80000gn/T/
+shcjveg            425   0.0  0.1  4440932  15904   ??  S    六03下午   0:43.56 /System/Library/PrivateFrameworks/ScreenTimeCore.framework/Versions/A/ScreenTimeAgent XPC_SERVICE_NAME=com.apple.ScreenTimeAgent SSH_AUTH_SOCK=/private/tmp/com.apple.launchd.CcC9BwPYF4/Listeners PATH=/usr/bin:/bin:/usr/sbin:/sbin XPC_FLAGS=19 LOGNAME=shcjveg USER=shcjveg HOME=/Users/shcjveg SHELL=/bin/bash TMPDIR=/var/folders/r0/_s4g94s95db201lhl035tww80000gn/T/
+shcjveg          42041   0.0  0.1  4872344  15900   ??  Ss   11:45上午   0:00.07 /System/Library/Frameworks/Metal.framework/Versions/A/XPCServices/MTLCompilerService.xpc/Contents/MacOS/MTLCompilerService LaunchInstanceID=10FCF8A9-E61C-497C-AE1F-7232A9EC8A05 XPC_SERVICE_NAME=com.apple.MTLCompilerService MallocNanoZone=1 PATH=/usr/bin:/bin:/usr/sbin:/sbin SSH_AUTH_SOCK=/private/tmp/com.apple.launchd.CcC9BwPYF4/Listeners HOME=/Users/shcjveg __CF_USER_TEXT_ENCODING=0x1F5:0x19:0x34 TMPDIR=/var/folders/r0/_s4g94s95db201lhl035tww80000gn/T/ XPC_FLAGS=19 LOGNAME=shcjveg USER=shcjveg SHELL=/bin/bash
+shcjveg            412   0.0  0.1  4436520  15480   ??  S    六03下午   0:17.66 /usr/libexec/routined LAUNCHED_BY_LAUNCHD XPC_SERVICE_NAME=com.apple.routined SSH_AUTH_SOCK=/private/tmp/com.apple.launchd.CcC9BwPYF4/Listeners PATH=/usr/bin:/bin:/usr/sbin:/sbin XPC_FLAGS=19 LOGNAME=shcjveg USER=shcjveg HOME=/Users/shcjveg SHELL=/bin/bash TMPDIR=/var/folders/r0/_s4g94s95db201lhl035tww80000gn/T/
+shcjveg          12582   0.0  0.1  5005592  14916   ??  S    日01下午   0:02.09 /Applications/TencentMeeting.app/Contents/Frameworks/WeMeet.framework/Versions/A/Resources/WemeetLauncher.app/Contents/MacOS/WemeetLauncher --command=startup --target=/Applications/TencentMeeting.app/Contents/MacOS/TencentMeeting --originalcmd=wemeet://page/inmeeting?meeting_code=689524097&token=&launch_id=Ew22k5EsEDY2YNP2 --detach=0 --pid=12580 USER=shcjveg LOGNAME=shcjveg PATH=/usr/bin:/bin:/usr/sbin:/sbin SSH_AUTH_SOCK=/private/tmp/com.apple.launchd.CcC9BwPYF4/Listeners HOME=/Users/shcjveg SHELL=/bin/bash __CF_USER_TEXT_ENCODING=0x1F5:0x19:0x34 TMPDIR=/var/folders/r0/_s4g94s95db201lhl035tww80000gn/T/ XPC_SERVICE_NAME=com.tencent.wemeet.WemeetLauncher.20304 XPC_FLAGS=1
+shcjveg          36526   0.0  0.1  4448520  14756   ??  S     3:03上午   0:01.12 /usr/libexec/remindd XPC_SERVICE_NAME=com.apple.remindd SSH_AUTH_SOCK=/private/tmp/com.apple.launchd.CcC9BwPYF4/Listeners PATH=/usr/bin:/bin:/usr/sbin:/sbin XPC_FLAGS=19 LOGNAME=shcjveg USER=shcjveg HOME=/Users/shcjveg SHELL=/bin/bash TMPDIR=/var/folders/r0/_s4g94s95db201lhl035tww80000gn/T/
+shcjveg          40885   0.0  0.1  4433560  14700   ??  Ss   10:22上午   0:00.56 /System/Library/PrivateFrameworks/SafariShared.framework/Versions/A/XPCServices/com.apple.Safari.SearchHelper.xpc/Contents/MacOS/com.apple.Safari.SearchHelper XPC_SERVICE_NAME=com.apple.Safari.SearchHelper PATH=/usr/bin:/bin:/usr/sbin:/sbin SSH_AUTH_SOCK=/private/tmp/com.apple.launchd.CcC9BwPYF4/Listeners HOME=/Users/shcjveg __CF_USER_TEXT_ENCODING=0x1F5:0x19:0x34 TMPDIR=/var/folders/r0/_s4g94s95db201lhl035tww80000gn/T/ XPC_FLAGS=19 LOGNAME=shcjveg USER=shcjveg SHELL=/bin/bash
+shcjveg          42964   0.0  0.1  4891800  14660   ??  Ss   12:04下午   0:00.06 /System/Library/Frameworks/Metal.framework/Versions/A/XPCServices/MTLCompilerService.xpc/Contents/MacOS/MTLCompilerService LaunchInstanceID=5EC8BDAA-3176-4017-A309-5859608F1E9D XPC_SERVICE_NAME=com.apple.MTLCompilerService MallocNanoZone=1 PATH=/usr/bin:/bin:/usr/sbin:/sbin SSH_AUTH_SOCK=/private/tmp/com.apple.launchd.CcC9BwPYF4/Listeners HOME=/Users/shcjveg __CF_USER_TEXT_ENCODING=0x1F5:0x19:0x34 TMPDIR=/var/folders/r0/_s4g94s95db201lhl035tww80000gn/T/ XPC_FLAGS=19 LOGNAME=shcjveg USER=shcjveg SHELL=/bin/bash
+shcjveg          42030   0.0  0.1  4854936  14340   ??  Ss   11:44上午   0:00.06 /System/Library/Frameworks/Metal.framework/Versions/A/XPCServices/MTLCompilerService.xpc/Contents/MacOS/MTLCompilerService LaunchInstanceID=82F8AD52-C7C0-42D4-A04E-00A55112C0CC XPC_SERVICE_NAME=com.apple.MTLCompilerService MallocNanoZone=1 PATH=/usr/bin:/bin:/usr/sbin:/sbin SSH_AUTH_SOCK=/private/tmp/com.apple.launchd.CcC9BwPYF4/Listeners HOME=/Users/shcjveg __CF_USER_TEXT_ENCODING=0x1F5:0x19:0x34 TMPDIR=/var/folders/r0/_s4g94s95db201lhl035tww80000gn/T/ XPC_FLAGS=19 LOGNAME=shcjveg USER=shcjveg SHELL=/bin/bash
+shcjveg            492   0.0  0.1  4442460  14252   ??  S    六03下午   0:10.23 /System/Library/PrivateFrameworks/CommerceKit.framework/Versions/A/Resources/commerce XPC_SERVICE_NAME=com.apple.commerce SSH_AUTH_SOCK=/private/tmp/com.apple.launchd.CcC9BwPYF4/Listeners PATH=/usr/bin:/bin:/usr/sbin:/sbin XPC_FLAGS=9 LOGNAME=shcjveg USER=shcjveg HOME=/Users/shcjveg SHELL=/bin/bash TMPDIR=/var/folders/r0/_s4g94s95db201lhl035tww80000gn/T/
+shcjveg            413   0.0  0.1  4435716  14228   ??  S    六03下午   0:07.85 /usr/sbin/usernoted XPC_SERVICE_NAME=com.apple.usernoted SSH_AUTH_SOCK=/private/tmp/com.apple.launchd.CcC9BwPYF4/Listeners PATH=/usr/bin:/bin:/usr/sbin:/sbin XPC_FLAGS=1 LOGNAME=shcjveg USER=shcjveg HOME=/Users/shcjveg SHELL=/bin/bash TMPDIR=/var/folders/r0/_s4g94s95db201lhl035tww80000gn/T/
+shcjveg          33010   0.0  0.1  4954328  14180   ??  Ss    8:54下午   0:01.37 /System/Library/Frameworks/Quartz.framework/Versions/A/Frameworks/QuickLookUI.framework/Versions/A/XPCServices/QuickLookUIService.xpc/Contents/MacOS/QuickLookUIService XPC_SERVICE_NAME=com.apple.quicklook.QuickLookUIService PATH=/usr/bin:/bin:/usr/sbin:/sbin SSH_AUTH_SOCK=/private/tmp/com.apple.launchd.CcC9BwPYF4/Listeners HOME=/Users/shcjveg __CF_USER_TEXT_ENCODING=0x1F5:0x19:0x34 TMPDIR=/var/folders/r0/_s4g94s95db201lhl035tww80000gn/T/ XPC_FLAGS=19 LOGNAME=shcjveg USER=shcjveg SHELL=/bin/bash
+shcjveg          42170   0.0  0.1  4391944  14172   ??  S    11:53上午   0:00.29 /System/Library/Frameworks/CoreServices.framework/Frameworks/Metadata.framework/Versions/A/Support/mdworker_shared -s mdworker -c MDSImporterWorker -m com.apple.mdworker.shared LaunchInstanceID=08000000-0300-0000-0000-000000000000 XPC_SERVICE_NAME=com.apple.mdworker.shared MallocCorruptionAbort=1 PATH=/usr/bin:/bin:/usr/sbin:/sbin XPC_FLAGS=19 LOGNAME=shcjveg USER=shcjveg HOME=/Users/shcjveg SHELL=/bin/bash TMPDIR=/var/folders/r0/_s4g94s95db201lhl035tww80000gn/T/
+shcjveg          32600   0.0  0.1  4461688  13848   ??  S     8:23下午   0:04.02 com.xunlei.Thunder.ThunderHelper XPC_SERVICE_NAME=com.xunlei.Thunder.ThunderHelper SSH_AUTH_SOCK=/private/tmp/com.apple.launchd.CcC9BwPYF4/Listeners PATH=/usr/bin:/bin:/usr/sbin:/sbin XPC_FLAGS=9 LOGNAME=shcjveg USER=shcjveg HOME=/Users/shcjveg SHELL=/bin/bash TMPDIR=/var/folders/r0/_s4g94s95db201lhl035tww80000gn/T/
+root               147   0.0  0.1  4437260  13740   ??  Ss   六03下午   0:09.32 /usr/libexec/coreduetd
+_locationd         159   0.0  0.1  4447520  13680   ??  Ss   六03下午   0:44.72 /usr/libexec/locationd
+root               189   0.0  0.1  4435092  13504   ??  Ss   六03下午   0:11.65 /System/Library/PrivateFrameworks/TCC.framework/Resources/tccd system
+shcjveg            449   0.0  0.1  4525988  13388   ??  S    六03下午   0:06.21 /System/Library/PrivateFrameworks/AMPLibrary.framework/Versions/A/Support/AMPLibraryAgent --launchd XPC_SERVICE_NAME=com.apple.AMPLibraryAgent SSH_AUTH_SOCK=/private/tmp/com.apple.launchd.CcC9BwPYF4/Listeners PATH=/usr/bin:/bin:/usr/sbin:/sbin XPC_FLAGS=19 LOGNAME=shcjveg USER=shcjveg HOME=/Users/shcjveg SHELL=/bin/bash TMPDIR=/var/folders/r0/_s4g94s95db201lhl035tww80000gn/T/
+shcjveg            405   0.0  0.1  4447212  13268   ??  S    六03下午   0:17.50 /usr/libexec/nsurlsessiond XPC_SERVICE_NAME=com.apple.nsurlsessiond SSH_AUTH_SOCK=/private/tmp/com.apple.launchd.CcC9BwPYF4/Listeners PATH=/usr/bin:/bin:/usr/sbin:/sbin XPC_FLAGS=19 LOGNAME=shcjveg USER=shcjveg HOME=/Users/shcjveg SHELL=/bin/bash TMPDIR=/var/folders/r0/_s4g94s95db201lhl035tww80000gn/T/
+shcjveg            419   0.0  0.1  4443812  13232   ??  S    六03下午   0:10.72 /System/Library/PrivateFrameworks/CoreParsec.framework/parsecd CFNETWORK_STORAGED_TIMERELOFF=YES XPC_SERVICE_NAME=com.apple.parsecd SSH_AUTH_SOCK=/private/tmp/com.apple.launchd.CcC9BwPYF4/Listeners PATH=/usr/bin:/bin:/usr/sbin:/sbin XPC_FLAGS=19 LOGNAME=shcjveg USER=shcjveg HOME=/Users/shcjveg SHELL=/bin/bash TMPDIR=/var/folders/r0/_s4g94s95db201lhl035tww80000gn/T/
+root               304   0.0  0.1  4389904  13220   ??  S    六03下午   6:58.33 /Applications/EasyConnect.app/Contents/Resources/bin/ECAgent
+root               124   0.0  0.1  4435556  12916   ??  Ss   六03下午  10:42.04 /System/Library/PrivateFrameworks/MediaRemote.framework/Support/mediaremoted
+shcjveg            431   0.0  0.1  4431924  12832   ??  Ss   六03下午   0:02.61 /System/Library/PrivateFrameworks/CalendarNotification.framework/Versions/A/XPCServices/CalNCService.xpc/Contents/MacOS/CalNCService XPC_SERVICE_NAME=com.apple.CalendarNotification.CalNCService PATH=/usr/bin:/bin:/usr/sbin:/sbin SSH_AUTH_SOCK=/private/tmp/com.apple.launchd.CcC9BwPYF4/Listeners HOME=/Users/shcjveg TMPDIR=/var/folders/r0/_s4g94s95db201lhl035tww80000gn/T/ XPC_FLAGS=19 LOGNAME=shcjveg USER=shcjveg SHELL=/bin/bash
+root               151   0.0  0.1  4443068  12716   ??  Ss   六03下午   0:31.49 /System/Library/PrivateFrameworks/ApplePushService.framework/apsd
+shcjveg            404   0.0  0.1  4435312  12700   ??  S    六03下午   0:04.59 /System/Library/PrivateFrameworks/TCC.framework/Resources/tccd XPC_SERVICE_NAME=com.apple.tccd SSH_AUTH_SOCK=/private/tmp/com.apple.launchd.CcC9BwPYF4/Listeners PATH=/usr/bin:/bin:/usr/sbin:/sbin XPC_FLAGS=19 LOGNAME=shcjveg USER=shcjveg HOME=/Users/shcjveg SHELL=/bin/bash TMPDIR=/var/folders/r0/_s4g94s95db201lhl035tww80000gn/T/
+shcjveg          43008   0.0  0.1  4430964  12580   ??  S    12:08下午   0:00.41 /System/Library/PrivateFrameworks/SyncedDefaults.framework/Support/syncdefaultsd XPC_SERVICE_NAME=com.apple.syncdefaultsd SSH_AUTH_SOCK=/private/tmp/com.apple.launchd.CcC9BwPYF4/Listeners PATH=/usr/bin:/bin:/usr/sbin:/sbin XPC_FLAGS=19 LOGNAME=shcjveg USER=shcjveg HOME=/Users/shcjveg SHELL=/bin/bash TMPDIR=/var/folders/r0/_s4g94s95db201lhl035tww80000gn/T/
+shcjveg            398   0.3  0.1  4431764  12576   ??  S    六03下午   1:20.63 /usr/libexec/trustd --agent WAIT4DEBUGGER=NO DEBUGSCOPE=-policy-node,policy-set,policy,alloc,trust,bind,profile,trace,dbconn,OTR,serverxpc,sqlite3,error_thee_well XPC_SERVICE_NAME=com.apple.trustd.agent PATH=/usr/bin:/bin:/usr/sbin:/sbin XPC_FLAGS=19 LOGNAME=shcjveg USER=shcjveg HOME=/Users/shcjveg SHELL=/bin/bash TMPDIR=/var/folders/r0/_s4g94s95db201lhl035tww80000gn/T/
+root               150   0.0  0.1  4460260  12540   ??  Ss   六03下午   0:37.53 /usr/libexec/opendirectoryd
+shcjveg            396   0.0  0.1  4442676  12196   ??  S    六03下午   0:05.98 /usr/libexec/lsd XPC_SERVICE_NAME=com.apple.lsd PATH=/usr/bin:/bin:/usr/sbin:/sbin XPC_FLAGS=9 LOGNAME=shcjveg USER=shcjveg HOME=/Users/shcjveg SHELL=/bin/bash TMPDIR=/var/folders/r0/_s4g94s95db201lhl035tww80000gn/T/
+shcjveg           1315   0.0  0.1  5052444  12196   ??  S    六03下午   0:03.73 /System/Library/Frameworks/LocalAuthentication.framework/Support/coreautha.bundle/Contents/MacOS/coreautha XPC_SERVICE_NAME=com.apple.LocalAuthentication.UIAgent SSH_AUTH_SOCK=/private/tmp/com.apple.launchd.CcC9BwPYF4/Listeners PATH=/usr/bin:/bin:/usr/sbin:/sbin XPC_FLAGS=19 LOGNAME=shcjveg USER=shcjveg HOME=/Users/shcjveg SHELL=/bin/bash TMPDIR=/var/folders/r0/_s4g94s95db201lhl035tww80000gn/T/
+shcjveg            648   0.0  0.1  4545368  12092   ??  S    六03下午   0:04.97 /System/Library/CoreServices/TextInputSwitcher.app/Contents/MacOS/TextInputSwitcher XPC_SERVICE_NAME=com.apple.TextInputSwitcher SSH_AUTH_SOCK=/private/tmp/com.apple.launchd.CcC9BwPYF4/Listeners PATH=/usr/bin:/bin:/usr/sbin:/sbin XPC_FLAGS=19 LOGNAME=shcjveg USER=shcjveg HOME=/Users/shcjveg SHELL=/bin/bash TMPDIR=/var/folders/r0/_s4g94s95db201lhl035tww80000gn/T/
+shcjveg            442   0.0  0.1  4438976  12068   ??  S    六03下午   0:50.28 /System/Library/PrivateFrameworks/GeoServices.framework/Versions/A/XPCServices/com.apple.geod.xpc/Contents/MacOS/com.apple.geod DEFAULT_NETWORK_PRIVACY_LEVEL=public XPC_SERVICE_NAME=com.apple.geod PATH=/usr/bin:/bin:/usr/sbin:/sbin XPC_FLAGS=19 LOGNAME=shcjveg USER=shcjveg HOME=/Users/shcjveg SHELL=/bin/bash TMPDIR=/var/folders/r0/_s4g94s95db201lhl035tww80000gn/T/
+shcjveg            527   0.0  0.1  4944748  11968   ??  S    六03下午   0:45.87 /System/Library/Frameworks/QuickLookThumbnailing.framework/Support/com.apple.quicklook.ThumbnailsAgent XPC_SERVICE_NAME=com.apple.quicklook.ThumbnailsAgent SSH_AUTH_SOCK=/private/tmp/com.apple.launchd.CcC9BwPYF4/Listeners PATH=/usr/bin:/bin:/usr/sbin:/sbin XPC_FLAGS=19 LOGNAME=shcjveg USER=shcjveg HOME=/Users/shcjveg SHELL=/bin/bash TMPDIR=/var/folders/r0/_s4g94s95db201lhl035tww80000gn/T/
+root               173   0.2  0.1  4373760  11872   ??  Ss   六03下午  34:15.18 /Applications/EasyConnect.app/Contents/Resources/bin/EasyMonitor
+shcjveg           2139   0.0  0.1  4539288  11692   ??  S    六05下午   0:05.65 /System/Library/CoreServices/PowerChime.app/Contents/MacOS/PowerChime XPC_SERVICE_NAME=com.apple.powerchime SSH_AUTH_SOCK=/private/tmp/com.apple.launchd.CcC9BwPYF4/Listeners PATH=/usr/bin:/bin:/usr/sbin:/sbin XPC_FLAGS=1 LOGNAME=shcjveg USER=shcjveg HOME=/Users/shcjveg SHELL=/bin/bash TMPDIR=/var/folders/r0/_s4g94s95db201lhl035tww80000gn/T/
+root               122   0.0  0.1  4930364  11672   ??  Ss   六03下午   0:24.43 /usr/libexec/kextd
+root               153   0.0  0.1  4430500  11660   ??  Ss   六03下午   0:48.95 /System/Library/CoreServices/launchservicesd
+shcjveg          40615   0.0  0.1  4424924  11660   ??  S     9:58上午   0:00.11 /System/Library/PrivateFrameworks/CloudPhotoServices.framework/Versions/A/XPCServices/com.apple.CloudPhotosConfiguration.xpc/Contents/MacOS/com.apple.CloudPhotosConfiguration XPC_SERVICE_NAME=com.apple.CloudPhotosConfiguration PATH=/usr/bin:/bin:/usr/sbin:/sbin XPC_FLAGS=19 LOGNAME=shcjveg USER=shcjveg HOME=/Users/shcjveg SHELL=/bin/bash TMPDIR=/var/folders/r0/_s4g94s95db201lhl035tww80000gn/T/
+shcjveg            429   0.0  0.1  4460896  11572   ??  S    六03下午   0:26.43 /System/Library/CoreServices/WiFiAgent.app/Contents/MacOS/WiFiAgent XPC_SERVICE_NAME=com.apple.wifi.WiFiAgent SSH_AUTH_SOCK=/private/tmp/com.apple.launchd.CcC9BwPYF4/Listeners PATH=/usr/bin:/bin:/usr/sbin:/sbin XPC_FLAGS=9 LOGNAME=shcjveg USER=shcjveg HOME=/Users/shcjveg SHELL=/bin/bash TMPDIR=/var/folders/r0/_s4g94s95db201lhl035tww80000gn/T/
+shcjveg            755   0.0  0.1  4966752  11308   ??  S    六03下午   0:11.95 /System/Library/CoreServices/LocationMenu.app/Contents/MacOS/LocationMenu XPC_SERVICE_NAME=com.apple.locationmenu SSH_AUTH_SOCK=/private/tmp/com.apple.launchd.CcC9BwPYF4/Listeners PATH=/usr/bin:/bin:/usr/sbin:/sbin XPC_FLAGS=19 LOGNAME=shcjveg USER=shcjveg HOME=/Users/shcjveg SHELL=/bin/bash TMPDIR=/var/folders/r0/_s4g94s95db201lhl035tww80000gn/T/
+root               210   0.0  0.1  4434616  11280   ??  Ss   六03下午   8:07.17 /System/Library/PrivateFrameworks/CoreDuetContext.framework/Resources/contextstored
+shcjveg            441   0.0  0.1  4432244  11220   ??  S    六03下午   0:13.54 /usr/libexec/pkd XPC_SERVICE_NAME=com.apple.pluginkit.pkd PATH=/usr/bin:/bin:/usr/sbin:/sbin XPC_FLAGS=19 LOGNAME=shcjveg USER=shcjveg HOME=/Users/shcjveg SHELL=/bin/bash TMPDIR=/var/folders/r0/_s4g94s95db201lhl035tww80000gn/T/
+shcjveg            650   0.0  0.1  5072576  10944   ??  S    六03下午   1:38.09 /Applications/Magnet.app/Contents/MacOS/Magnet USER=shcjveg SECURITYSESSIONID=186a6 PATH=/usr/bin:/bin:/usr/sbin:/sbin HOME=/Users/shcjveg SHELL=/bin/bash LaunchInstanceID=A00EB08A-2E54-4382-A344-4098CE41F561 __CF_USER_TEXT_ENCODING=0x1F5:0x19:0x34 XPC_SERVICE_NAME=com.crowdcafe.windowmagnet.14668 SSH_AUTH_SOCK=/private/tmp/com.apple.launchd.CcC9BwPYF4/Listeners XPC_FLAGS=1 LOGNAME=shcjveg TMPDIR=/var/folders/r0/_s4g94s95db201lhl035tww80000gn/T/
+shcjveg            524   0.0  0.1  5042252  10832   ??  Ss   六03下午   0:03.10 /System/Library/CoreServices/Dock.app/Contents/XPCServices/com.apple.dock.extra.xpc/Contents/MacOS/com.apple.dock.extra XPC_SERVICE_NAME=com.apple.dock.extra PATH=/usr/bin:/bin:/usr/sbin:/sbin SSH_AUTH_SOCK=/private/tmp/com.apple.launchd.CcC9BwPYF4/Listeners HOME=/Users/shcjveg TMPDIR=/var/folders/r0/_s4g94s95db201lhl035tww80000gn/T/ XPC_FLAGS=19 LOGNAME=shcjveg USER=shcjveg SHELL=/bin/bash
+shcjveg            625   0.0  0.1  4503612  10824   ??  S    六03下午   0:13.79 /Library/Input Methods/SogouInput.app/Contents/SogouServices XPC_SERVICE_NAME=com.sogou.SogouServices SSH_AUTH_SOCK=/private/tmp/com.apple.launchd.CcC9BwPYF4/Listeners PATH=/usr/bin:/bin:/usr/sbin:/sbin XPC_FLAGS=1 LOGNAME=shcjveg USER=shcjveg HOME=/Users/shcjveg SHELL=/bin/bash TMPDIR=/var/folders/r0/_s4g94s95db201lhl035tww80000gn/T/
+shcjveg            516   0.0  0.1  5255700  10812   ??  Ss   六03下午   0:14.87 /System/Library/Input Methods/EmojiFunctionRowIM.app/Contents/PlugIns/EmojiFunctionRowIM_Extension.appex/Contents/MacOS/EmojiFunctionRowIM_Extension XPC_SERVICE_NAME=com.apple.inputmethod.EmojiFunctionRowItem PATH=/usr/bin:/bin:/usr/sbin:/sbin SSH_AUTH_SOCK=/private/tmp/com.apple.launchd.CcC9BwPYF4/Listeners HOME=/Users/shcjveg TMPDIR=/var/folders/r0/_s4g94s95db201lhl035tww80000gn/T/ XPC_FLAGS=419 LOGNAME=shcjveg USER=shcjveg SHELL=/bin/bash
+shcjveg            435   0.0  0.1  4439116  10544   ??  S    六03下午   0:02.75 /System/Library/PrivateFrameworks/TelephonyUtilities.framework/callservicesd NSRunningFromLaunchd=1 XPC_SERVICE_NAME=com.apple.telephonyutilities.callservicesd SSH_AUTH_SOCK=/private/tmp/com.apple.launchd.CcC9BwPYF4/Listeners PATH=/usr/bin:/bin:/usr/sbin:/sbin XPC_FLAGS=19 LOGNAME=shcjveg USER=shcjveg HOME=/Users/shcjveg SHELL=/bin/bash TMPDIR=/var/folders/r0/_s4g94s95db201lhl035tww80000gn/T/
+_windowserver     1892   0.0  0.1  4903536  10468   ??  Ss   六05下午   0:00.13 /System/Library/Frameworks/Metal.framework/Versions/A/XPCServices/MTLCompilerService.xpc/Contents/MacOS/MTLCompilerService
+_softwareupdate    730   0.0  0.1  4619900  10348   ??  Ss   六03下午   0:35.72 /System/Library/CoreServices/Software Update.app/Contents/Resources/softwareupdated
+shcjveg          32602   0.0  0.1  4442092  10296   ??  Ss    8:23下午   0:00.95 /System/Library/Frameworks/WebKit.framework/Versions/A/XPCServices/com.apple.WebKit.Networking.xpc/Contents/MacOS/com.apple.WebKit.Networking LaunchInstanceID=4132FAFB-06E7-41FD-AC7E-51A9A52FF36D XPC_SERVICE_NAME=com.apple.WebKit.Networking PATH=/usr/bin:/bin:/usr/sbin:/sbin SSH_AUTH_SOCK=/private/tmp/com.apple.launchd.CcC9BwPYF4/Listeners HOME=/Users/shcjveg __CF_USER_TEXT_ENCODING=0x1F5:0x19:0x34 TMPDIR=/var/folders/r0/_s4g94s95db201lhl035tww80000gn/T/ XPC_FLAGS=19 LOGNAME=shcjveg USER=shcjveg SHELL=/bin/bash
+shcjveg            428   0.6  0.1  4435868  10012   ??  S    六03下午   0:27.30 /usr/libexec/nsurlstoraged XPC_SERVICE_NAME=com.apple.nsurlstoraged SSH_AUTH_SOCK=/private/tmp/com.apple.launchd.CcC9BwPYF4/Listeners PATH=/usr/bin:/bin:/usr/sbin:/sbin XPC_FLAGS=19 LOGNAME=shcjveg USER=shcjveg HOME=/Users/shcjveg SHELL=/bin/bash TMPDIR=/var/folders/r0/_s4g94s95db201lhl035tww80000gn/T/
+shcjveg            443   0.0  0.1  4431860   9948   ??  S    六03下午   0:01.51 /System/Library/PrivateFrameworks/IMDPersistence.framework/XPCServices/IMDPersistenceAgent.xpc/Contents/MacOS/IMDPersistenceAgent XPC_SERVICE_NAME=com.apple.imdpersistence.IMDPersistenceAgent PATH=/usr/bin:/bin:/usr/sbin:/sbin XPC_FLAGS=19 LOGNAME=shcjveg USER=shcjveg HOME=/Users/shcjveg SHELL=/bin/bash TMPDIR=/var/folders/r0/_s4g94s95db201lhl035tww80000gn/T/
+root               307   0.0  0.1  4428232   9728   ??  Ss   六03下午   0:00.65 /System/Library/CoreServices/backupd.bundle/Contents/Resources/backupd-helper -launchd
+root               799   0.0  0.1  4439980   9584   ??  S    六03下午   0:16.18 /System/Library/PrivateFrameworks/GeoServices.framework/Versions/A/XPCServices/com.apple.geod.xpc/Contents/MacOS/com.apple.geod
+shcjveg            421   0.0  0.1  4440056   9336   ??  S    六03下午   0:05.86 /System/Library/PrivateFrameworks/IDS.framework/identityservicesd.app/Contents/MacOS/identityservicesd NSRunningFromLaunchd=1 XPC_SERVICE_NAME=com.apple.identityservicesd SSH_AUTH_SOCK=/private/tmp/com.apple.launchd.CcC9BwPYF4/Listeners PATH=/usr/bin:/bin:/usr/sbin:/sbin XPC_FLAGS=1 LOGNAME=shcjveg USER=shcjveg HOME=/Users/shcjveg SHELL=/bin/bash TMPDIR=/var/folders/r0/_s4g94s95db201lhl035tww80000gn/T/
+_analyticsd        207   0.0  0.1  4431364   9064   ??  Ss   六03下午   0:04.67 /System/Library/PrivateFrameworks/CoreAnalytics.framework/Support/analyticsd
+shcjveg           5891   0.0  0.1  4434880   9064   ??  S    六11下午   0:02.44 /System/Library/PrivateFrameworks/PassKitCore.framework/passd XPC_SERVICE_NAME=com.apple.passd SSH_AUTH_SOCK=/private/tmp/com.apple.launchd.CcC9BwPYF4/Listeners PATH=/usr/bin:/bin:/usr/sbin:/sbin XPC_FLAGS=9 LOGNAME=shcjveg USER=shcjveg HOME=/Users/shcjveg SHELL=/bin/bash TMPDIR=/var/folders/r0/_s4g94s95db201lhl035tww80000gn/T/
+shcjveg            548   0.0  0.1  4439932   9040   ??  Ss   六03下午   0:13.63 /System/Library/Frameworks/WebKit.framework/Versions/A/XPCServices/com.apple.WebKit.Networking.xpc/Contents/MacOS/com.apple.WebKit.Networking LaunchInstanceID=7F62A747-2496-4C12-AE63-D54335FA777C XPC_SERVICE_NAME=com.apple.WebKit.Networking PATH=/usr/bin:/bin:/usr/sbin:/sbin SSH_AUTH_SOCK=/private/tmp/com.apple.launchd.CcC9BwPYF4/Listeners HOME=/Users/shcjveg __CF_USER_TEXT_ENCODING=0x1F5:0x19:0x34 TMPDIR=/var/folders/r0/_s4g94s95db201lhl035tww80000gn/T/ XPC_FLAGS=19 LOGNAME=shcjveg USER=shcjveg SHELL=/bin/bash
+shcjveg           2179   0.0  0.1  4464236   8948   ??  S    六05下午   0:05.01 /System/Library/PrivateFrameworks/Noticeboard.framework/Versions/A/Resources/nbagent.app/Contents/MacOS/nbagent XPC_SERVICE_NAME=com.apple.noticeboard.agent SSH_AUTH_SOCK=/private/tmp/com.apple.launchd.CcC9BwPYF4/Listeners PATH=/usr/bin:/bin:/usr/sbin:/sbin XPC_FLAGS=19 LOGNAME=shcjveg USER=shcjveg HOME=/Users/shcjveg SHELL=/bin/bash TMPDIR=/var/folders/r0/_s4g94s95db201lhl035tww80000gn/T/
+_networkd          255   0.0  0.1  4438216   8776   ??  Ss   六03下午   3:05.76 /usr/libexec/symptomsd
+root               325   0.0  0.1  4429444   8676   ??  Ss   六03下午   0:08.40 /usr/libexec/runningboardd
+shcjveg            420   0.0  0.1  4433384   8616   ??  S    六03下午   5:46.51 /System/Library/PrivateFrameworks/CoreDuetContext.framework/Resources/ContextStoreAgent XPC_SERVICE_NAME=com.apple.ContextStoreAgent SSH_AUTH_SOCK=/private/tmp/com.apple.launchd.CcC9BwPYF4/Listeners PATH=/usr/bin:/bin:/usr/sbin:/sbin XPC_FLAGS=19 LOGNAME=shcjveg USER=shcjveg HOME=/Users/shcjveg SHELL=/bin/bash TMPDIR=/var/folders/r0/_s4g94s95db201lhl035tww80000gn/T/
+shcjveg            457   0.0  0.1  4427060   8612   ??  S    六03下午   0:02.91 /System/Library/PrivateFrameworks/CloudDocsDaemon.framework/Versions/A/Support/bird XPC_SERVICE_NAME=com.apple.bird SSH_AUTH_SOCK=/private/tmp/com.apple.launchd.CcC9BwPYF4/Listeners PATH=/usr/bin:/bin:/usr/sbin:/sbin XPC_FLAGS=19 LOGNAME=shcjveg USER=shcjveg HOME=/Users/shcjveg SHELL=/bin/bash TMPDIR=/var/folders/r0/_s4g94s95db201lhl035tww80000gn/T/
+shcjveg            423   0.0  0.1  4436400   8464   ??  S    六03下午   0:15.02 /System/Library/Frameworks/CoreTelephony.framework/Support/CommCenter -L XPC_SERVICE_NAME=com.apple.CommCenter SSH_AUTH_SOCK=/private/tmp/com.apple.launchd.CcC9BwPYF4/Listeners PATH=/usr/bin:/bin:/usr/sbin:/sbin XPC_FLAGS=19 LOGNAME=shcjveg USER=shcjveg HOME=/Users/shcjveg SHELL=/bin/bash TMPDIR=/var/folders/r0/_s4g94s95db201lhl035tww80000gn/T/
+root               228   0.0  0.1  4437480   8464   ??  Ss   六03下午   1:18.48 /usr/libexec/trustd
+shcjveg           1036   0.0  0.1  4462780   8448   ??  S    六03下午   0:03.63 /System/Library/PrivateFrameworks/CommerceKit.framework/Versions/A/Resources/storeuid.app/Contents/MacOS/storeuid XPC_SERVICE_NAME=com.apple.storeuid SSH_AUTH_SOCK=/private/tmp/com.apple.launchd.CcC9BwPYF4/Listeners PATH=/usr/bin:/bin:/usr/sbin:/sbin XPC_FLAGS=9 LOGNAME=shcjveg USER=shcjveg HOME=/Users/shcjveg SHELL=/bin/bash TMPDIR=/var/folders/r0/_s4g94s95db201lhl035tww80000gn/T/
+shcjveg            629   0.2  0.1  4460396   8396   ??  S    六03下午   0:24.02 /System/Library/CoreServices/Siri.app/Contents/MacOS/Siri launchd XPC_SERVICE_NAME=com.apple.Siri.agent SSH_AUTH_SOCK=/private/tmp/com.apple.launchd.CcC9BwPYF4/Listeners PATH=/usr/bin:/bin:/usr/sbin:/sbin XPC_FLAGS=1 LOGNAME=shcjveg USER=shcjveg HOME=/Users/shcjveg SHELL=/bin/bash TMPDIR=/var/folders/r0/_s4g94s95db201lhl035tww80000gn/T/
+root               183   0.0  0.1  4429616   8392   ??  Ss   六03下午   0:03.38 /usr/libexec/amfid
+shcjveg          40888   0.0  0.1  4419964   8392   ??  Ss   10:22上午   0:00.18 /System/Library/PrivateFrameworks/Categories.framework/Versions/A/XPCServices/CategoriesService.xpc/Contents/MacOS/CategoriesService XPC_SERVICE_NAME=com.apple.ctcategories.service PATH=/usr/bin:/bin:/usr/sbin:/sbin SSH_AUTH_SOCK=/private/tmp/com.apple.launchd.CcC9BwPYF4/Listeners HOME=/Users/shcjveg __CF_USER_TEXT_ENCODING=0x1F5:0x19:0x34 TMPDIR=/var/folders/r0/_s4g94s95db201lhl035tww80000gn/T/ XPC_FLAGS=19 LOGNAME=shcjveg USER=shcjveg SHELL=/bin/bash
+shcjveg            459   0.0  0.0  4427244   8312   ??  S    六03下午   0:14.89 /System/Library/Frameworks/ApplicationServices.framework/Frameworks/ATS.framework/Support/fontd MallocStackLogging_=1 XPC_SERVICE_NAME=com.apple.xtyped SSH_AUTH_SOCK=/private/tmp/com.apple.launchd.CcC9BwPYF4/Listeners PATH=/usr/bin:/bin:/usr/sbin:/sbin XPC_FLAGS=9 LOGNAME=shcjveg USER=shcjveg HOME=/Users/shcjveg SHELL=/bin/bash TMPDIR=/var/folders/r0/_s4g94s95db201lhl035tww80000gn/T/
+shcjveg          30736   0.0  0.0  4427536   8292   ??  Ss    5:49下午   0:29.63 /System/Library/PrivateFrameworks/DiskImages.framework/Resources/diskimages-helper -uuid CF999FF7-AC16-4BBF-96B4-65157D356827 -post-exec 4 USER=shcjveg COMMAND_MODE=unix2003 PATH=/usr/bin:/bin:/usr/sbin:/sbin LOGNAME=shcjveg SSH_AUTH_SOCK=/private/tmp/com.apple.launchd.CcC9BwPYF4/Listeners HOME=/Users/shcjveg SHELL=/bin/bash TMPDIR=/var/folders/r0/_s4g94s95db201lhl035tww80000gn/T/ __CF_USER_TEXT_ENCODING=0x1F5:0x19:0x34 XPC_SERVICE_NAME=com.apple.xpc.launchd.oneshot.0x10000040.DiskImageMounter XPC_FLAGS=0x0
+shcjveg          41575   0.0  0.0  4909208   8264   ??  Ss   11:11上午   0:00.09 /System/Library/Frameworks/Metal.framework/Versions/A/XPCServices/MTLCompilerService.xpc/Contents/MacOS/MTLCompilerService LaunchInstanceID=7CE66323-9C42-48B8-90CC-AB873C3016D5 XPC_SERVICE_NAME=com.apple.MTLCompilerService MallocNanoZone=1 PATH=/usr/bin:/bin:/usr/sbin:/sbin SSH_AUTH_SOCK=/private/tmp/com.apple.launchd.CcC9BwPYF4/Listeners HOME=/Users/shcjveg __CF_USER_TEXT_ENCODING=0x1F5:0x19:0x34 TMPDIR=/var/folders/r0/_s4g94s95db201lhl035tww80000gn/T/ XPC_FLAGS=19 LOGNAME=shcjveg USER=shcjveg SHELL=/bin/bash
+shcjveg            461   0.0  0.0  4595104   8168   ??  S    六03下午   0:03.93 /System/Library/CoreServices/talagent NSRunningFromLaunchd=1 XPC_SERVICE_NAME=com.apple.talagent SSH_AUTH_SOCK=/private/tmp/com.apple.launchd.CcC9BwPYF4/Listeners PATH=/usr/bin:/bin:/usr/sbin:/sbin XPC_FLAGS=19 LOGNAME=shcjveg USER=shcjveg HOME=/Users/shcjveg SHELL=/bin/bash TMPDIR=/var/folders/r0/_s4g94s95db201lhl035tww80000gn/T/
+shcjveg            727   0.0  0.0  4468520   8068   ??  S    六03下午   0:03.23 /System/Library/PrivateFrameworks/SoftwareUpdate.framework/Resources/SoftwareUpdateNotificationManager.app/Contents/MacOS/SoftwareUpdateNotificationManager XPC_SERVICE_NAME=com.apple.SoftwareUpdateNotificationManager SSH_AUTH_SOCK=/private/tmp/com.apple.launchd.CcC9BwPYF4/Listeners PATH=/usr/bin:/bin:/usr/sbin:/sbin XPC_FLAGS=19 LOGNAME=shcjveg USER=shcjveg HOME=/Users/shcjveg SHELL=/bin/bash TMPDIR=/var/folders/r0/_s4g94s95db201lhl035tww80000gn/T/
+shcjveg            620   0.0  0.0  4437364   8004   ??  S    六03下午   0:03.75 /System/Library/PrivateFrameworks/CoreSpeech.framework/corespeechd XPC_SERVICE_NAME=com.apple.corespeechd SSH_AUTH_SOCK=/private/tmp/com.apple.launchd.CcC9BwPYF4/Listeners PATH=/usr/bin:/bin:/usr/sbin:/sbin XPC_FLAGS=9 LOGNAME=shcjveg USER=shcjveg HOME=/Users/shcjveg SHELL=/bin/bash TMPDIR=/var/folders/r0/_s4g94s95db201lhl035tww80000gn/T/
+shcjveg          33256   0.0  0.0  4440020   8000   ??  S     9:09下午   0:09.74 /Applications/Xcode.app/Contents/SharedFrameworks/DVTInstrumentsFoundation.framework/Resources/DTServiceHub PATH=/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin MallocNanoZone=0 TMPDIR=/var/folders/r0/_s4g94s95db201lhl035tww80000gn/T/ LOGNAME=shcjveg XPC_FLAGS=0x0 HOME=/Users/shcjveg USER=shcjveg SSH_AUTH_SOCK=/private/tmp/com.apple.launchd.CcC9BwPYF4/Listeners XPC_SERVICE_NAME=com.apple.dt.Xcode.20200 CA_ASSERT_MAIN_THREAD_TRANSACTIONS=1 SHELL=/bin/bash __DTX_SpawnParentPidKey=32943 __CF_USER_TEXT_ENCODING=0x1F5:0x19:0x34 CA_DEBUG_TRANSACTIONS=1
+root               123   0.0  0.0  5048924   7972   ??  Ss   六03下午   3:14.56 /System/Library/Frameworks/CoreServices.framework/Versions/A/Frameworks/FSEvents.framework/Versions/A/Support/fseventsd
+shcjveg          10450   0.0  0.0  4433364   7956   ??  Ss   日10上午   0:00.11 /System/Library/PrivateFrameworks/XprotectFramework.framework/Versions/A/XPCServices/XprotectService.xpc/Contents/MacOS/XprotectService XPC_SERVICE_NAME=com.apple.XprotectFramework.AnalysisService PATH=/usr/bin:/bin:/usr/sbin:/sbin SSH_AUTH_SOCK=/private/tmp/com.apple.launchd.CcC9BwPYF4/Listeners HOME=/Users/shcjveg TMPDIR=/var/folders/r0/_s4g94s95db201lhl035tww80000gn/T/ XPC_FLAGS=19 LOGNAME=shcjveg USER=shcjveg SHELL=/bin/bash
+shcjveg            387   0.0  0.0  4399452   7900   ??  S    六03下午   0:21.74 /usr/sbin/cfprefsd agent XPC_SERVICE_NAME=com.apple.cfprefsd.xpc.agent PATH=/usr/bin:/bin:/usr/sbin:/sbin XPC_FLAGS=19 LOGNAME=shcjveg USER=shcjveg HOME=/Users/shcjveg SHELL=/bin/bash TMPDIR=/var/folders/r0/_s4g94s95db201lhl035tww80000gn/T/
+root               165   0.0  0.0  4430012   7780   ??  Ss   六03下午   0:37.82 /usr/libexec/dasd
+root               305   0.0  0.0  4430144   7772   ??  Ss   六03下午   0:05.35 /usr/libexec/lsd runAsRoot
+shcjveg           1585   0.0  0.0  4958444   7732   ??  S    六04下午   0:05.28 /System/Library/CoreServices/OSDUIHelper.app/Contents/MacOS/OSDUIHelper XPC_SERVICE_NAME=com.apple.OSDUIHelper SSH_AUTH_SOCK=/private/tmp/com.apple.launchd.CcC9BwPYF4/Listeners PATH=/usr/bin:/bin:/usr/sbin:/sbin XPC_FLAGS=19 LOGNAME=shcjveg USER=shcjveg HOME=/Users/shcjveg SHELL=/bin/bash TMPDIR=/var/folders/r0/_s4g94s95db201lhl035tww80000gn/T/
+shcjveg            422   0.0  0.0  4427420   7712   ??  S    六03下午   0:03.14 /usr/libexec/secinitd XPC_SERVICE_NAME=com.apple.secinitd PATH=/usr/bin:/bin:/usr/sbin:/sbin XPC_FLAGS=19 LOGNAME=shcjveg USER=shcjveg HOME=/Users/shcjveg SHELL=/bin/bash TMPDIR=/var/folders/r0/_s4g94s95db201lhl035tww80000gn/T/
+shcjveg            522   0.0  0.0  4461656   7660   ??  S    六03下午   0:03.24 /System/Library/CoreServices/CoreLocationAgent.app/Contents/MacOS/CoreLocationAgent XPC_SERVICE_NAME=com.apple.CoreLocationAgent SSH_AUTH_SOCK=/private/tmp/com.apple.launchd.CcC9BwPYF4/Listeners PATH=/usr/bin:/bin:/usr/sbin:/sbin XPC_FLAGS=19 LOGNAME=shcjveg USER=shcjveg HOME=/Users/shcjveg SHELL=/bin/bash TMPDIR=/var/folders/r0/_s4g94s95db201lhl035tww80000gn/T/
+root               128   0.0  0.0  4431256   7636   ??  Ss   六03下午   0:26.11 /usr/libexec/configd
+shcjveg            583   0.0  0.0  4951044   7380   ??  S    六03下午   0:02.40 /Library/Developer/PrivateFrameworks/CoreSimulator.framework/Versions/A/XPCServices/com.apple.CoreSimulator.CoreSimulatorService.xpc/Contents/MacOS/com.apple.CoreSimulator.CoreSimulatorService XPC_SERVICE_NAME=com.apple.CoreSimulator.CoreSimulatorService PATH=/usr/bin:/bin:/usr/sbin:/sbin XPC_FLAGS=19 LOGNAME=shcjveg USER=shcjveg HOME=/Users/shcjveg SHELL=/bin/bash TMPDIR=/var/folders/r0/_s4g94s95db201lhl035tww80000gn/T/
+shcjveg           6188   0.0  0.0  4959676   7364   ??  S    日12上午   0:02.44 /System/Library/PrivateFrameworks/UniversalAccess.framework/Versions/A/Resources/universalAccessAuthWarn.app/Contents/MacOS/universalAccessAuthWarn launchd -s XPC_SERVICE_NAME=com.apple.universalaccessAuthWarn SSH_AUTH_SOCK=/private/tmp/com.apple.launchd.CcC9BwPYF4/Listeners PATH=/usr/bin:/bin:/usr/sbin:/sbin XPC_FLAGS=9 LOGNAME=shcjveg USER=shcjveg HOME=/Users/shcjveg SHELL=/bin/bash TMPDIR=/var/folders/r0/_s4g94s95db201lhl035tww80000gn/T/
+shcjveg            450   0.0  0.0  4957948   7364   ??  S    六03下午   0:03.01 /System/Library/PrivateFrameworks/AppSSO.framework/Support/AppSSOAgent.app/Contents/MacOS/AppSSOAgent XPC_SERVICE_NAME=com.apple.AppSSOAgent SSH_AUTH_SOCK=/private/tmp/com.apple.launchd.CcC9BwPYF4/Listeners PATH=/usr/bin:/bin:/usr/sbin:/sbin XPC_FLAGS=19 LOGNAME=shcjveg USER=shcjveg HOME=/Users/shcjveg SHELL=/bin/bash TMPDIR=/var/folders/r0/_s4g94s95db201lhl035tww80000gn/T/
+shcjveg          40631   0.0  0.0  4427080   7320   ??  S     9:58上午   0:00.13 /System/Library/PrivateFrameworks/ClassKit.framework/Versions/A/progressd XPC_SERVICE_NAME=com.apple.progressd SSH_AUTH_SOCK=/private/tmp/com.apple.launchd.CcC9BwPYF4/Listeners PATH=/usr/bin:/bin:/usr/sbin:/sbin XPC_FLAGS=19 LOGNAME=shcjveg USER=shcjveg HOME=/Users/shcjveg SHELL=/bin/bash TMPDIR=/var/folders/r0/_s4g94s95db201lhl035tww80000gn/T/
+shcjveg            390   0.0  0.0  4425868   7224   ??  S    六03下午   0:18.34 /usr/libexec/UserEventAgent (Aqua) XPC_SERVICE_NAME=com.apple.UserEventAgent-Aqua SSH_AUTH_SOCK=/private/tmp/com.apple.launchd.CcC9BwPYF4/Listeners PATH=/usr/bin:/bin:/usr/sbin:/sbin XPC_FLAGS=9 LOGNAME=shcjveg USER=shcjveg HOME=/Users/shcjveg SHELL=/bin/bash TMPDIR=/var/folders/r0/_s4g94s95db201lhl035tww80000gn/T/
+root             10452   0.0  0.0  4427024   7204   ??  Ss   日10上午   0:05.12 /usr/libexec/sandboxd
+_locationd         278   0.0  0.0  4436624   6980   ??  S    六03下午   0:06.88 /System/Library/PrivateFrameworks/GeoServices.framework/Versions/A/XPCServices/com.apple.geod.xpc/Contents/MacOS/com.apple.geod
+shcjveg            411   0.0  0.0  4425508   6952   ??  S    六03下午   0:04.94 /usr/libexec/rapportd XPC_SERVICE_NAME=com.apple.rapportd SSH_AUTH_SOCK=/private/tmp/com.apple.launchd.CcC9BwPYF4/Listeners PATH=/usr/bin:/bin:/usr/sbin:/sbin XPC_FLAGS=19 LOGNAME=shcjveg USER=shcjveg HOME=/Users/shcjveg SHELL=/bin/bash TMPDIR=/var/folders/r0/_s4g94s95db201lhl035tww80000gn/T/
+shcjveg            401   0.0  0.0  4426652   6936   ??  S    六03下午   0:01.40 /System/Library/CoreServices/sharedfilelistd XPC_SERVICE_NAME=com.apple.coreservices.sharedfilelistd SSH_AUTH_SOCK=/private/tmp/com.apple.launchd.CcC9BwPYF4/Listeners PATH=/usr/bin:/bin:/usr/sbin:/sbin XPC_FLAGS=1 LOGNAME=shcjveg USER=shcjveg HOME=/Users/shcjveg SHELL=/bin/bash TMPDIR=/var/folders/r0/_s4g94s95db201lhl035tww80000gn/T/
+shcjveg            394   0.0  0.0  4396684   6832   ??  S    六03下午   0:46.84 /usr/sbin/distnoted agent XPC_SERVICE_NAME=com.apple.distnoted.xpc.agent PATH=/usr/bin:/bin:/usr/sbin:/sbin XPC_FLAGS=9 LOGNAME=shcjveg USER=shcjveg HOME=/Users/shcjveg SHELL=/bin/bash TMPDIR=/var/folders/r0/_s4g94s95db201lhl035tww80000gn/T/
+root               156   0.0  0.0  4427632   6816   ??  Ss   六03下午   0:19.98 /usr/sbin/securityd -i
+shcjveg            646   0.0  0.0  5076716   6816   ??  S    六03下午   0:03.41 /Applications/Utilities/Adobe Creative Cloud Experience/CCXProcess/CCXProcess.app/Contents/MacOS/../libs/Adobe_CCXProcess.node /Applications/Utilities/Adobe Creative Cloud Experience/CCXProcess/CCXProcess.app/Contents/MacOS/../js/main.js USER=shcjveg PATH=/usr/bin:/bin:/usr/sbin:/sbin LOGNAME=shcjveg SSH_AUTH_SOCK=/private/tmp/com.apple.launchd.CcC9BwPYF4/Listeners HOME=/Users/shcjveg SHELL=/bin/bash __CF_USER_TEXT_ENCODING=0x1F5:0x19:0x34 TMPDIR=/var/folders/r0/_s4g94s95db201lhl035tww80000gn/T/ XPC_SERVICE_NAME=com.adobe.CCXProcess.14512 XPC_FLAGS=0x0
+shcjveg            481   0.0  0.0  4433624   6796   ??  Ss   六03下午   0:00.71 /System/Library/PrivateFrameworks/Categories.framework/Versions/A/XPCServices/CategoriesService.xpc/Contents/MacOS/CategoriesService XPC_SERVICE_NAME=com.apple.ctcategories.service PATH=/usr/bin:/bin:/usr/sbin:/sbin SSH_AUTH_SOCK=/private/tmp/com.apple.launchd.CcC9BwPYF4/Listeners HOME=/Users/shcjveg TMPDIR=/var/folders/r0/_s4g94s95db201lhl035tww80000gn/T/ XPC_FLAGS=19 LOGNAME=shcjveg USER=shcjveg SHELL=/bin/bash
+shcjveg           2166   0.0  0.0  4438484   6780   ??  Ss   六05下午   0:02.09 /System/Library/PrivateFrameworks/Categories.framework/Versions/A/XPCServices/CategoriesService.xpc/Contents/MacOS/CategoriesService XPC_SERVICE_NAME=com.apple.ctcategories.service PATH=/usr/bin:/bin:/usr/sbin:/sbin SSH_AUTH_SOCK=/private/tmp/com.apple.launchd.CcC9BwPYF4/Listeners HOME=/Users/shcjveg TMPDIR=/var/folders/r0/_s4g94s95db201lhl035tww80000gn/T/ XPC_FLAGS=19 LOGNAME=shcjveg USER=shcjveg SHELL=/bin/bash
+shcjveg            445   0.0  0.0  4438052   6780   ??  S    六03下午   0:04.99 /System/Library/PrivateFrameworks/AuthKit.framework/Versions/A/Support/akd XPC_SERVICE_NAME=com.apple.akd SSH_AUTH_SOCK=/private/tmp/com.apple.launchd.CcC9BwPYF4/Listeners PATH=/usr/bin:/bin:/usr/sbin:/sbin XPC_FLAGS=19 LOGNAME=shcjveg USER=shcjveg HOME=/Users/shcjveg SHELL=/bin/bash TMPDIR=/var/folders/r0/_s4g94s95db201lhl035tww80000gn/T/
+shcjveg            637   0.0  0.0  4956236   6708   ??  S    六03下午   0:03.65 /System/Library/CoreServices/AirPlayUIAgent.app/Contents/MacOS/AirPlayUIAgent --launchd XPC_SERVICE_NAME=com.apple.AirPlayUIAgent SSH_AUTH_SOCK=/private/tmp/com.apple.launchd.CcC9BwPYF4/Listeners PATH=/usr/bin:/bin:/usr/sbin:/sbin XPC_FLAGS=9 LOGNAME=shcjveg USER=shcjveg HOME=/Users/shcjveg SHELL=/bin/bash TMPDIR=/var/folders/r0/_s4g94s95db201lhl035tww80000gn/T/
+shcjveg           7468   0.0  0.0  4432828   6616   ??  Ss   日03上午   0:00.31 /System/Library/PrivateFrameworks/FMClient.framework/Versions/A/XPCServices/FMIPClientXPCService.xpc/Contents/MacOS/FMIPClientXPCService XPC_SERVICE_NAME=com.apple.icloud.FMIPClientXPCService PATH=/usr/bin:/bin:/usr/sbin:/sbin SSH_AUTH_SOCK=/private/tmp/com.apple.launchd.CcC9BwPYF4/Listeners HOME=/Users/shcjveg TMPDIR=/var/folders/r0/_s4g94s95db201lhl035tww80000gn/T/ XPC_FLAGS=19 LOGNAME=shcjveg USER=shcjveg SHELL=/bin/bash
+root               118   0.0  0.0  4426336   6540   ??  Ss   六03下午   1:06.34 /usr/libexec/UserEventAgent (System)
+shcjveg            693   0.0  0.0  4459684   6528   ??  S    六03下午   0:07.66 /Library/Application Support/Adobe/Adobe Desktop Common/IPCBox/AdobeIPCBroker.app/Contents/MacOS/AdobeIPCBroker -launchedbyvulcan /Applications/Utilities/Adobe Creative Cloud Experience/CCXProcess/CCXProcess.app/Contents/MacOS/../libs/Adobe_CCXProcess.node USER=shcjveg PATH=/usr/bin:/bin:/usr/sbin:/sbin LOGNAME=shcjveg SSH_AUTH_SOCK=/private/tmp/com.apple.launchd.CcC9BwPYF4/Listeners HOME=/Users/shcjveg SHELL=/bin/bash __CF_USER_TEXT_ENCODING=0x1F5:0x19:0x34 TMPDIR=/var/folders/r0/_s4g94s95db201lhl035tww80000gn/T/ XPC_SERVICE_NAME=0 XPC_FLAGS=0x0
+shcjveg           2165   0.0  0.0  4473572   6524   ??  S    六05下午   0:06.24 /System/Library/PrivateFrameworks/PhotoLibraryServices.framework/Versions/A/Support/photolibraryd XPC_SERVICE_NAME=com.apple.photolibraryd SSH_AUTH_SOCK=/private/tmp/com.apple.launchd.CcC9BwPYF4/Listeners PATH=/usr/bin:/bin:/usr/sbin:/sbin XPC_FLAGS=19 LOGNAME=shcjveg USER=shcjveg HOME=/Users/shcjveg SHELL=/bin/bash TMPDIR=/var/folders/r0/_s4g94s95db201lhl035tww80000gn/T/
+shcjveg          43006   0.0  0.0  4306552   6512 s002  T    12:08下午   0:00.19 lsof TERM_PROGRAM=Apple_Terminal SHELL=/bin/bash TERM=xterm-256color HOMEBREW_BOTTLE_DOMAIN=https://mirrors.ustc.edu.cn/homebrew-bottles TMPDIR=/var/folders/r0/_s4g94s95db201lhl035tww80000gn/T/ CONDA_SHLVL=1 CONDA_PROMPT_MODIFIER=(base)  TERM_PROGRAM_VERSION=433 TERM_SESSION_ID=D4AC605D-4683-4BBB-AE01-582537062110 USER=shcjveg CONDA_EXE=/Users/shcjveg/env/conda/anaconda3/bin/conda SSH_AUTH_SOCK=/private/tmp/com.apple.launchd.CcC9BwPYF4/Listeners _CE_CONDA= PATH=/Library/Frameworks/Python.framework/Versions/3.8/bin:/Users/shcjveg/env/conda/anaconda3/bin:/Users/shcjveg/env/conda/anaconda3/condabin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/Applications/VMware Fusion.app/Contents/Public:/Library/Apple/usr/bin CONDA_PREFIX=/Users/shcjveg/env/conda/anaconda3 PWD=/ LANG=zh_CN.UTF-8 XPC_FLAGS=0x0 _CE_M= XPC_SERVICE_NAME=0 SHLVL=1 HOME=/Users/shcjveg CONDA_PYTHON_EXE=/Users/shcjveg/env/conda/anaconda3/bin/python LOGNAME=shcjveg CONDA_DEFAULT_ENV=base _=/usr/sbin/lsof OLDPWD=/etc
+shcjveg            464   0.0  0.0  4430348   6496   ??  S    六03下午   0:00.34 /System/Library/Frameworks/Security.framework/Versions/A/XPCServices/TrustedPeersHelper.xpc/Contents/MacOS/TrustedPeersHelper XPC_SERVICE_NAME=com.apple.TrustedPeersHelper PATH=/usr/bin:/bin:/usr/sbin:/sbin XPC_FLAGS=19 LOGNAME=shcjveg USER=shcjveg HOME=/Users/shcjveg SHELL=/bin/bash TMPDIR=/var/folders/r0/_s4g94s95db201lhl035tww80000gn/T/
+shcjveg            427   0.0  0.0  4433440   6460   ??  S    六03下午   0:05.51 /System/Library/PrivateFrameworks/CoreParsec.framework/parsec-fbf XPC_SERVICE_NAME=com.apple.parsec-fbf SSH_AUTH_SOCK=/private/tmp/com.apple.launchd.CcC9BwPYF4/Listeners PATH=/usr/bin:/bin:/usr/sbin:/sbin XPC_FLAGS=19 LOGNAME=shcjveg USER=shcjveg HOME=/Users/shcjveg SHELL=/bin/bash TMPDIR=/var/folders/r0/_s4g94s95db201lhl035tww80000gn/T/
+_hidd              176   0.4  0.0  4428876   6388   ??  Ss   六03下午  11:30.88 /usr/libexec/hidd
+shcjveg          40431   0.0  0.0  4902400   6344   ??  S     9:42上午   0:00.03 /System/Library/CoreServices/PIPAgent.app/Contents/MacOS/PIPAgent XPC_SERVICE_NAME=com.apple.PIPAgent SSH_AUTH_SOCK=/private/tmp/com.apple.launchd.CcC9BwPYF4/Listeners PATH=/usr/bin:/bin:/usr/sbin:/sbin XPC_FLAGS=1 LOGNAME=shcjveg USER=shcjveg HOME=/Users/shcjveg SHELL=/bin/bash TMPDIR=/var/folders/r0/_s4g94s95db201lhl035tww80000gn/T/
+shcjveg            386   0.0  0.0  4424500   6052   ??  S    六03下午   0:00.86 /System/Library/Frameworks/LocalAuthentication.framework/Support/coreauthd XPC_SERVICE_NAME=com.apple.CoreAuthentication.agent PATH=/usr/bin:/bin:/usr/sbin:/sbin XPC_FLAGS=19 LOGNAME=shcjveg USER=shcjveg HOME=/Users/shcjveg SHELL=/bin/bash TMPDIR=/var/folders/r0/_s4g94s95db201lhl035tww80000gn/T/
+shcjveg            393   0.0  0.0  4436052   5932   ??  S    六03下午   0:01.95 /System/Library/PrivateFrameworks/CloudServices.framework/Helpers/com.apple.sbd XPC_SERVICE_NAME=com.apple.SecureBackupDaemon SSH_AUTH_SOCK=/private/tmp/com.apple.launchd.CcC9BwPYF4/Listeners PATH=/usr/bin:/bin:/usr/sbin:/sbin XPC_FLAGS=19 LOGNAME=shcjveg USER=shcjveg HOME=/Users/shcjveg SHELL=/bin/bash TMPDIR=/var/folders/r0/_s4g94s95db201lhl035tww80000gn/T/
+shcjveg            438   0.0  0.0  4429580   5872   ??  S    六03下午   0:03.07 /usr/libexec/adprivacyd XPC_SERVICE_NAME=com.apple.ap.adprivacyd SSH_AUTH_SOCK=/private/tmp/com.apple.launchd.CcC9BwPYF4/Listeners PATH=/usr/bin:/bin:/usr/sbin:/sbin XPC_FLAGS=19 LOGNAME=shcjveg USER=shcjveg HOME=/Users/shcjveg SHELL=/bin/bash TMPDIR=/var/folders/r0/_s4g94s95db201lhl035tww80000gn/T/
+shcjveg            440   0.0  0.0  4427880   5852   ??  S    六03下午   0:02.84 /System/Library/PrivateFrameworks/IMCore.framework/imagent.app/Contents/MacOS/imagent NSRunningFromLaunchd=1 XPC_SERVICE_NAME=com.apple.imagent SSH_AUTH_SOCK=/private/tmp/com.apple.launchd.CcC9BwPYF4/Listeners PATH=/usr/bin:/bin:/usr/sbin:/sbin XPC_FLAGS=1 LOGNAME=shcjveg USER=shcjveg HOME=/Users/shcjveg SHELL=/bin/bash TMPDIR=/var/folders/r0/_s4g94s95db201lhl035tww80000gn/T/
+shcjveg            482   0.0  0.0  4496796   5596   ??  S    六03下午   0:00.78 /System/Library/PrivateFrameworks/ContextKit.framework/Versions/A/XPCServices/ContextService.xpc/Contents/MacOS/ContextService XPC_SERVICE_NAME=com.apple.siri.context.service PATH=/usr/bin:/bin:/usr/sbin:/sbin XPC_FLAGS=19 LOGNAME=shcjveg USER=shcjveg HOME=/Users/shcjveg SHELL=/bin/bash TMPDIR=/var/folders/r0/_s4g94s95db201lhl035tww80000gn/T/
+shcjveg          32947   0.0  0.0  4412020   5596   ??  S     8:51下午   0:00.06 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/GPUToolsPlatform/GPUToolsAgent.app/Contents/MacOS/GPUToolsAgent PATH=/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin MallocNanoZone=0 TMPDIR=/var/folders/r0/_s4g94s95db201lhl035tww80000gn/T/ LOGNAME=shcjveg XPC_FLAGS=0x0 HOME=/Users/shcjveg USER=shcjveg SSH_AUTH_SOCK=/private/tmp/com.apple.launchd.CcC9BwPYF4/Listeners XPC_SERVICE_NAME=com.apple.dt.Xcode.20200 GPUTOOLS_AGENT_SOCKET=/Users/shcjveg/Library/Developer/Xcode/GPUToolsAgent.sock SHELL=/bin/bash __CF_USER_TEXT_ENCODING=0x1F5:0x19:0x34 CA_DEBUG_TRANSACTIONS=1
+shcjveg            599   0.0  0.0  4431768   5580   ??  S    六03下午   0:04.41 /System/Library/PrivateFrameworks/FileProvider.framework/Support/fileproviderd LIBDISPATCH_STRICT=YES XPC_SERVICE_NAME=com.apple.FileProvider SSH_AUTH_SOCK=/private/tmp/com.apple.launchd.CcC9BwPYF4/Listeners PATH=/usr/bin:/bin:/usr/sbin:/sbin XPC_FLAGS=19 LOGNAME=shcjveg USER=shcjveg HOME=/Users/shcjveg SHELL=/bin/bash TMPDIR=/var/folders/r0/_s4g94s95db201lhl035tww80000gn/T/
+root               171   0.0  0.0  4437256   5408   ??  Ss   六03下午   0:00.52 /System/Library/PrivateFrameworks/GenerationalStorage.framework/Versions/A/Support/revisiond
+root               130   0.0  0.0  4424984   5352   ??  Ss   六03下午   0:48.60 /System/Library/CoreServices/powerd.bundle/powerd
+_appleevents       356   0.0  0.0  4427672   5336   ??  Ss   六03下午   0:00.98 /System/Library/CoreServices/appleeventsd --server
+_nsurlsessiond     283   0.0  0.0  4438268   5288   ??  Ss   六03下午   0:06.70 /usr/libexec/nsurlsessiond --privileged
+shcjveg            447   0.0  0.0  4395112   5240   ??  S    六03下午   0:02.31 /System/Library/Frameworks/AddressBook.framework/Executables/ContactsAccountsService NSRunningFromLaunchd=1 XPC_SERVICE_NAME=com.apple.AddressBook.ContactsAccountsService SSH_AUTH_SOCK=/private/tmp/com.apple.launchd.CcC9BwPYF4/Listeners PATH=/usr/bin:/bin:/usr/sbin:/sbin XPC_FLAGS=19 LOGNAME=shcjveg USER=shcjveg HOME=/Users/shcjveg SHELL=/bin/bash TMPDIR=/var/folders/r0/_s4g94s95db201lhl035tww80000gn/T/
+shcjveg            554   0.0  0.0  4424392   5228   ??  S    六03下午   0:00.63 /System/Library/Image Capture/Support/icdd XPC_SERVICE_NAME=com.apple.icdd SSH_AUTH_SOCK=/private/tmp/com.apple.launchd.CcC9BwPYF4/Listeners PATH=/usr/bin:/bin:/usr/sbin:/sbin XPC_FLAGS=1 LOGNAME=shcjveg USER=shcjveg HOME=/Users/shcjveg SHELL=/bin/bash TMPDIR=/var/folders/r0/_s4g94s95db201lhl035tww80000gn/T/
+shcjveg          32963   0.0  0.0  4373184   5216   ??  Ss    8:52下午   0:00.03 /Applications/Xcode.app/Contents/SharedFrameworks/DVTSourceControl.framework/Versions/A/XPCServices/com.apple.dt.Xcode.sourcecontrol.WorkingCopyScanner.xpc/Contents/MacOS/com.apple.dt.Xcode.sourcecontrol.WorkingCopyScanner XPC_SERVICE_NAME=com.apple.dt.Xcode.sourcecontrol.WorkingCopyScanner PATH=/usr/bin:/bin:/usr/sbin:/sbin SSH_AUTH_SOCK=/private/tmp/com.apple.launchd.CcC9BwPYF4/Listeners HOME=/Users/shcjveg __CF_USER_TEXT_ENCODING=0x1F5:0x19:0x34 TMPDIR=/var/folders/r0/_s4g94s95db201lhl035tww80000gn/T/ XPC_FLAGS=19 LOGNAME=shcjveg USER=shcjveg SHELL=/bin/bash
+shcjveg            483   0.0  0.0  4947464   5200   ??  Ss   六03下午   0:03.40 /System/Library/Frameworks/Quartz.framework/Versions/A/Frameworks/QuickLookUI.framework/Versions/A/XPCServices/QuickLookUIService.xpc/Contents/MacOS/QuickLookUIService XPC_SERVICE_NAME=com.apple.quicklook.QuickLookUIService PATH=/usr/bin:/bin:/usr/sbin:/sbin SSH_AUTH_SOCK=/private/tmp/com.apple.launchd.CcC9BwPYF4/Listeners HOME=/Users/shcjveg TMPDIR=/var/folders/r0/_s4g94s95db201lhl035tww80000gn/T/ XPC_FLAGS=19 LOGNAME=shcjveg USER=shcjveg SHELL=/bin/bash
+shcjveg            468   0.0  0.0  4428008   5156   ??  S    六03下午   0:01.57 /System/Library/Frameworks/InputMethodKit.framework/Resources/imklaunchagent XPC_SERVICE_NAME=com.apple.imklaunchagent SSH_AUTH_SOCK=/private/tmp/com.apple.launchd.CcC9BwPYF4/Listeners PATH=/usr/bin:/bin:/usr/sbin:/sbin XPC_FLAGS=9 LOGNAME=shcjveg USER=shcjveg HOME=/Users/shcjveg SHELL=/bin/bash TMPDIR=/var/folders/r0/_s4g94s95db201lhl035tww80000gn/T/
+shcjveg            751   0.0  0.0  4426624   5124   ??  Ss   六03下午   0:01.19 /System/Library/PrivateFrameworks/WeatherKit.framework/Versions/A/XPCServices/com.apple.WeatherKitService.xpc/Contents/MacOS/com.apple.WeatherKitService XPC_SERVICE_NAME=com.apple.WeatherKitService PATH=/usr/bin:/bin:/usr/sbin:/sbin SSH_AUTH_SOCK=/private/tmp/com.apple.launchd.CcC9BwPYF4/Listeners HOME=/Users/shcjveg TMPDIR=/var/folders/r0/_s4g94s95db201lhl035tww80000gn/T/ XPC_FLAGS=19 LOGNAME=shcjveg USER=shcjveg SHELL=/bin/bash
+root               179   0.0  0.0  4428812   5048   ??  Ss   六03下午   3:30.75 /usr/libexec/AirPlayXPCHelper
+root               175   0.0  0.0  4429268   5032   ??  Ss   六03下午   0:19.98 /usr/sbin/bluetoothd
+shcjveg          32959   0.0  0.0  4324284   4976   ??  Ss    8:52下午   0:00.04 /Applications/Xcode.app/Contents/SharedFrameworks/DVTSourceControl.framework/Versions/A/XPCServices/com.apple.dt.Xcode.sourcecontrol.SSHHelper.xpc/Contents/MacOS/com.apple.dt.Xcode.sourcecontrol.SSHHelper XPC_SERVICE_NAME=com.apple.dt.Xcode.sourcecontrol.SSHHelper PATH=/usr/bin:/bin:/usr/sbin:/sbin SSH_AUTH_SOCK=/private/tmp/com.apple.launchd.CcC9BwPYF4/Listeners HOME=/Users/shcjveg __CF_USER_TEXT_ENCODING=0x1F5:0x19:0x34 TMPDIR=/var/folders/r0/_s4g94s95db201lhl035tww80000gn/T/ XPC_FLAGS=19 LOGNAME=shcjveg USER=shcjveg SHELL=/bin/bash
+shcjveg            584   0.0  0.0  4947672   4964   ??  S    六03下午   0:02.00 /Library/Developer/PrivateFrameworks/CoreSimulator.framework/Versions/A/XPCServices/SimulatorTrampoline.xpc/Contents/MacOS/SimulatorTrampoline XPC_SERVICE_NAME=com.apple.CoreSimulator.SimulatorTrampoline PATH=/usr/bin:/bin:/usr/sbin:/sbin XPC_FLAGS=19 LOGNAME=shcjveg USER=shcjveg HOME=/Users/shcjveg SHELL=/bin/bash TMPDIR=/var/folders/r0/_s4g94s95db201lhl035tww80000gn/T/
+shcjveg            432   0.0  0.0  4433868   4916   ??  S    六03下午   0:07.74 /System/Library/CoreServices/mapspushd XPC_SERVICE_NAME=com.apple.Maps.mapspushd SSH_AUTH_SOCK=/private/tmp/com.apple.launchd.CcC9BwPYF4/Listeners PATH=/usr/bin:/bin:/usr/sbin:/sbin XPC_FLAGS=19 LOGNAME=shcjveg USER=shcjveg HOME=/Users/shcjveg SHELL=/bin/bash TMPDIR=/var/folders/r0/_s4g94s95db201lhl035tww80000gn/T/
+root             42155   0.0  0.0  4423760   4896   ??  Ss   11:52上午   0:00.02 /System/Library/PrivateFrameworks/SystemAdministration.framework/XPCServices/writeconfig.xpc/Contents/MacOS/writeconfig
+root               756   0.0  0.0  4420008   4880   ??  Ss   六03下午   0:00.99 /usr/libexec/rtcreportingd
+root               186   0.0  0.0  4450748   4784   ??  Ss   六03下午   0:02.12 /System/Library/CoreServices/coreservicesd
+shcjveg            465   0.0  0.0  4432360   4772   ??  S    六03下午   0:00.22 /usr/libexec/neagent LaunchInstanceID=878568F8-CCE5-4157-8315-22F20DC8FB0A XPC_SERVICE_NAME=com.apple.neagent SSH_AUTH_SOCK=/private/tmp/com.apple.launchd.CcC9BwPYF4/Listeners PATH=/usr/bin:/bin:/usr/sbin:/sbin XPC_FLAGS=19 LOGNAME=shcjveg USER=shcjveg HOME=/Users/shcjveg SHELL=/bin/bash TMPDIR=/var/folders/r0/_s4g94s95db201lhl035tww80000gn/T/
+root               540   0.0  0.0  4445012   4724   ??  Ss   六03下午   0:02.80 /usr/libexec/findmydeviced
+_netbios         33708   0.0  0.0  4426000   4708   ??  SNs   9:43下午   0:00.41 /usr/sbin/netbiosd
+root               467   0.0  0.0  4401952   4684   ??  Ss   六03下午   0:09.61 /usr/sbin/filecoordinationd
+root               369   0.0  0.0  4424516   4648   ??  Ss   六03下午   0:02.64 /usr/libexec/biometrickitd --launchd
+root               188   0.0  0.0  4427432   4612   ??  Ss   六03下午   0:01.15 /System/Library/Frameworks/Security.framework/Versions/A/XPCServices/authd.xpc/Contents/MacOS/authd
+shcjveg            549   0.0  0.0  4429964   4584   ??  S    六03下午   0:01.74 /System/Library/PrivateFrameworks/AssetCacheServices.framework/Versions/A/XPCServices/AssetCacheLocatorService.xpc/Contents/MacOS/AssetCacheLocatorService -a XPC_SERVICE_NAME=com.apple.AssetCacheLocatorService SSH_AUTH_SOCK=/private/tmp/com.apple.launchd.CcC9BwPYF4/Listeners PATH=/usr/bin:/bin:/usr/sbin:/sbin XPC_FLAGS=19 LOGNAME=shcjveg USER=shcjveg HOME=/Users/shcjveg SHELL=/bin/bash TMPDIR=/var/folders/r0/_s4g94s95db201lhl035tww80000gn/T/
+shcjveg            424   0.0  0.0  4429584   4572   ??  S    六03下午   0:02.10 /usr/libexec/dmd XPC_SERVICE_NAME=com.apple.dmd SSH_AUTH_SOCK=/private/tmp/com.apple.launchd.CcC9BwPYF4/Listeners PATH=/usr/bin:/bin:/usr/sbin:/sbin XPC_FLAGS=19 LOGNAME=shcjveg USER=shcjveg HOME=/Users/shcjveg SHELL=/bin/bash TMPDIR=/var/folders/r0/_s4g94s95db201lhl035tww80000gn/T/
+shcjveg            462   0.0  0.0  4423888   4532   ??  S    六03下午   0:07.92 /System/Library/PrivateFrameworks/ViewBridge.framework/Versions/A/XPCServices/ViewBridgeAuxiliary.xpc/Contents/MacOS/ViewBridgeAuxiliary XPC_SERVICE_NAME=com.apple.ViewBridgeAuxiliary PATH=/usr/bin:/bin:/usr/sbin:/sbin XPC_FLAGS=19 LOGNAME=shcjveg USER=shcjveg HOME=/Users/shcjveg SHELL=/bin/bash TMPDIR=/var/folders/r0/_s4g94s95db201lhl035tww80000gn/T/
+shcjveg            508   0.0  0.0  4432804   4520   ??  S    六03下午   0:00.66 /System/Library/CoreServices/pbs NSRunningFromLaunchd=1 XPC_SERVICE_NAME=com.apple.pbs SSH_AUTH_SOCK=/private/tmp/com.apple.launchd.CcC9BwPYF4/Listeners PATH=/usr/bin:/bin:/usr/sbin:/sbin XPC_FLAGS=1 LOGNAME=shcjveg USER=shcjveg HOME=/Users/shcjveg SHELL=/bin/bash TMPDIR=/var/folders/r0/_s4g94s95db201lhl035tww80000gn/T/
+_mdnsresponder     256   0.0  0.0  4427512   4508   ??  Ss   六03下午   0:50.12 /usr/sbin/mDNSResponder
+root               509   0.0  0.0  4426004   4420   ??  Ss   六03下午   0:01.06 /usr/libexec/wifivelocityd
+shcjveg            912   0.0  0.0  4424672   4356   ??  S    六03下午   0:00.70 /usr/libexec/siriknowledged XPC_SERVICE_NAME=com.apple.siriknowledged SSH_AUTH_SOCK=/private/tmp/com.apple.launchd.CcC9BwPYF4/Listeners PATH=/usr/bin:/bin:/usr/sbin:/sbin XPC_FLAGS=19 LOGNAME=shcjveg USER=shcjveg HOME=/Users/shcjveg SHELL=/bin/bash TMPDIR=/var/folders/r0/_s4g94s95db201lhl035tww80000gn/T/
+shcjveg            502   0.0  0.0  4426484   4352   ??  S    六03下午   0:03.01 /System/Library/PrivateFrameworks/UserActivity.framework/Agents/useractivityd XPC_SERVICE_NAME=com.apple.coreservices.useractivityd SSH_AUTH_SOCK=/private/tmp/com.apple.launchd.CcC9BwPYF4/Listeners PATH=/usr/bin:/bin:/usr/sbin:/sbin XPC_FLAGS=19 LOGNAME=shcjveg USER=shcjveg HOME=/Users/shcjveg SHELL=/bin/bash TMPDIR=/var/folders/r0/_s4g94s95db201lhl035tww80000gn/T/
+root               185   0.0  0.0  4395608   4328   ??  Ss   六03下午   0:18.62 /usr/sbin/cfprefsd daemon
+root               539   0.0  0.0  4423968   4284   ??  Ss   六03下午   0:00.24 /usr/libexec/taskgated
+_fpsd              446   0.0  0.0  4399236   4284   ??  Ss   六03下午   0:01.92 /System/Library/PrivateFrameworks/CoreADI.framework/adid
+shcjveg            596   0.0  0.0  4424904   4276   ??  S    六03下午   0:02.26 /System/Library/CoreServices/diagnostics_agent XPC_SERVICE_NAME=com.apple.diagnostics_agent SSH_AUTH_SOCK=/private/tmp/com.apple.launchd.CcC9BwPYF4/Listeners PATH=/usr/bin:/bin:/usr/sbin:/sbin XPC_FLAGS=1 LOGNAME=shcjveg USER=shcjveg HOME=/Users/shcjveg SHELL=/bin/bash TMPDIR=/var/folders/r0/_s4g94s95db201lhl035tww80000gn/T/
+root               330   0.0  0.0  4398892   4140   ??  Ss   六03下午   0:00.96 /System/Library/Frameworks/Security.framework/Versions/A/XPCServices/com.apple.CodeSigningHelper.xpc/Contents/MacOS/com.apple.CodeSigningHelper
+shcjveg            414   0.0  0.0  4425652   4116   ??  S    六03下午   0:43.38 /System/Library/CoreServices/lockoutagent XPC_SERVICE_NAME=com.apple.lockoutagent SSH_AUTH_SOCK=/private/tmp/com.apple.launchd.CcC9BwPYF4/Listeners PATH=/usr/bin:/bin:/usr/sbin:/sbin XPC_FLAGS=1 LOGNAME=shcjveg USER=shcjveg HOME=/Users/shcjveg SHELL=/bin/bash TMPDIR=/var/folders/r0/_s4g94s95db201lhl035tww80000gn/T/
+root               803   0.0  0.0  4432560   4096   ??  Ss   六03下午   0:02.01 /usr/libexec/mobileactivationd
+shcjveg            642   0.0  0.0  4428320   4084   ??  S    六03下午   0:07.94 /System/Library/PrivateFrameworks/AppleMediaServices.framework/Resources/amsaccountsd XPC_SERVICE_NAME=com.apple.amsaccountsd SSH_AUTH_SOCK=/private/tmp/com.apple.launchd.CcC9BwPYF4/Listeners PATH=/usr/bin:/bin:/usr/sbin:/sbin XPC_FLAGS=19 LOGNAME=shcjveg USER=shcjveg HOME=/Users/shcjveg SHELL=/bin/bash TMPDIR=/var/folders/r0/_s4g94s95db201lhl035tww80000gn/T/
+root               587   0.0  0.0  4426976   4044   ??  Ss   六03下午   1:05.56 /System/Library/PrivateFrameworks/StorageKit.framework/Resources/storagekitd
+root               229   0.0  0.0  4426892   4040   ??  Ss   六03下午   0:00.68 /usr/libexec/searchpartyd
+root               178   0.0  0.0  4430676   3984   ??  Ss   六03下午   0:50.14 /usr/libexec/corebrightnessd --launchd
+shcjveg            543   0.0  0.0  4424836   3968   ??  S    六03下午   0:00.51 /System/Library/Frameworks/CoreServices.framework/Frameworks/Metadata.framework/Versions/A/Support/mdwrite XPC_SERVICE_NAME=com.apple.metadata.mdwrite SSH_AUTH_SOCK=/private/tmp/com.apple.launchd.CcC9BwPYF4/Listeners PATH=/usr/bin:/bin:/usr/sbin:/sbin XPC_FLAGS=9 LOGNAME=shcjveg USER=shcjveg HOME=/Users/shcjveg SHELL=/bin/bash TMPDIR=/var/folders/r0/_s4g94s95db201lhl035tww80000gn/T/
+shcjveg           1631   0.0  0.0  4424844   3956   ??  S    六04下午   0:01.08 /System/Library/PrivateFrameworks/UsageTracking.framework/Versions/A/UsageTrackingAgent XPC_SERVICE_NAME=com.apple.UsageTrackingAgent SSH_AUTH_SOCK=/private/tmp/com.apple.launchd.CcC9BwPYF4/Listeners PATH=/usr/bin:/bin:/usr/sbin:/sbin XPC_FLAGS=19 LOGNAME=shcjveg USER=shcjveg HOME=/Users/shcjveg SHELL=/bin/bash TMPDIR=/var/folders/r0/_s4g94s95db201lhl035tww80000gn/T/
+root               434   0.0  0.0  4424468   3868   ??  Ss   六03下午   0:00.71 /usr/sbin/WirelessRadioManagerd
+shcjveg           2260   0.0  0.0  4450940   3856   ??  Ss   六05下午   0:00.30 /System/Library/PrivateFrameworks/AssistantServices.framework/Versions/A/XPCServices/media-indexer.xpc/Contents/MacOS/media-indexer XPC_SERVICE_NAME=com.apple.siri.media-indexer PATH=/usr/bin:/bin:/usr/sbin:/sbin SSH_AUTH_SOCK=/private/tmp/com.apple.launchd.CcC9BwPYF4/Listeners HOME=/Users/shcjveg TMPDIR=/var/folders/r0/_s4g94s95db201lhl035tww80000gn/T/ XPC_FLAGS=19 LOGNAME=shcjveg USER=shcjveg SHELL=/bin/bash
+shcjveg            718   0.0  0.0  4428416   3848   ??  S    六03下午   0:00.69 /usr/libexec/keyboardservicesd XPC_SERVICE_NAME=com.apple.keyboardservicesd SSH_AUTH_SOCK=/private/tmp/com.apple.launchd.CcC9BwPYF4/Listeners PATH=/usr/bin:/bin:/usr/sbin:/sbin XPC_FLAGS=19 LOGNAME=shcjveg USER=shcjveg HOME=/Users/shcjveg SHELL=/bin/bash TMPDIR=/var/folders/r0/_s4g94s95db201lhl035tww80000gn/T/
+shcjveg            507   0.0  0.0  4434568   3728   ??  S    六03下午   0:07.33 /usr/libexec/fmfd XPC_SERVICE_NAME=com.apple.icloud.fmfd SSH_AUTH_SOCK=/private/tmp/com.apple.launchd.CcC9BwPYF4/Listeners PATH=/usr/bin:/bin:/usr/sbin:/sbin XPC_FLAGS=19 LOGNAME=shcjveg USER=shcjveg HOME=/Users/shcjveg SHELL=/bin/bash TMPDIR=/var/folders/r0/_s4g94s95db201lhl035tww80000gn/T/
+shcjveg            588   0.0  0.0  4426688   3724   ??  S    六03下午   0:00.46 /System/Library/CoreServices/ScopedBookmarkAgent XPC_SERVICE_NAME=com.apple.scopedbookmarksagent.xpc SSH_AUTH_SOCK=/private/tmp/com.apple.launchd.CcC9BwPYF4/Listeners PATH=/usr/bin:/bin:/usr/sbin:/sbin XPC_FLAGS=19 LOGNAME=shcjveg USER=shcjveg HOME=/Users/shcjveg SHELL=/bin/bash TMPDIR=/var/folders/r0/_s4g94s95db201lhl035tww80000gn/T/
+shcjveg           2176   0.0  0.0  4428952   3680   ??  S    六05下午   0:02.93 cloudphotod XPC_SERVICE_NAME=com.apple.cloudphotod SSH_AUTH_SOCK=/private/tmp/com.apple.launchd.CcC9BwPYF4/Listeners PATH=/usr/bin:/bin:/usr/sbin:/sbin XPC_FLAGS=19 LOGNAME=shcjveg USER=shcjveg HOME=/Users/shcjveg SHELL=/bin/bash TMPDIR=/var/folders/r0/_s4g94s95db201lhl035tww80000gn/T/
+shcjveg            633   0.0  0.0  4428652   3620   ??  S    六03下午   0:06.25 /System/Library/PrivateFrameworks/AskPermission.framework/Versions/A/Resources/askpermissiond XPC_SERVICE_NAME=com.apple.askpermissiond SSH_AUTH_SOCK=/private/tmp/com.apple.launchd.CcC9BwPYF4/Listeners PATH=/usr/bin:/bin:/usr/sbin:/sbin XPC_FLAGS=19 LOGNAME=shcjveg USER=shcjveg HOME=/Users/shcjveg SHELL=/bin/bash TMPDIR=/var/folders/r0/_s4g94s95db201lhl035tww80000gn/T/
+_timed             154   0.0  0.0  4423524   3608   ??  Ss   六03下午   0:11.06 /usr/libexec/timed
+root               377   0.0  0.0  4429364   3564   ??  Ss   六03下午   0:07.67 /usr/sbin/systemsoundserverd
+root             41215   0.0  0.0  4354080   3548 s000  Ss   10:48上午   0:00.03 login -pf shcjveg TMPDIR=/var/folders/r0/_s4g94s95db201lhl035tww80000gn/T/ XPC_FLAGS=0x0 TERM_PROGRAM_VERSION=433 LANG=zh_CN.UTF-8 TERM_PROGRAM=Apple_Terminal XPC_SERVICE_NAME=com.apple.Terminal.13448 TERM_SESSION_ID=73EE0F27-F1CC-498B-880A-0A72D7B5F4EA TERM=xterm-256color SSH_AUTH_SOCK=/private/tmp/com.apple.launchd.CcC9BwPYF4/Listeners
+root               144   0.0  0.0  4423092   3528   ??  Ss   六03下午   0:06.20 /usr/libexec/diskarbitrationd
+shcjveg            456   0.0  0.0  4425976   3484   ??  S    六03下午   0:15.74 /usr/libexec/swcd XPC_SERVICE_NAME=com.apple.swcd SSH_AUTH_SOCK=/private/tmp/com.apple.launchd.CcC9BwPYF4/Listeners PATH=/usr/bin:/bin:/usr/sbin:/sbin XPC_FLAGS=19 LOGNAME=shcjveg USER=shcjveg HOME=/Users/shcjveg SHELL=/bin/bash TMPDIR=/var/folders/r0/_s4g94s95db201lhl035tww80000gn/T/
+root             41370   0.0  0.0  4339744   3484 s002  Ss   10:58上午   0:00.02 login -pf shcjveg TMPDIR=/var/folders/r0/_s4g94s95db201lhl035tww80000gn/T/ XPC_FLAGS=0x0 TERM_PROGRAM_VERSION=433 LANG=zh_CN.UTF-8 TERM_PROGRAM=Apple_Terminal XPC_SERVICE_NAME=com.apple.Terminal.13448 TERM_SESSION_ID=D4AC605D-4683-4BBB-AE01-582537062110 TERM=xterm-256color SSH_AUTH_SOCK=/private/tmp/com.apple.launchd.CcC9BwPYF4/Listeners
+shcjveg          32603   0.0  0.0  4363764   3480   ??  Ss    8:23下午   0:00.10 /Applications/Thunder.app/Contents/XPCServices/VideoPreloadService.xpc/Contents/MacOS/VideoPreloadService XPC_SERVICE_NAME=com.xunlei.Thunder.VideoPreloadService PATH=/usr/bin:/bin:/usr/sbin:/sbin SSH_AUTH_SOCK=/private/tmp/com.apple.launchd.CcC9BwPYF4/Listeners HOME=/Users/shcjveg __CF_USER_TEXT_ENCODING=0x1F5:0x19:0x34 TMPDIR=/var/folders/r0/_s4g94s95db201lhl035tww80000gn/T/ XPC_FLAGS=19 LOGNAME=shcjveg USER=shcjveg SHELL=/bin/bash
+shcjveg            719   0.0  0.0  4425284   3432   ??  S    六03下午   0:00.65 /System/Library/PrivateFrameworks/CoreRecents.framework/Versions/A/Support/recentsd XPC_SERVICE_NAME=com.apple.recentsd SSH_AUTH_SOCK=/private/tmp/com.apple.launchd.CcC9BwPYF4/Listeners PATH=/usr/bin:/bin:/usr/sbin:/sbin XPC_FLAGS=19 LOGNAME=shcjveg USER=shcjveg HOME=/Users/shcjveg SHELL=/bin/bash TMPDIR=/var/folders/r0/_s4g94s95db201lhl035tww80000gn/T/
+shcjveg            487   0.0  0.0  4428160   3428   ??  Ss   六03下午   0:02.25 /System/Library/PrivateFrameworks/Categories.framework/Versions/A/XPCServices/CategoriesService.xpc/Contents/MacOS/CategoriesService XPC_SERVICE_NAME=com.apple.ctcategories.service PATH=/usr/bin:/bin:/usr/sbin:/sbin SSH_AUTH_SOCK=/private/tmp/com.apple.launchd.CcC9BwPYF4/Listeners HOME=/Users/shcjveg TMPDIR=/var/folders/r0/_s4g94s95db201lhl035tww80000gn/T/ XPC_FLAGS=19 LOGNAME=shcjveg USER=shcjveg SHELL=/bin/bash
+root               367   0.0  0.0  4424468   3364   ??  Ss   六03下午   0:00.47 /System/Library/Frameworks/LocalAuthentication.framework/Support/coreauthd
+shcjveg            495   0.0  0.0  4397280   3340   ??  S    六03下午   0:00.19 /System/Library/PrivateFrameworks/CommerceKit.framework/Versions/A/Resources/storeaccountd XPC_SERVICE_NAME=com.apple.storeaccountd SSH_AUTH_SOCK=/private/tmp/com.apple.launchd.CcC9BwPYF4/Listeners PATH=/usr/bin:/bin:/usr/sbin:/sbin XPC_FLAGS=9 LOGNAME=shcjveg USER=shcjveg HOME=/Users/shcjveg SHELL=/bin/bash TMPDIR=/var/folders/r0/_s4g94s95db201lhl035tww80000gn/T/
+root             33257   0.0  0.0  4407756   3336   ??  Ss    9:09下午   0:00.04 /private/var/db/com.apple.xpc.roleaccountd.staging/com.apple.dt.instruments.dtarbiter.xpc.16777220.9575685.xpc/Contents/MacOS/com.apple.dt.instruments.dtarbiter
+root               309   0.0  0.0  4398788   3312   ??  Ss   六03下午   0:00.27 /usr/libexec/diskmanagementd
+_spotlight         732   0.0  0.0  4427516   3240   ??  S    六03下午   0:02.93 /usr/libexec/trustd --agent
+shcjveg            466   0.0  0.0  4395064   3232   ??  S    六03下午   0:00.13 /System/Library/PrivateFrameworks/CoreCDP.framework/Versions/A/Resources/cdpd XPC_SERVICE_NAME=com.apple.cdpd SSH_AUTH_SOCK=/private/tmp/com.apple.launchd.CcC9BwPYF4/Listeners PATH=/usr/bin:/bin:/usr/sbin:/sbin XPC_FLAGS=19 LOGNAME=shcjveg USER=shcjveg HOME=/Users/shcjveg SHELL=/bin/bash TMPDIR=/var/folders/r0/_s4g94s95db201lhl035tww80000gn/T/
+root               223   0.0  0.0  4425216   3200   ??  Ss   六03下午   0:00.92 /usr/libexec/nehelper
+_assetcache       6524   0.0  0.0  4428836   3192   ??  Ss   日12上午   0:01.39 /System/Library/PrivateFrameworks/AssetCacheServices.framework/Versions/A/XPCServices/AssetCacheLocatorService.xpc/Contents/MacOS/AssetCacheLocatorService -d
+shcjveg           1064   0.0  0.0  4430856   3136   ??  Ss   六03下午   0:00.08 /System/Library/PrivateFrameworks/Categories.framework/Versions/A/XPCServices/CategoriesService.xpc/Contents/MacOS/CategoriesService XPC_SERVICE_NAME=com.apple.ctcategories.service PATH=/usr/bin:/bin:/usr/sbin:/sbin SSH_AUTH_SOCK=/private/tmp/com.apple.launchd.CcC9BwPYF4/Listeners HOME=/Users/shcjveg TMPDIR=/var/folders/r0/_s4g94s95db201lhl035tww80000gn/T/ XPC_FLAGS=19 LOGNAME=shcjveg USER=shcjveg SHELL=/bin/bash
+root               384   0.0  0.0  4423772   3072   ??  Ss   六03下午   0:09.04 /System/Library/PrivateFrameworks/AmbientDisplay.framework/Versions/A/XPCServices/com.apple.AmbientDisplayAgent.xpc/Contents/MacOS/com.apple.AmbientDisplayAgent
+root              2326   0.0  0.0  4430880   3056   ??  Ss   六05下午   0:00.42 /System/Library/CoreServices/ReportCrash daemon
+root               757   0.0  0.0  4425740   3032   ??  Ss   六03下午   0:01.24 /System/Library/PrivateFrameworks/PerformanceAnalysis.framework/Versions/A/XPCServices/com.apple.PerformanceAnalysis.animationperfd.xpc/Contents/MacOS/com.apple.PerformanceAnalysis.animationperfd
+root             33258   0.0  0.0  4424056   3028   ??  Ss    9:09下午   0:00.04 /usr/libexec/xpcroleaccountd -launchd
+shcjveg            544   0.0  0.0  4425572   2924   ??  S    六03下午   0:00.16 /System/Library/Frameworks/AudioToolbox.framework/AudioComponentRegistrar XPC_SERVICE_NAME=com.apple.audio.AudioComponentRegistrar SSH_AUTH_SOCK=/private/tmp/com.apple.launchd.CcC9BwPYF4/Listeners PATH=/usr/bin:/bin:/usr/sbin:/sbin XPC_FLAGS=19 LOGNAME=shcjveg USER=shcjveg HOME=/Users/shcjveg SHELL=/bin/bash TMPDIR=/var/folders/r0/_s4g94s95db201lhl035tww80000gn/T/
+shcjveg            556   0.0  0.0  4425224   2924   ??  S    六03下午   0:39.31 /Library/Apple/System/Library/CoreServices/SafariSupport.bundle/Contents/MacOS/SafariCloudHistoryPushAgent XPC_SERVICE_NAME=com.apple.SafariCloudHistoryPushAgent SSH_AUTH_SOCK=/private/tmp/com.apple.launchd.CcC9BwPYF4/Listeners PATH=/usr/bin:/bin:/usr/sbin:/sbin XPC_FLAGS=19 LOGNAME=shcjveg USER=shcjveg HOME=/Users/shcjveg SHELL=/bin/bash TMPDIR=/var/folders/r0/_s4g94s95db201lhl035tww80000gn/T/
+root             32205   0.0  0.0  4423336   2904   ??  Ss    7:50下午   0:03.52 /usr/sbin/ocspd
+root               344   0.0  0.0  4424060   2836   ??  Ss   六03下午   0:01.02 /System/Library/CoreServices/SubmitDiagInfo server-init
+_cmiodalassistants   341   0.0  0.0  4455440   2804   ??  Ss   六03下午   0:00.36 /System/Library/Frameworks/CoreMediaIO.framework/Resources/VDC.plugin/Contents/Resources/VDCAssistant
+shcjveg            402   0.0  0.0  4425132   2780   ??  S    六03下午   0:00.17 /System/Library/CoreServices/backgroundtaskmanagementagent XPC_SERVICE_NAME=com.apple.backgroundtaskmanagementagent SSH_AUTH_SOCK=/private/tmp/com.apple.launchd.CcC9BwPYF4/Listeners PATH=/usr/bin:/bin:/usr/sbin:/sbin XPC_FLAGS=1 LOGNAME=shcjveg USER=shcjveg HOME=/Users/shcjveg SHELL=/bin/bash TMPDIR=/var/folders/r0/_s4g94s95db201lhl035tww80000gn/T/
+shcjveg          41513   0.0  0.0  4312272   2764   ??  Ss   11:05上午   0:00.01 /System/Library/Frameworks/AudioToolbox.framework/XPCServices/com.apple.audio.SandboxHelper.xpc/Contents/MacOS/com.apple.audio.SandboxHelper XPC_SERVICE_NAME=com.apple.audio.SandboxHelper PATH=/usr/bin:/bin:/usr/sbin:/sbin SSH_AUTH_SOCK=/private/tmp/com.apple.launchd.CcC9BwPYF4/Listeners HOME=/Users/shcjveg __CF_USER_TEXT_ENCODING=0x1F5:0x19:0x34 TMPDIR=/var/folders/r0/_s4g94s95db201lhl035tww80000gn/T/ XPC_FLAGS=19 LOGNAME=shcjveg USER=shcjveg SHELL=/bin/bash
+shcjveg            493   0.0  0.0  4424540   2704   ??  S    六03下午   0:00.21 /System/Library/PrivateFrameworks/AMPDevices.framework/Versions/A/Support/AMPDeviceDiscoveryAgent --launchd XPC_SERVICE_NAME=com.apple.AMPDeviceDiscoveryAgent SSH_AUTH_SOCK=/private/tmp/com.apple.launchd.CcC9BwPYF4/Listeners PATH=/usr/bin:/bin:/usr/sbin:/sbin XPC_FLAGS=9 LOGNAME=shcjveg USER=shcjveg HOME=/Users/shcjveg SHELL=/bin/bash TMPDIR=/var/folders/r0/_s4g94s95db201lhl035tww80000gn/T/
+root             33259   0.0  0.0  4396900   2664   ??  Ss    9:09下午   0:00.34 /usr/libexec/diagnosticd
+_applepay          569   0.0  0.0  4425932   2644   ??  Ss   六03下午   0:00.28 /usr/libexec/nfcd
+root              1089   0.0  0.0  4429808   2624   ??  Ss   六03下午   0:00.34 /usr/libexec/dprivacyd
+shcjveg            458   0.0  0.0  4396532   2588   ??  S    六03下午   0:04.19 /usr/libexec/pboard XPC_SERVICE_NAME=com.apple.pboard SSH_AUTH_SOCK=/private/tmp/com.apple.launchd.CcC9BwPYF4/Listeners PATH=/usr/bin:/bin:/usr/sbin:/sbin XPC_FLAGS=9 LOGNAME=shcjveg USER=shcjveg HOME=/Users/shcjveg SHELL=/bin/bash TMPDIR=/var/folders/r0/_s4g94s95db201lhl035tww80000gn/T/
+shcjveg          21025   0.0  0.0  4330704   2548   ??  Ss   一10上午   0:00.01 /System/Library/Frameworks/AudioToolbox.framework/XPCServices/com.apple.audio.SandboxHelper.xpc/Contents/MacOS/com.apple.audio.SandboxHelper XPC_SERVICE_NAME=com.apple.audio.SandboxHelper PATH=/usr/bin:/bin:/usr/sbin:/sbin SSH_AUTH_SOCK=/private/tmp/com.apple.launchd.CcC9BwPYF4/Listeners HOME=/Users/shcjveg __CF_USER_TEXT_ENCODING=0x1F5:0x19:0x34 TMPDIR=/var/folders/r0/_s4g94s95db201lhl035tww80000gn/T/ XPC_FLAGS=19 LOGNAME=shcjveg USER=shcjveg SHELL=/bin/bash
+shcjveg          12562   0.0  0.0  4314320   2544   ??  Ss   日01下午   0:00.01 /System/Library/Frameworks/AudioToolbox.framework/XPCServices/com.apple.audio.SandboxHelper.xpc/Contents/MacOS/com.apple.audio.SandboxHelper XPC_SERVICE_NAME=com.apple.audio.SandboxHelper PATH=/usr/bin:/bin:/usr/sbin:/sbin SSH_AUTH_SOCK=/private/tmp/com.apple.launchd.CcC9BwPYF4/Listeners HOME=/Users/shcjveg __CF_USER_TEXT_ENCODING=0x1F5:0x19:0x34 TMPDIR=/var/folders/r0/_s4g94s95db201lhl035tww80000gn/T/ XPC_FLAGS=19 LOGNAME=shcjveg USER=shcjveg SHELL=/bin/bash
+shcjveg            592   0.0  0.0  4426496   2512   ??  S    六03下午   0:01.06 /System/Library/PrivateFrameworks/CacheDelete.framework/deleted XPC_SERVICE_NAME=com.apple.cache_delete SSH_AUTH_SOCK=/private/tmp/com.apple.launchd.CcC9BwPYF4/Listeners PATH=/usr/bin:/bin:/usr/sbin:/sbin XPC_FLAGS=19 LOGNAME=shcjveg USER=shcjveg HOME=/Users/shcjveg SHELL=/bin/bash TMPDIR=/var/folders/r0/_s4g94s95db201lhl035tww80000gn/T/
+root             21617   0.0  0.0  4321576   2416   ??  Ss   一11上午   0:00.02 /usr/libexec/applessdstatistics
+shcjveg            638   0.0  0.0  4425220   2412   ??  S    六03下午   0:01.33 /System/Library/CoreServices/cloudpaird XPC_SERVICE_NAME=com.apple.cloudpaird SSH_AUTH_SOCK=/private/tmp/com.apple.launchd.CcC9BwPYF4/Listeners PATH=/usr/bin:/bin:/usr/sbin:/sbin XPC_FLAGS=9 LOGNAME=shcjveg USER=shcjveg HOME=/Users/shcjveg SHELL=/bin/bash TMPDIR=/var/folders/r0/_s4g94s95db201lhl035tww80000gn/T/
+root              6189   0.0  0.0  4426548   2384   ??  Ss   日12上午   0:00.08 /System/Library/Frameworks/SystemExtensions.framework/Versions/A/Helpers/sysextd
+root               338   0.0  0.0  4386916   2288   ??  Ss   六03下午   0:00.19 /usr/libexec/apfsd
+root               138   0.0  0.0  4395656   2284   ??  Ss   六03下午   0:09.70 /usr/libexec/watchdogd
+root               170   0.0  0.0  4395084   2272   ??  Ss   六03下午   0:00.09 /System/Library/CoreServices/logind
+shcjveg          35108   0.0  0.0  4344440   2164   ??  S    12:02上午   0:00.03 /System/Library/CoreServices/ReportCrash agent XPC_SERVICE_NAME=com.apple.ReportCrash SSH_AUTH_SOCK=/private/tmp/com.apple.launchd.CcC9BwPYF4/Listeners PATH=/usr/bin:/bin:/usr/sbin:/sbin XPC_FLAGS=19 LOGNAME=shcjveg USER=shcjveg HOME=/Users/shcjveg SHELL=/bin/bash TMPDIR=/var/folders/r0/_s4g94s95db201lhl035tww80000gn/T/
+shcjveg           7436   0.0  0.0  4345976   2152   ??  S    日03上午   0:00.07 /System/Library/CoreServices/EscrowSecurityAlert.app/Contents/MacOS/EscrowSecurityAlert XPC_SERVICE_NAME=com.apple.EscrowSecurityAlert SSH_AUTH_SOCK=/private/tmp/com.apple.launchd.CcC9BwPYF4/Listeners PATH=/usr/bin:/bin:/usr/sbin:/sbin XPC_FLAGS=19 LOGNAME=shcjveg USER=shcjveg HOME=/Users/shcjveg SHELL=/bin/bash TMPDIR=/var/folders/r0/_s4g94s95db201lhl035tww80000gn/T/
+shcjveg            408   0.0  0.0  4395888   2116   ??  S    六03下午   0:00.27 /System/Library/Frameworks/Security.framework/Versions/A/Resources/CloudKeychainProxy.bundle/Contents/MacOS/CloudKeychainProxy WAIT4DEBUGGER=NO DEBUGSCOPE=all XPC_SERVICE_NAME=com.apple.security.cloudkeychainproxy3 SSH_AUTH_SOCK=/private/tmp/com.apple.launchd.CcC9BwPYF4/Listeners PATH=/usr/bin:/bin:/usr/sbin:/sbin XPC_FLAGS=19 LOGNAME=shcjveg USER=shcjveg HOME=/Users/shcjveg SHELL=/bin/bash TMPDIR=/var/folders/r0/_s4g94s95db201lhl035tww80000gn/T/
+shcjveg            448   0.0  0.0  4431736   2108   ??  Ss   六03下午   0:00.11 /System/Library/PrivateFrameworks/AssistantServices.framework/Versions/A/XPCServices/com.apple.siri.ClientFlow.ClientScripter.xpc/Contents/MacOS/com.apple.siri.ClientFlow.ClientScripter XPC_SERVICE_NAME=com.apple.siri.ClientFlow.ClientScripter PATH=/usr/bin:/bin:/usr/sbin:/sbin SSH_AUTH_SOCK=/private/tmp/com.apple.launchd.CcC9BwPYF4/Listeners HOME=/Users/shcjveg TMPDIR=/var/folders/r0/_s4g94s95db201lhl035tww80000gn/T/ XPC_FLAGS=19 LOGNAME=shcjveg USER=shcjveg SHELL=/bin/bash
+shcjveg           7483   0.0  0.0  4423856   2068   ??  S    日03上午   0:00.14 /System/Library/PrivateFrameworks/IMDPersistence.framework/IMAutomaticHistoryDeletionAgent.app/Contents/MacOS/IMAutomaticHistoryDeletionAgent XPC_SERVICE_NAME=com.apple.imautomatichistorydeletionagent SSH_AUTH_SOCK=/private/tmp/com.apple.launchd.CcC9BwPYF4/Listeners PATH=/usr/bin:/bin:/usr/sbin:/sbin XPC_FLAGS=1 LOGNAME=shcjveg USER=shcjveg HOME=/Users/shcjveg SHELL=/bin/bash TMPDIR=/var/folders/r0/_s4g94s95db201lhl035tww80000gn/T/
+shcjveg            472   0.0  0.0  4395556   2060   ??  S    六03下午   0:03.38 /System/Library/Frameworks/ApplicationServices.framework/Versions/A/Frameworks/HIServices.framework/Versions/A/XPCServices/com.apple.hiservices-xpcservice.xpc/Contents/MacOS/com.apple.hiservices-xpcservice XPC_SERVICE_NAME=com.apple.hiservices-xpcservice PATH=/usr/bin:/bin:/usr/sbin:/sbin XPC_FLAGS=19 LOGNAME=shcjveg USER=shcjveg HOME=/Users/shcjveg SHELL=/bin/bash TMPDIR=/var/folders/r0/_s4g94s95db201lhl035tww80000gn/T/
+root               180   0.0  0.0  4395964   2016   ??  Ss   六03下午   0:41.19 /usr/sbin/notifyd
+shcjveg            474   0.0  0.0  4423600   2012   ??  Ss   六03下午   0:01.49 /System/Library/PrivateFrameworks/CloudDocsDaemon.framework/XPCServices/ContainerMetadataExtractor.xpc/Contents/MacOS/ContainerMetadataExtractor XPC_SERVICE_NAME=com.apple.CloudDocsDaemon.container-metadata-extractor PATH=/usr/bin:/bin:/usr/sbin:/sbin SSH_AUTH_SOCK=/private/tmp/com.apple.launchd.CcC9BwPYF4/Listeners HOME=/Users/shcjveg TMPDIR=/var/folders/r0/_s4g94s95db201lhl035tww80000gn/T/ XPC_FLAGS=19 LOGNAME=shcjveg USER=shcjveg SHELL=/bin/bash
+shcjveg            505   0.0  0.0  4395588   2000   ??  S    六03下午   1:22.18 /System/Library/PrivateFrameworks/MediaRemote.framework/Support/mediaremoteagent XPC_SERVICE_NAME=com.apple.mediaremoteagent SSH_AUTH_SOCK=/private/tmp/com.apple.launchd.CcC9BwPYF4/Listeners PATH=/usr/bin:/bin:/usr/sbin:/sbin XPC_FLAGS=9 LOGNAME=shcjveg USER=shcjveg HOME=/Users/shcjveg SHELL=/bin/bash TMPDIR=/var/folders/r0/_s4g94s95db201lhl035tww80000gn/T/
+shcjveg            510   0.0  0.0  4424492   1980   ??  Ss   六03下午   0:00.24 /System/Library/PrivateFrameworks/IMFoundation.framework/XPCServices/IMRemoteURLConnectionAgent.xpc/Contents/MacOS/IMRemoteURLConnectionAgent XPC_SERVICE_NAME=com.apple.imfoundation.IMRemoteURLConnectionAgent PATH=/usr/bin:/bin:/usr/sbin:/sbin SSH_AUTH_SOCK=/private/tmp/com.apple.launchd.CcC9BwPYF4/Listeners HOME=/Users/shcjveg TMPDIR=/var/folders/r0/_s4g94s95db201lhl035tww80000gn/T/ XPC_FLAGS=19 LOGNAME=shcjveg USER=shcjveg SHELL=/bin/bash
+shcjveg            499   0.0  0.0  4424492   1940   ??  Ss   六03下午   0:00.25 /System/Library/PrivateFrameworks/IMFoundation.framework/XPCServices/IMRemoteURLConnectionAgent.xpc/Contents/MacOS/IMRemoteURLConnectionAgent XPC_SERVICE_NAME=com.apple.imfoundation.IMRemoteURLConnectionAgent PATH=/usr/bin:/bin:/usr/sbin:/sbin SSH_AUTH_SOCK=/private/tmp/com.apple.launchd.CcC9BwPYF4/Listeners HOME=/Users/shcjveg TMPDIR=/var/folders/r0/_s4g94s95db201lhl035tww80000gn/T/ XPC_FLAGS=19 LOGNAME=shcjveg USER=shcjveg SHELL=/bin/bash
+root               360   0.0  0.0  4423776   1932   ??  S    六03下午   0:05.21 /System/Library/PrivateFrameworks/ViewBridge.framework/Versions/A/XPCServices/ViewBridgeAuxiliary.xpc/Contents/MacOS/ViewBridgeAuxiliary
+_locationd         285   0.0  0.0  4428156   1908   ??  S    六03下午   0:00.45 /usr/libexec/trustd --agent
+root             30744   0.0  0.0  4370140   1876   ??  Ss    5:49下午   0:00.04 /System/Library/PrivateFrameworks/DiskImages.framework/Resources/hdiejectd
+shcjveg            626   0.0  0.0  4423044   1872   ??  S    六03下午   0:00.12 /System/Library/CoreServices/SocialPushAgent.app/Contents/MacOS/SocialPushAgent XPC_SERVICE_NAME=com.apple.SocialPushAgent SSH_AUTH_SOCK=/private/tmp/com.apple.launchd.CcC9BwPYF4/Listeners PATH=/usr/bin:/bin:/usr/sbin:/sbin XPC_FLAGS=1 LOGNAME=shcjveg USER=shcjveg HOME=/Users/shcjveg SHELL=/bin/bash TMPDIR=/var/folders/r0/_s4g94s95db201lhl035tww80000gn/T/
+_driverkit       36199   0.0  0.0  4808452   1860   ??  Ss    2:30上午   0:00.01 /System/Library/DriverExtensions/AppleUserHIDDrivers.dext/AppleUserHIDDrivers com.apple.driverkit.AppleUserHIDEventDriver.dfrv1 0x100013592
+root             12638   0.0  0.0  4407064   1856   ??  Ss   日01下午   0:00.05 /usr/libexec/microstackshot
+root               152   0.0  0.0  4402440   1848   ??  Ss   六03下午   0:00.19 /Library/PrivilegedHelperTools/com.docker.vmnetd
+shcjveg            501   0.0  0.0  4424492   1844   ??  Ss   六03下午   0:00.24 /System/Library/PrivateFrameworks/IMFoundation.framework/XPCServices/IMRemoteURLConnectionAgent.xpc/Contents/MacOS/IMRemoteURLConnectionAgent XPC_SERVICE_NAME=com.apple.imfoundation.IMRemoteURLConnectionAgent PATH=/usr/bin:/bin:/usr/sbin:/sbin SSH_AUTH_SOCK=/private/tmp/com.apple.launchd.CcC9BwPYF4/Listeners HOME=/Users/shcjveg TMPDIR=/var/folders/r0/_s4g94s95db201lhl035tww80000gn/T/ XPC_FLAGS=19 LOGNAME=shcjveg USER=shcjveg SHELL=/bin/bash
+shcjveg          32944   0.0  0.0  4350152   1840   ??  Ss    8:51下午   0:00.02 /Applications/Xcode.app/Contents/SharedFrameworks/DVTFoundation.framework/Versions/A/XPCServices/com.apple.dt.Xcode.DeveloperSystemPolicyService.xpc/Contents/MacOS/com.apple.dt.Xcode.DeveloperSystemPolicyService XPC_SERVICE_NAME=com.apple.dt.Xcode.DeveloperSystemPolicyService PATH=/usr/bin:/bin:/usr/sbin:/sbin SSH_AUTH_SOCK=/private/tmp/com.apple.launchd.CcC9BwPYF4/Listeners HOME=/Users/shcjveg __CF_USER_TEXT_ENCODING=0x1F5:0x19:0x34 TMPDIR=/var/folders/r0/_s4g94s95db201lhl035tww80000gn/T/ XPC_FLAGS=19 LOGNAME=shcjveg USER=shcjveg SHELL=/bin/bash
+shcjveg            444   0.0  0.0  4433068   1820   ??  S    六03下午   0:01.77 /System/Library/PrivateFrameworks/FamilyCircle.framework/Versions/A/Resources/familycircled XPC_SERVICE_NAME=com.apple.familycircled SSH_AUTH_SOCK=/private/tmp/com.apple.launchd.CcC9BwPYF4/Listeners PATH=/usr/bin:/bin:/usr/sbin:/sbin XPC_FLAGS=9 LOGNAME=shcjveg USER=shcjveg HOME=/Users/shcjveg SHELL=/bin/bash TMPDIR=/var/folders/r0/_s4g94s95db201lhl035tww80000gn/T/
+_driverkit       36196   0.0  0.0  4806908   1812   ??  Ss    2:30上午   0:01.97 /System/Library/DriverExtensions/AppleUserHIDDrivers.dext/AppleUserHIDDrivers com.apple.driverkit.AppleUserUSBHostHIDDeviceKB 0x10001355f
+_driverkit       36195   0.0  0.0  4807408   1760   ??  Ss    2:30上午   0:00.37 /System/Library/DriverExtensions/AppleUserHIDDrivers.dext/AppleUserHIDDrivers com.apple.driverkit.AppleUserUSBHostHIDDevice0 0x10001355d
+shcjveg           1069   0.0  0.0  4395140   1736   ??  Ss   六03下午   0:00.24 /System/Library/CoreServices/ControlStrip.app/Contents/XPCServices/com.apple.DFRSystemExtra.Siri.xpc/Contents/MacOS/com.apple.DFRSystemExtra.Siri XPC_SERVICE_NAME=com.apple.DFRSystemExtra.Siri PATH=/usr/bin:/bin:/usr/sbin:/sbin SSH_AUTH_SOCK=/private/tmp/com.apple.launchd.CcC9BwPYF4/Listeners HOME=/Users/shcjveg TMPDIR=/var/folders/r0/_s4g94s95db201lhl035tww80000gn/T/ XPC_FLAGS=19 LOGNAME=shcjveg USER=shcjveg SHELL=/bin/bash
+root               135   0.0  0.0  4395452   1736   ??  Ss   六03下午   0:00.42 /usr/libexec/keybagd -t 15
+shcjveg            787   0.0  0.0  4768144   1728   ??  S    六03下午   0:01.12 /System/Library/Frameworks/CoreSpotlight.framework/CoreSpotlightService LaunchInstanceID=90F9F991-6605-7A06-4D9A-64771EA6A797 XPC_SERVICE_NAME=com.apple.corespotlightservice SSH_AUTH_SOCK=/private/tmp/com.apple.launchd.CcC9BwPYF4/Listeners PATH=/usr/bin:/bin:/usr/sbin:/sbin XPC_FLAGS=19 LOGNAME=shcjveg USER=shcjveg HOME=/Users/shcjveg SHELL=/bin/bash TMPDIR=/var/folders/r0/_s4g94s95db201lhl035tww80000gn/T/
+shcjveg            594   0.0  0.0  4397456   1724   ??  S    六03下午   0:00.14 /usr/libexec/replayd XPC_SERVICE_NAME=com.apple.replayd SSH_AUTH_SOCK=/private/tmp/com.apple.launchd.CcC9BwPYF4/Listeners PATH=/usr/bin:/bin:/usr/sbin:/sbin XPC_FLAGS=19 LOGNAME=shcjveg USER=shcjveg HOME=/Users/shcjveg SHELL=/bin/bash TMPDIR=/var/folders/r0/_s4g94s95db201lhl035tww80000gn/T/
+_distnote          182   0.0  0.0  4396684   1700   ??  Ss   六03下午   0:00.75 /usr/sbin/distnoted daemon
+shcjveg            515   0.0  0.0  4395268   1688   ??  S    六03下午   0:00.07 /System/Library/PrivateFrameworks/CoreFollowUp.framework/Versions/A/Support/followupd XPC_SERVICE_NAME=com.apple.followupd SSH_AUTH_SOCK=/private/tmp/com.apple.launchd.CcC9BwPYF4/Listeners PATH=/usr/bin:/bin:/usr/sbin:/sbin XPC_FLAGS=19 LOGNAME=shcjveg USER=shcjveg HOME=/Users/shcjveg SHELL=/bin/bash TMPDIR=/var/folders/r0/_s4g94s95db201lhl035tww80000gn/T/
+_driverkit       36198   0.0  0.0  4800764   1660   ??  Ss    2:30上午   1:14.73 /System/Library/DriverExtensions/AppleUserHIDDrivers.dext/AppleUserHIDDrivers com.apple.driverkit.AppleUserUSBHostHIDDevice1 0x100013566
+root               259   0.0  0.0  4424664   1632   ??  Ss   六03下午   0:00.34 /System/Library/PrivateFrameworks/WirelessDiagnostics.framework/Support/awdd
+root              2253   0.0  0.0  4416828   1588   ??  Ss   六05下午   0:00.06 /usr/bin/sysdiagnose
+shcjveg          41371   0.0  0.0  4320356   1548 s002  S+   10:58上午   0:00.16 -bash TMPDIR=/var/folders/r0/_s4g94s95db201lhl035tww80000gn/T/ XPC_FLAGS=0x0 TERM_PROGRAM_VERSION=433 LANG=zh_CN.UTF-8 TERM_PROGRAM=Apple_Terminal XPC_SERVICE_NAME=0 TERM_SESSION_ID=D4AC605D-4683-4BBB-AE01-582537062110 TERM=xterm-256color SSH_AUTH_SOCK=/private/tmp/com.apple.launchd.CcC9BwPYF4/Listeners SHELL=/bin/bash HOME=/Users/shcjveg LOGNAME=shcjveg USER=shcjveg PATH=/usr/bin:/bin
+shcjveg            611   0.0  0.0  4396728   1532   ??  S    六03下午   0:00.12 /usr/libexec/findmydevice-user-agent XPC_SERVICE_NAME=com.apple.icloud.findmydeviced.findmydevice-user-agent SSH_AUTH_SOCK=/private/tmp/com.apple.launchd.CcC9BwPYF4/Listeners PATH=/usr/bin:/bin:/usr/sbin:/sbin XPC_FLAGS=19 LOGNAME=shcjveg USER=shcjveg HOME=/Users/shcjveg SHELL=/bin/bash TMPDIR=/var/folders/r0/_s4g94s95db201lhl035tww80000gn/T/
+shcjveg            555   0.0  0.0  4423504   1516   ??  S    六03下午   0:00.19 /System/Library/PrivateFrameworks/CommunicationsFilter.framework/CMFSyncAgent NSRunningFromLaunchd=1 XPC_SERVICE_NAME=com.apple.cmfsyncagent SSH_AUTH_SOCK=/private/tmp/com.apple.launchd.CcC9BwPYF4/Listeners PATH=/usr/bin:/bin:/usr/sbin:/sbin XPC_FLAGS=19 LOGNAME=shcjveg USER=shcjveg HOME=/Users/shcjveg SHELL=/bin/bash TMPDIR=/var/folders/r0/_s4g94s95db201lhl035tww80000gn/T/
+_driverkit         317   0.0  0.0  4809456   1492   ??  Ss   六03下午   0:01.14 /System/Library/DriverExtensions/AppleUserHIDDrivers.dext/AppleUserHIDDrivers com.apple.driverkit.AppleUserUSBHostHIDDevice0 0x10000057d
+shcjveg          41216   0.0  0.0  4345956   1492 s000  S    10:48上午   0:00.26 -bash TMPDIR=/var/folders/r0/_s4g94s95db201lhl035tww80000gn/T/ XPC_FLAGS=0x0 TERM_PROGRAM_VERSION=433 LANG=zh_CN.UTF-8 TERM_PROGRAM=Apple_Terminal XPC_SERVICE_NAME=0 TERM_SESSION_ID=73EE0F27-F1CC-498B-880A-0A72D7B5F4EA TERM=xterm-256color SSH_AUTH_SOCK=/private/tmp/com.apple.launchd.CcC9BwPYF4/Listeners SHELL=/bin/bash HOME=/Users/shcjveg LOGNAME=shcjveg USER=shcjveg PATH=/usr/bin:/bin
+shcjveg            780   0.0  0.0  4396160   1468   ??  S    六03下午   0:00.05 /usr/libexec/loginitemregisterd XPC_SERVICE_NAME=com.apple.xpc.loginitemregisterd SSH_AUTH_SOCK=/private/tmp/com.apple.launchd.CcC9BwPYF4/Listeners PATH=/usr/bin:/bin:/usr/sbin:/sbin XPC_FLAGS=19 LOGNAME=shcjveg USER=shcjveg HOME=/Users/shcjveg SHELL=/bin/bash TMPDIR=/var/folders/r0/_s4g94s95db201lhl035tww80000gn/T/
+_driverkit         324   0.0  0.0  4809480   1464   ??  Ss   六03下午   0:00.24 /System/Library/DriverExtensions/AppleUserHIDDrivers.dext/AppleUserHIDDrivers com.apple.driverkit.AppleUserHIDEventDriver.dfrv2 0x1000005f5
+root               358   0.0  0.0  4395748   1464   ??  Ss   六03下午   0:26.87 /usr/libexec/sysmond
+root               166   0.0  0.0  4426208   1440   ??  Ss   六03下午   0:00.14 /System/Library/PrivateFrameworks/Heimdal.framework/Helpers/kdc
+shcjveg            598   0.0  0.0  4426736   1440   ??  S    六03下午   0:00.10 /System/Library/PrivateFrameworks/CommerceKit.framework/Versions/A/Resources/storedownloadd XPC_SERVICE_NAME=com.apple.storedownloadd SSH_AUTH_SOCK=/private/tmp/com.apple.launchd.CcC9BwPYF4/Listeners PATH=/usr/bin:/bin:/usr/sbin:/sbin XPC_FLAGS=9 LOGNAME=shcjveg USER=shcjveg HOME=/Users/shcjveg SHELL=/bin/bash TMPDIR=/var/folders/r0/_s4g94s95db201lhl035tww80000gn/T/
+shcjveg           2262   0.0  0.0  4424020   1436   ??  S    六05下午   0:00.12 /System/Library/PrivateFrameworks/BookKit.framework/Versions/A/XPCServices/com.apple.BKAgentService.xpc/Contents/MacOS/com.apple.BKAgentService XPC_SERVICE_NAME=com.apple.BKAgentService PATH=/usr/bin:/bin:/usr/sbin:/sbin XPC_FLAGS=19 LOGNAME=shcjveg USER=shcjveg HOME=/Users/shcjveg SHELL=/bin/bash TMPDIR=/var/folders/r0/_s4g94s95db201lhl035tww80000gn/T/
+shcjveg           2257   0.0  0.0  4397072   1432   ??  S    六05下午   0:00.13 /usr/libexec/silhouette XPC_SERVICE_NAME=com.apple.coreparsec.silhouette SSH_AUTH_SOCK=/private/tmp/com.apple.launchd.CcC9BwPYF4/Listeners PATH=/usr/bin:/bin:/usr/sbin:/sbin XPC_FLAGS=19 LOGNAME=shcjveg USER=shcjveg HOME=/Users/shcjveg SHELL=/bin/bash TMPDIR=/var/folders/r0/_s4g94s95db201lhl035tww80000gn/T/
+_applepay         5892   0.0  0.0  4424760   1432   ??  Ss   六11下午   0:00.52 /usr/libexec/seld
+shcjveg            517   0.0  0.0  4386880   1412   ??  Ss   六03下午   0:00.06 /System/Library/CoreServices/NotificationCenter.app/Contents/XPCServices/com.apple.notificationcenterui.WeatherSummary.xpc/Contents/MacOS/com.apple.notificationcenterui.WeatherSummary XPC_SERVICE_NAME=com.apple.notificationcenterui.WeatherSummary PATH=/usr/bin:/bin:/usr/sbin:/sbin SSH_AUTH_SOCK=/private/tmp/com.apple.launchd.CcC9BwPYF4/Listeners HOME=/Users/shcjveg TMPDIR=/var/folders/r0/_s4g94s95db201lhl035tww80000gn/T/ XPC_FLAGS=19 LOGNAME=shcjveg USER=shcjveg SHELL=/bin/bash
+_driverkit       36194   0.0  0.0  4800240   1412   ??  Ss    2:30上午   0:00.01 /System/Library/DriverExtensions/AppleUserHIDDrivers.dext/AppleUserHIDDrivers com.apple.driverkit.AppleUserUSBHostHIDDevice0 0x10001355b
+shcjveg           2261   0.0  0.0  4425604   1408   ??  S    六05下午   0:00.15 /System/Library/PrivateFrameworks/PodcastServices.framework/XPCServices/PodcastContentService.xpc/Contents/MacOS/PodcastContentService XPC_SERVICE_NAME=com.apple.podcasts.PodcastContentService PATH=/usr/bin:/bin:/usr/sbin:/sbin XPC_FLAGS=19 LOGNAME=shcjveg USER=shcjveg HOME=/Users/shcjveg SHELL=/bin/bash TMPDIR=/var/folders/r0/_s4g94s95db201lhl035tww80000gn/T/
+_usbmuxd           155   0.0  0.0  4423868   1392   ??  Ss   六03下午   0:00.36 /System/Library/PrivateFrameworks/MobileDevice.framework/Versions/A/Resources/usbmuxd -launchd
+_driverkit       36197   0.0  0.0  4802288   1380   ??  Ss    2:30上午   0:00.01 /System/Library/DriverExtensions/AppleUserHIDDrivers.dext/AppleUserHIDDrivers com.apple.driverkit.AppleTopCase 0x100013563
+root               362   0.0  0.0  4426044   1364   ??  S    六03下午   0:02.63 /usr/sbin/systemstats --logger-helper /private/var/db/systemstats
+_iconservices      143   0.0  0.0  4397072   1348   ??  Ss   六03下午   0:00.09 /System/Library/CoreServices/iconservicesd
+shcjveg            545   0.0  0.0  4425780   1336   ??  S    六03下午   0:00.09 /Library/Apple/System/Library/CoreServices/SafariSupport.bundle/Contents/MacOS/SafariLaunchAgent XPC_SERVICE_NAME=com.apple.SafariLaunchAgent SSH_AUTH_SOCK=/private/tmp/com.apple.launchd.CcC9BwPYF4/Listeners PATH=/usr/bin:/bin:/usr/sbin:/sbin XPC_FLAGS=19 LOGNAME=shcjveg USER=shcjveg HOME=/Users/shcjveg SHELL=/bin/bash TMPDIR=/var/folders/r0/_s4g94s95db201lhl035tww80000gn/T/
+_driverkit         316   0.0  0.0  4809456   1320   ??  Ss   六03下午   0:04.96 /System/Library/DriverExtensions/AppleUserHIDDrivers.dext/AppleUserHIDDrivers com.apple.driverkit.AppleUserUSBHostHIDDevice0 0x10000057b
+shcjveg            506   0.0  0.0  4423212   1284   ??  S    六03下午   0:00.08 /usr/libexec/WiFiVelocityAgent XPC_SERVICE_NAME=com.apple.WiFiVelocityAgent SSH_AUTH_SOCK=/private/tmp/com.apple.launchd.CcC9BwPYF4/Listeners PATH=/usr/bin:/bin:/usr/sbin:/sbin XPC_FLAGS=19 LOGNAME=shcjveg USER=shcjveg HOME=/Users/shcjveg SHELL=/bin/bash TMPDIR=/var/folders/r0/_s4g94s95db201lhl035tww80000gn/T/
+root              7481   0.0  0.0  4363032   1212   ??  Ss   日03上午   0:00.06 /usr/libexec/tzd
+root               117   0.0  0.0  4396196   1208   ??  Ss   六03下午   0:07.20 /usr/sbin/syslogd
+root               371   0.0  0.0  4396688   1196   ??  Ss   六03下午   0:00.07 /System/Library/Frameworks/CryptoTokenKit.framework/ctkahp.bundle/Contents/MacOS/ctkahp -d
+shcjveg            416   0.0  0.0  4425352   1188   ??  S    六03下午   0:00.14 /usr/libexec/networkserviceproxy XPC_SERVICE_NAME=com.apple.networkserviceproxy SSH_AUTH_SOCK=/private/tmp/com.apple.launchd.CcC9BwPYF4/Listeners PATH=/usr/bin:/bin:/usr/sbin:/sbin XPC_FLAGS=19 LOGNAME=shcjveg USER=shcjveg HOME=/Users/shcjveg SHELL=/bin/bash TMPDIR=/var/folders/r0/_s4g94s95db201lhl035tww80000gn/T/
+_driverkit         320   0.0  0.0  4800240   1184   ??  Ss   六03下午   0:00.45 /System/Library/DriverExtensions/AppleUserHIDDrivers.dext/AppleUserHIDDrivers com.apple.driverkit.AppleUserUSBHostHIDDevice0 0x100000583
+shcjveg            644   0.0  0.0  4396724   1164   ??  S    六03下午   0:00.06 /System/Library/Frameworks/CryptoTokenKit.framework/ctkahp.bundle/Contents/MacOS/ctkahp XPC_SERVICE_NAME=com.apple.CryptoTokenKit.ahp.agent SSH_AUTH_SOCK=/private/tmp/com.apple.launchd.CcC9BwPYF4/Listeners PATH=/usr/bin:/bin:/usr/sbin:/sbin XPC_FLAGS=19 LOGNAME=shcjveg USER=shcjveg HOME=/Users/shcjveg SHELL=/bin/bash TMPDIR=/var/folders/r0/_s4g94s95db201lhl035tww80000gn/T/
+shcjveg          41246   0.0  0.0  4290660   1156   ??  S    10:49上午   0:00.03 /usr/bin/ssh-agent -l XPC_SERVICE_NAME=com.openssh.ssh-agent SSH_AUTH_SOCK=/private/tmp/com.apple.launchd.CcC9BwPYF4/Listeners PATH=/usr/bin:/bin:/usr/sbin:/sbin XPC_FLAGS=9 LOGNAME=shcjveg USER=shcjveg HOME=/Users/shcjveg SHELL=/bin/bash TMPDIR=/var/folders/r0/_s4g94s95db201lhl035tww80000gn/T/
+shcjveg           2286   0.0  0.0  4392156   1148   ??  Ss   六05下午   0:00.08 /System/Library/PrivateFrameworks/AssistantServices.framework/Versions/A/XPCServices/com.apple.siri.ClientFlow.ClientScripter.xpc/Contents/MacOS/com.apple.siri.ClientFlow.ClientScripter XPC_SERVICE_NAME=com.apple.siri.ClientFlow.ClientScripter PATH=/usr/bin:/bin:/usr/sbin:/sbin SSH_AUTH_SOCK=/private/tmp/com.apple.launchd.CcC9BwPYF4/Listeners HOME=/Users/shcjveg TMPDIR=/var/folders/r0/_s4g94s95db201lhl035tww80000gn/T/ XPC_FLAGS=19 LOGNAME=shcjveg USER=shcjveg SHELL=/bin/bash
+_displaypolicyd    163   0.0  0.0  4390196   1116   ??  Ss   六03下午   0:05.41 /usr/libexec/displaypolicyd -k 1
+shcjveg           4339   0.0  0.0  4425936   1116   ??  S    六09下午   0:00.26 /usr/libexec/transparencyd XPC_SERVICE_NAME=com.apple.transparencyd SSH_AUTH_SOCK=/private/tmp/com.apple.launchd.CcC9BwPYF4/Listeners PATH=/usr/bin:/bin:/usr/sbin:/sbin XPC_FLAGS=19 LOGNAME=shcjveg USER=shcjveg HOME=/Users/shcjveg SHELL=/bin/bash TMPDIR=/var/folders/r0/_s4g94s95db201lhl035tww80000gn/T/
+_fpsd             5972   0.0  0.0  4390224   1108   ??  Ss   六11下午   0:01.93 /System/Library/PrivateFrameworks/CoreLSKD.framework/Versions/A/lskdd
+root               268   0.0  0.0  4397364   1088   ??  Ss   六03下午   0:00.10 /System/Library/Frameworks/AudioToolbox.framework/AudioComponentRegistrar -daemon
+root               580   0.0  0.0  4427060   1064   ??  Ss   六03下午   0:02.31 /System/Library/PrivateFrameworks/AuthKit.framework/Versions/A/Support/akd
+root               731   0.0  0.0  4396020   1060   ??  Ss   六03下午   0:00.10 /System/Library/CoreServices/Software Update.app/Contents/Resources/suhelperd
+shcjveg           1034   0.0  0.0  4355736   1032   ??  S    六03下午   0:00.05 /System/Library/Frameworks/ApplicationServices.framework/Frameworks/PrintCore.framework/Versions/A/printtool PRINTTOOL_MODE=agent XPC_SERVICE_NAME=com.apple.printtool.agent SSH_AUTH_SOCK=/private/tmp/com.apple.launchd.CcC9BwPYF4/Listeners PATH=/usr/bin:/bin:/usr/sbin:/sbin XPC_FLAGS=19 LOGNAME=shcjveg USER=shcjveg HOME=/Users/shcjveg SHELL=/bin/bash TMPDIR=/var/folders/r0/_s4g94s95db201lhl035tww80000gn/T/
+root              6271   0.0  0.0  4339848   1028   ??  Ss   日12上午   0:00.04 /System/Library/PrivateFrameworks/AssetCacheServicesExtensions.framework/XPCServices/AssetCacheManagerService.xpc/Contents/MacOS/AssetCacheManagerService
+_assetcache        552   0.0  0.0  4427124   1000   ??  Ss   六03下午   0:00.13 /usr/libexec/AssetCache/AssetCache
+root             43018   0.0  0.0  4268844    996 s000  R+   12:10下午   0:00.00 ps auxwwem TERM_PROGRAM=Apple_Terminal SHELL=/bin/bash TERM=xterm-256color HOMEBREW_BOTTLE_DOMAIN=https://mirrors.ustc.edu.cn/homebrew-bottles TMPDIR=/var/folders/r0/_s4g94s95db201lhl035tww80000gn/T/ CONDA_SHLVL=1 CONDA_PROMPT_MODIFIER=(base)  TERM_PROGRAM_VERSION=433 TERM_SESSION_ID=73EE0F27-F1CC-498B-880A-0A72D7B5F4EA USER=shcjveg CONDA_EXE=/Users/shcjveg/env/conda/anaconda3/bin/conda SSH_AUTH_SOCK=/private/tmp/com.apple.launchd.CcC9BwPYF4/Listeners _CE_CONDA= PATH=/Library/Frameworks/Python.framework/Versions/3.8/bin:/Users/shcjveg/env/conda/anaconda3/bin:/Users/shcjveg/env/conda/anaconda3/condabin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/Applications/VMware Fusion.app/Contents/Public:/Library/Apple/usr/bin CONDA_PREFIX=/Users/shcjveg/env/conda/anaconda3 PWD=/Users/shcjveg/gitProject/idshwk6 LANG=zh_CN.UTF-8 XPC_FLAGS=0x0 _CE_M= XPC_SERVICE_NAME=0 SHLVL=1 HOME=/Users/shcjveg CONDA_PYTHON_EXE=/Users/shcjveg/env/conda/anaconda3/bin/python LOGNAME=shcjveg CONDA_DEFAULT_ENV=base _=/bin/ps OLDPWD=/Users/shcjveg/gitProject
+shcjveg            525   0.0  0.0  4429700    992   ??  Ss   六03下午   0:01.79 /System/Library/PrivateFrameworks/Categories.framework/Versions/A/XPCServices/CategoriesService.xpc/Contents/MacOS/CategoriesService XPC_SERVICE_NAME=com.apple.ctcategories.service PATH=/usr/bin:/bin:/usr/sbin:/sbin SSH_AUTH_SOCK=/private/tmp/com.apple.launchd.CcC9BwPYF4/Listeners HOME=/Users/shcjveg TMPDIR=/var/folders/r0/_s4g94s95db201lhl035tww80000gn/T/ XPC_FLAGS=19 LOGNAME=shcjveg USER=shcjveg SHELL=/bin/bash
+shcjveg            518   0.0  0.0  4428636    952   ??  Ss   六03下午   0:01.76 /System/Library/PrivateFrameworks/Categories.framework/Versions/A/XPCServices/CategoriesService.xpc/Contents/MacOS/CategoriesService XPC_SERVICE_NAME=com.apple.ctcategories.service PATH=/usr/bin:/bin:/usr/sbin:/sbin SSH_AUTH_SOCK=/private/tmp/com.apple.launchd.CcC9BwPYF4/Listeners HOME=/Users/shcjveg TMPDIR=/var/folders/r0/_s4g94s95db201lhl035tww80000gn/T/ XPC_FLAGS=19 LOGNAME=shcjveg USER=shcjveg SHELL=/bin/bash
+root               197   0.0  0.0  4379208    940   ??  Ss   六03下午   0:00.09 aslmanager
+root               258   0.0  0.0  4415876    920   ??  Ss   六03下午   0:08.61 /usr/sbin/mDNSResponderHelper
+_driverkit         323   0.0  0.0  4799236    896   ??  Ss   六03下午   0:00.01 /System/Library/DriverExtensions/AppleUserHIDDrivers.dext/AppleUserHIDDrivers com.apple.driverkit.AppleUserHIDEventDriver 0x1000005c9
+_driverkit         315   0.0  0.0  4800240    888   ??  Ss   六03下午   0:00.03 /System/Library/DriverExtensions/AppleUserHIDDrivers.dext/AppleUserHIDDrivers com.apple.driverkit.AppleUserUSBHostHIDDevice0 0x100000579
+_locationd        5008   0.0  0.0  4396684    876   ??  S    六10下午   0:00.06 /usr/sbin/distnoted agent
+root               361   0.0  0.0  4396684    868   ??  S    六03下午   0:00.08 /usr/sbin/distnoted agent
+root               370   0.0  0.0  4423484    856   ??  Ss   六03下午   0:00.31 /usr/libexec/biokitaggdd
+root               368   0.0  0.0  4362808    824   ??  Ss   六03下午   0:00.06 /System/Library/PrivateFrameworks/AccountPolicy.framework/XPCServices/com.apple.AccountPolicyHelper.xpc/Contents/MacOS/com.apple.AccountPolicyHelper
+root               652   0.0  0.0  4378696    784   ??  Ss   六03下午   0:00.04 /System/Library/CoreServices/CrashReporterSupportHelper server-init
+root               601   0.0  0.0  4394968    736   ??  Ss   六03下午   0:00.03 /System/Library/PrivateFrameworks/PackageKit.framework/Resources/installd
+root               337   0.0  0.0  4321340    732   ??  Ss   六03下午   0:00.05 /System/Library/CryptoTokenKit/com.apple.ifdreader.slotd/Contents/MacOS/com.apple.ifdreader
+root               597   0.0  0.0  4394968    732   ??  Ss   六03下午   0:00.03 /System/Library/PrivateFrameworks/PackageKit.framework/Resources/system_installd
+root              2229   0.0  0.0  4424888    728   ??  Ss   六05下午   0:00.08 /System/Library/PrivateFrameworks/Noticeboard.framework/Versions/A/Resources/nbstated
+_coreaudiod        236   0.0  0.0  4424452    704   ??  Ss   六03下午   0:00.06 /System/Library/Frameworks/CoreAudio.framework/Versions/A/XPCServices/com.apple.audio.DriverHelper.xpc/Contents/MacOS/com.apple.audio.DriverHelper
+root               352   0.0  0.0  4372308    700   ??  Ss   六03下午   0:00.08 /System/Library/Frameworks/OpenGL.framework/Versions/A/Libraries/CVMServer
+shcjveg          42923   0.0  0.0  4296884    696 s000  T    12:01下午   0:00.00 arp -a TERM_PROGRAM=Apple_Terminal SHELL=/bin/bash TERM=xterm-256color HOMEBREW_BOTTLE_DOMAIN=https://mirrors.ustc.edu.cn/homebrew-bottles TMPDIR=/var/folders/r0/_s4g94s95db201lhl035tww80000gn/T/ CONDA_SHLVL=1 CONDA_PROMPT_MODIFIER=(base)  TERM_PROGRAM_VERSION=433 TERM_SESSION_ID=73EE0F27-F1CC-498B-880A-0A72D7B5F4EA USER=shcjveg CONDA_EXE=/Users/shcjveg/env/conda/anaconda3/bin/conda SSH_AUTH_SOCK=/private/tmp/com.apple.launchd.CcC9BwPYF4/Listeners _CE_CONDA= PATH=/Library/Frameworks/Python.framework/Versions/3.8/bin:/Users/shcjveg/env/conda/anaconda3/bin:/Users/shcjveg/env/conda/anaconda3/condabin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/Applications/VMware Fusion.app/Contents/Public:/Library/Apple/usr/bin CONDA_PREFIX=/Users/shcjveg/env/conda/anaconda3 PWD=/Users/shcjveg/gitProject/idshwk6 LANG=zh_CN.UTF-8 XPC_FLAGS=0x0 _CE_M= XPC_SERVICE_NAME=0 SHLVL=1 HOME=/Users/shcjveg CONDA_PYTHON_EXE=/Users/shcjveg/env/conda/anaconda3/bin/python LOGNAME=shcjveg CONDA_DEFAULT_ENV=base _=/usr/sbin/arp OLDPWD=/Users/shcjveg/gitProject
+shcjveg            439   0.0  0.0  4425460    696   ??  S    六03下午   0:00.06 /System/Library/Frameworks/CryptoTokenKit.framework/ctkd -tw XPC_SERVICE_NAME=com.apple.ctkd PATH=/usr/bin:/bin:/usr/sbin:/sbin XPC_FLAGS=19 LOGNAME=shcjveg USER=shcjveg HOME=/Users/shcjveg SHELL=/bin/bash TMPDIR=/var/folders/r0/_s4g94s95db201lhl035tww80000gn/T/
+root               121   0.0  0.0  4312796    688   ??  Ss   六03下午   0:06.20 /System/Library/PrivateFrameworks/Uninstall.framework/Resources/uninstalld
+_locationd         280   0.0  0.0  4425884    688   ??  S    六03下午   0:00.07 /usr/libexec/secinitd
+root               388   0.0  0.0  4339760    676   ??  Ss   六03下午   0:00.03 /usr/libexec/securityd_service
+shcjveg            636   0.0  0.0  4306380    672   ??  S    六03下午   0:01.35 /Applications/EasyConnect.app/Contents/Resources/bin/ECAgentProxy XPC_SERVICE_NAME=com.sangfor.ECAgentProxy SSH_AUTH_SOCK=/private/tmp/com.apple.launchd.CcC9BwPYF4/Listeners PATH=/usr/bin:/bin:/usr/sbin:/sbin XPC_FLAGS=1 LOGNAME=shcjveg USER=shcjveg HOME=/Users/shcjveg SHELL=/bin/bash TMPDIR=/var/folders/r0/_s4g94s95db201lhl035tww80000gn/T/
+shcjveg          42922   0.0  0.0  4287668    672 s002  T    12:00下午   0:00.00 arp -a TERM_PROGRAM=Apple_Terminal SHELL=/bin/bash TERM=xterm-256color HOMEBREW_BOTTLE_DOMAIN=https://mirrors.ustc.edu.cn/homebrew-bottles TMPDIR=/var/folders/r0/_s4g94s95db201lhl035tww80000gn/T/ CONDA_SHLVL=1 CONDA_PROMPT_MODIFIER=(base)  TERM_PROGRAM_VERSION=433 TERM_SESSION_ID=D4AC605D-4683-4BBB-AE01-582537062110 USER=shcjveg CONDA_EXE=/Users/shcjveg/env/conda/anaconda3/bin/conda SSH_AUTH_SOCK=/private/tmp/com.apple.launchd.CcC9BwPYF4/Listeners _CE_CONDA= PATH=/Library/Frameworks/Python.framework/Versions/3.8/bin:/Users/shcjveg/env/conda/anaconda3/bin:/Users/shcjveg/env/conda/anaconda3/condabin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/Applications/VMware Fusion.app/Contents/Public:/Library/Apple/usr/bin CONDA_PREFIX=/Users/shcjveg/env/conda/anaconda3 PWD=/ LANG=zh_CN.UTF-8 XPC_FLAGS=0x0 _CE_M= XPC_SERVICE_NAME=0 SHLVL=1 HOME=/Users/shcjveg CONDA_PYTHON_EXE=/Users/shcjveg/env/conda/anaconda3/bin/python LOGNAME=shcjveg CONDA_DEFAULT_ENV=base _=/usr/sbin/arp OLDPWD=/etc
+shcjveg            572   0.0  0.0  4346988    656   ??  S    六03下午   0:00.03 /usr/libexec/spindump_agent XPC_SERVICE_NAME=com.apple.spindump_agent SSH_AUTH_SOCK=/private/tmp/com.apple.launchd.CcC9BwPYF4/Listeners PATH=/usr/bin:/bin:/usr/sbin:/sbin XPC_FLAGS=19 LOGNAME=shcjveg USER=shcjveg HOME=/Users/shcjveg SHELL=/bin/bash TMPDIR=/var/folders/r0/_s4g94s95db201lhl035tww80000gn/T/
+root               800   0.0  0.0  4425848    648   ??  S    六03下午   0:00.07 /usr/libexec/secinitd
+shcjveg          42089   0.0  0.0  4278452    640 s002  T    11:49上午   0:00.00 arp -a TERM_PROGRAM=Apple_Terminal SHELL=/bin/bash TERM=xterm-256color HOMEBREW_BOTTLE_DOMAIN=https://mirrors.ustc.edu.cn/homebrew-bottles TMPDIR=/var/folders/r0/_s4g94s95db201lhl035tww80000gn/T/ CONDA_SHLVL=1 CONDA_PROMPT_MODIFIER=(base)  TERM_PROGRAM_VERSION=433 TERM_SESSION_ID=D4AC605D-4683-4BBB-AE01-582537062110 USER=shcjveg CONDA_EXE=/Users/shcjveg/env/conda/anaconda3/bin/conda SSH_AUTH_SOCK=/private/tmp/com.apple.launchd.CcC9BwPYF4/Listeners _CE_CONDA= PATH=/Library/Frameworks/Python.framework/Versions/3.8/bin:/Users/shcjveg/env/conda/anaconda3/bin:/Users/shcjveg/env/conda/anaconda3/condabin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/Applications/VMware Fusion.app/Contents/Public:/Library/Apple/usr/bin CONDA_PREFIX=/Users/shcjveg/env/conda/anaconda3 PWD=/ LANG=zh_CN.UTF-8 XPC_FLAGS=0x0 _CE_M= XPC_SERVICE_NAME=0 SHLVL=1 HOME=/Users/shcjveg CONDA_PYTHON_EXE=/Users/shcjveg/env/conda/anaconda3/bin/python LOGNAME=shcjveg CONDA_DEFAULT_ENV=base _=/usr/sbin/arp OLDPWD=/etc
+_captiveagent      334   0.0  0.0  4425600    636   ??  Ss   六03下午   0:00.08 /usr/libexec/captiveagent
+root               347   0.0  0.0  4425848    628   ??  Ss   六03下午   0:00.07 /usr/libexec/secinitd
+root               354   0.0  0.0  4396264    612   ??  Ss   六03下午   0:00.04 /usr/libexec/colorsyncd
+shcjveg           1037   0.0  0.0  4346424    600   ??  S    六03下午   0:00.04 /System/Library/Frameworks/ColorSync.framework/Support/colorsync.useragent XPC_SERVICE_NAME=com.apple.colorsync.useragent SSH_AUTH_SOCK=/private/tmp/com.apple.launchd.CcC9BwPYF4/Listeners PATH=/usr/bin:/bin:/usr/sbin:/sbin XPC_FLAGS=19 LOGNAME=shcjveg USER=shcjveg HOME=/Users/shcjveg SHELL=/bin/bash TMPDIR=/var/folders/r0/_s4g94s95db201lhl035tww80000gn/T/
+root               609   0.0  0.0  4397184    600   ??  Ss   六03下午   0:00.06 /System/Library/CoreServices/iconservicesagent runAsRoot
+_nsurlstoraged     653   0.0  0.0  4346508    596   ??  Ss   六03下午   0:00.23 /usr/libexec/nsurlstoraged --privileged
+root               340   0.0  0.0  4313092    584   ??  Ss   六03下午   0:00.20 /usr/libexec/thermald
+root               593   0.0  0.0  4395496    576   ??  Ss   六03下午   0:00.04 /System/Library/PrivateFrameworks/CacheDelete.framework/deleted_helper
+root               600   0.0  0.0  4398144    576   ??  Ss   六03下午   0:02.47 /System/Library/PrivateFrameworks/CoreSymbolication.framework/coresymbolicationd
+root              2178   0.0  0.0  4313564    568   ??  SNs  六05下午   0:00.02 /usr/libexec/periodic-wrapper daily
+root               383   0.0  0.0  4305760    548   ??  Ss   六03下午   0:00.05 /System/Library/Frameworks/GSS.framework/Helpers/GSSCred
+shcjveg            857   0.0  0.0  4354564    544   ??  S    六03下午   0:00.03 /System/Library/Frameworks/MediaAccessibility.framework/Versions/A/XPCServices/com.apple.accessibility.mediaaccessibilityd.xpc/Contents/MacOS/com.apple.accessibility.mediaaccessibilityd XPC_SERVICE_NAME=com.apple.accessibility.mediaaccessibilityd PATH=/usr/bin:/bin:/usr/sbin:/sbin XPC_FLAGS=19 LOGNAME=shcjveg USER=shcjveg HOME=/Users/shcjveg SHELL=/bin/bash TMPDIR=/var/folders/r0/_s4g94s95db201lhl035tww80000gn/T/
+shcjveg           1067   0.0  0.0  4338280    540   ??  S    六03下午   0:00.02 /System/Library/Frameworks/CoreServices.framework/Versions/A/Frameworks/DictionaryServices.framework/Versions/A/XPCServices/com.apple.DictionaryServiceHelper.xpc/Contents/MacOS/com.apple.DictionaryServiceHelper XPC_SERVICE_NAME=com.apple.DictionaryServiceHelper PATH=/usr/bin:/bin:/usr/sbin:/sbin XPC_FLAGS=19 LOGNAME=shcjveg USER=shcjveg HOME=/Users/shcjveg SHELL=/bin/bash TMPDIR=/var/folders/r0/_s4g94s95db201lhl035tww80000gn/T/
+root               157   0.0  0.0  4337620    528   ??  Ss   六03下午   0:00.02 auditd -l
+root               339   0.0  0.0  4424512    504   ??  Ss   六03下午   0:00.58 /usr/libexec/usbd
+shcjveg           7464   0.0  0.0  4354136    500   ??  S    日03上午   0:00.03 /System/Library/PrivateFrameworks/DeviceCheckInternal.framework/devicecheckd XPC_SERVICE_NAME=com.apple.devicecheckd SSH_AUTH_SOCK=/private/tmp/com.apple.launchd.CcC9BwPYF4/Listeners PATH=/usr/bin:/bin:/usr/sbin:/sbin XPC_FLAGS=19 LOGNAME=shcjveg USER=shcjveg HOME=/Users/shcjveg SHELL=/bin/bash TMPDIR=/var/folders/r0/_s4g94s95db201lhl035tww80000gn/T/
+root               162   0.0  0.0  4362852    492   ??  Ss   六03下午   0:00.03 autofsd
+_fpsd              452   0.0  0.0  4383004    464   ??  Ss   六03下午   0:00.15 /System/Library/PrivateFrameworks/CoreFP.framework/Versions/A/fpsd
+_softwareupdate    343   0.0  0.0  4395660    464   ??  Ss   六03下午   0:00.62 /System/Library/PrivateFrameworks/BridgeOSSoftwareUpdate.framework/Support/bosUpdateProxy
+root               172   0.0  0.0  4329700    456   ??  Ss   六03下午   0:00.01 /usr/sbin/KernelEventAgent
+root               336   0.0  0.0  4321324    444   ??  Ss   六03下午   0:00.02 /usr/libexec/multiversed
+root              4173   0.0  0.0  4321756    440   ??  SNs  六08下午   0:00.01 /usr/libexec/periodic-wrapper weekly
+shcjveg            557   0.0  0.0  4831740    428   ??  S    六03下午   0:00.02 SafeEjectGPUAgent XPC_SERVICE_NAME=com.apple.SafeEjectGPUAgent SSH_AUTH_SOCK=/private/tmp/com.apple.launchd.CcC9BwPYF4/Listeners PATH=/usr/bin:/bin:/usr/sbin:/sbin XPC_FLAGS=19 LOGNAME=shcjveg USER=shcjveg HOME=/Users/shcjveg SHELL=/bin/bash TMPDIR=/var/folders/r0/_s4g94s95db201lhl035tww80000gn/T/
+root               313   0.0  0.0  4370656    368   ??  Ss   六03下午   0:00.04 /usr/libexec/smd
+shcjveg          43007   0.0  0.0  4277620    320 s002  T    12:08下午   0:00.00 lsof TERM_PROGRAM=Apple_Terminal SHELL=/bin/bash TERM=xterm-256color HOMEBREW_BOTTLE_DOMAIN=https://mirrors.ustc.edu.cn/homebrew-bottles TMPDIR=/var/folders/r0/_s4g94s95db201lhl035tww80000gn/T/ CONDA_SHLVL=1 CONDA_PROMPT_MODIFIER=(base)  TERM_PROGRAM_VERSION=433 TERM_SESSION_ID=D4AC605D-4683-4BBB-AE01-582537062110 USER=shcjveg CONDA_EXE=/Users/shcjveg/env/conda/anaconda3/bin/conda SSH_AUTH_SOCK=/private/tmp/com.apple.launchd.CcC9BwPYF4/Listeners _CE_CONDA= PATH=/Library/Frameworks/Python.framework/Versions/3.8/bin:/Users/shcjveg/env/conda/anaconda3/bin:/Users/shcjveg/env/conda/anaconda3/condabin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/Applications/VMware Fusion.app/Contents/Public:/Library/Apple/usr/bin CONDA_PREFIX=/Users/shcjveg/env/conda/anaconda3 PWD=/ LANG=zh_CN.UTF-8 XPC_FLAGS=0x0 _CE_M= XPC_SERVICE_NAME=0 SHLVL=1 HOME=/Users/shcjveg CONDA_PYTHON_EXE=/Users/shcjveg/env/conda/anaconda3/bin/python LOGNAME=shcjveg CONDA_DEFAULT_ENV=base _=/usr/sbin/lsof OLDPWD=/etc
+shcjveg            542   0.0  0.0  4415568    304   ??  S    六03下午   0:00.08 /System/Library/PrivateFrameworks/CallHistory.framework/Support/CallHistoryPluginHelper XPC_SERVICE_NAME=com.apple.CallHistoryPluginHelper SSH_AUTH_SOCK=/private/tmp/com.apple.launchd.CcC9BwPYF4/Listeners PATH=/usr/bin:/bin:/usr/sbin:/sbin XPC_FLAGS=19 LOGNAME=shcjveg USER=shcjveg HOME=/Users/shcjveg SHELL=/bin/bash TMPDIR=/var/folders/r0/_s4g94s95db201lhl035tww80000gn/T/
+shcjveg          41323   0.0  0.0  4268308    276 s000  T    10:55上午   0:00.00 cat TERM_PROGRAM=Apple_Terminal SHELL=/bin/bash TERM=xterm-256color HOMEBREW_BOTTLE_DOMAIN=https://mirrors.ustc.edu.cn/homebrew-bottles TMPDIR=/var/folders/r0/_s4g94s95db201lhl035tww80000gn/T/ CONDA_SHLVL=1 CONDA_PROMPT_MODIFIER=(base)  TERM_PROGRAM_VERSION=433 TERM_SESSION_ID=73EE0F27-F1CC-498B-880A-0A72D7B5F4EA USER=shcjveg CONDA_EXE=/Users/shcjveg/env/conda/anaconda3/bin/conda SSH_AUTH_SOCK=/private/tmp/com.apple.launchd.CcC9BwPYF4/Listeners _CE_CONDA= PATH=/Library/Frameworks/Python.framework/Versions/3.8/bin:/Users/shcjveg/env/conda/anaconda3/bin:/Users/shcjveg/env/conda/anaconda3/condabin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/Applications/VMware Fusion.app/Contents/Public:/Library/Apple/usr/bin CONDA_PREFIX=/Users/shcjveg/env/conda/anaconda3 PWD=/Users/shcjveg/gitProject/idshwk6 LANG=zh_CN.UTF-8 XPC_FLAGS=0x0 _CE_M= XPC_SERVICE_NAME=0 SHLVL=1 HOME=/Users/shcjveg CONDA_PYTHON_EXE=/Users/shcjveg/env/conda/anaconda3/bin/python LOGNAME=shcjveg CONDA_DEFAULT_ENV=base _=/bin/cat OLDPWD=/Users/shcjveg/gitProject
+shcjveg           2263   0.0  0.0  4430392    272   ??  S    六05下午   0:00.09 /System/Library/PrivateFrameworks/AMPLibrary.framework/Versions/A/Support/AMPArtworkAgent --launchd XPC_SERVICE_NAME=com.apple.AMPArtworkAgent SSH_AUTH_SOCK=/private/tmp/com.apple.launchd.CcC9BwPYF4/Listeners PATH=/usr/bin:/bin:/usr/sbin:/sbin XPC_FLAGS=19 LOGNAME=shcjveg USER=shcjveg HOME=/Users/shcjveg SHELL=/bin/bash TMPDIR=/var/folders/r0/_s4g94s95db201lhl035tww80000gn/T/
+shcjveg            558   0.0  0.0  4424924    264   ??  S    六03下午   0:00.07 /System/Library/CoreServices/Menu Extras/SafeEjectGPUExtra.menu/Contents/XPCServices/SafeEjectGPUService.xpc/Contents/MacOS/SafeEjectGPUService XPC_SERVICE_NAME=com.apple.SafeEjectGPUService PATH=/usr/bin:/bin:/usr/sbin:/sbin XPC_FLAGS=19 LOGNAME=shcjveg USER=shcjveg HOME=/Users/shcjveg SHELL=/bin/bash TMPDIR=/var/folders/r0/_s4g94s95db201lhl035tww80000gn/T/
+shcjveg           6213   0.0  0.0  4366360    224   ??  Ss   日12上午   0:00.05 /Library/Apple/System/Library/Frameworks/SafariServices.framework/Versions/A/XPCServices/com.apple.SafariServices.xpc/Contents/MacOS/com.apple.SafariServices XPC_SERVICE_NAME=com.apple.SafariServices PATH=/usr/bin:/bin:/usr/sbin:/sbin SSH_AUTH_SOCK=/private/tmp/com.apple.launchd.CcC9BwPYF4/Listeners HOME=/Users/shcjveg TMPDIR=/var/folders/r0/_s4g94s95db201lhl035tww80000gn/T/ XPC_FLAGS=19 LOGNAME=shcjveg USER=shcjveg SHELL=/bin/bash
+root               365   0.0  0.0  4379224    220   ??  Ss   六03下午   0:00.02 /System/Library/Frameworks/CoreMediaIO.framework/Versions/A/XPCServices/com.apple.cmio.registerassistantservice.xpc/Contents/MacOS/com.apple.cmio.registerassistantservice
+root               353   0.0  0.0  4386912    220   ??  Ss   六03下午   0:00.04 /usr/libexec/colorsync.displayservices
+shcjveg           1018   0.0  0.0  4397048    216   ??  S    六03下午   0:00.05 /usr/libexec/USBAgent XPC_SERVICE_NAME=com.apple.USBAgent SSH_AUTH_SOCK=/private/tmp/com.apple.launchd.CcC9BwPYF4/Listeners PATH=/usr/bin:/bin:/usr/sbin:/sbin XPC_FLAGS=9 LOGNAME=shcjveg USER=shcjveg HOME=/Users/shcjveg SHELL=/bin/bash TMPDIR=/var/folders/r0/_s4g94s95db201lhl035tww80000gn/T/
+shcjveg            523   0.0  0.0  4354084    192   ??  S    六03下午   0:00.02 /System/Library/PrivateFrameworks/CharacterPicker.framework/Versions/A/XPCServices/com.apple.CharacterPicker.FileService.xpc/Contents/MacOS/com.apple.CharacterPicker.FileService XPC_SERVICE_NAME=com.apple.CharacterPicker.FileService PATH=/usr/bin:/bin:/usr/sbin:/sbin XPC_FLAGS=19 LOGNAME=shcjveg USER=shcjveg HOME=/Users/shcjveg SHELL=/bin/bash TMPDIR=/var/folders/r0/_s4g94s95db201lhl035tww80000gn/T/
+_ctkd              378   0.0  0.0  4348032    180   ??  Ss   六03下午   0:00.03 /System/Library/Frameworks/CryptoTokenKit.framework/ctkd -s
+shcjveg            417   0.0  0.0  4354588    176   ??  S    六03下午   0:00.02 /System/Library/CoreServices/APFSUserAgent XPC_SERVICE_NAME=com.apple.apfsuseragent SSH_AUTH_SOCK=/private/tmp/com.apple.launchd.CcC9BwPYF4/Listeners PATH=/usr/bin:/bin:/usr/sbin:/sbin XPC_FLAGS=19 LOGNAME=shcjveg USER=shcjveg HOME=/Users/shcjveg SHELL=/bin/bash TMPDIR=/var/folders/r0/_s4g94s95db201lhl035tww80000gn/T/
+root               129   0.0  0.0  4371980    172   ??  Ss   六03下午   0:00.03 endpointsecurityd
+shcjveg            503   0.0  0.0  4395012    172   ??  Ss   六03下午   0:00.03 /System/Library/PrivateFrameworks/IMFoundation.framework/XPCServices/IMRemoteURLConnectionAgent.xpc/Contents/MacOS/IMRemoteURLConnectionAgent XPC_SERVICE_NAME=com.apple.imfoundation.IMRemoteURLConnectionAgent PATH=/usr/bin:/bin:/usr/sbin:/sbin SSH_AUTH_SOCK=/private/tmp/com.apple.launchd.CcC9BwPYF4/Listeners HOME=/Users/shcjveg TMPDIR=/var/folders/r0/_s4g94s95db201lhl035tww80000gn/T/ XPC_FLAGS=19 LOGNAME=shcjveg USER=shcjveg SHELL=/bin/bash
+shcjveg           4035   0.0  0.0  4329920    172   ??  S    六08下午   0:00.02 /System/Library/PrivateFrameworks/KerberosHelper/Helpers/DiskUnmountWatcher XPC_SERVICE_NAME=com.apple.security.DiskUnmountWatcher SSH_AUTH_SOCK=/private/tmp/com.apple.launchd.CcC9BwPYF4/Listeners PATH=/usr/bin:/bin:/usr/sbin:/sbin XPC_FLAGS=9 LOGNAME=shcjveg USER=shcjveg HOME=/Users/shcjveg SHELL=/bin/bash TMPDIR=/var/folders/r0/_s4g94s95db201lhl035tww80000gn/T/
+_locationd         284   0.0  0.0  4346348    164   ??  S    六03下午   0:00.02 /usr/sbin/cfprefsd agent
+_datadetectors    4196   0.0  0.0  4347364    140   ??  Ss   六08下午   0:00.05 /usr/libexec/DataDetectorsSourceAccess
+shcjveg           1070   0.0  0.0  4325844    124   ??  Ss   六03下午   0:00.01 /System/Library/Frameworks/AudioToolbox.framework/XPCServices/com.apple.audio.SandboxHelper.xpc/Contents/MacOS/com.apple.audio.SandboxHelper XPC_SERVICE_NAME=com.apple.audio.SandboxHelper PATH=/usr/bin:/bin:/usr/sbin:/sbin SSH_AUTH_SOCK=/private/tmp/com.apple.launchd.CcC9BwPYF4/Listeners HOME=/Users/shcjveg TMPDIR=/var/folders/r0/_s4g94s95db201lhl035tww80000gn/T/ XPC_FLAGS=19 LOGNAME=shcjveg USER=shcjveg SHELL=/bin/bash
+shcjveg            855   0.0  0.0  4330964    124   ??  Ss   六03下午   0:00.02 /System/Library/Frameworks/AudioToolbox.framework/XPCServices/com.apple.audio.SandboxHelper.xpc/Contents/MacOS/com.apple.audio.SandboxHelper XPC_SERVICE_NAME=com.apple.audio.SandboxHelper PATH=/usr/bin:/bin:/usr/sbin:/sbin SSH_AUTH_SOCK=/private/tmp/com.apple.launchd.CcC9BwPYF4/Listeners HOME=/Users/shcjveg TMPDIR=/var/folders/r0/_s4g94s95db201lhl035tww80000gn/T/ XPC_FLAGS=19 LOGNAME=shcjveg USER=shcjveg SHELL=/bin/bash
+shcjveg            785   0.0  0.0  4314580    124   ??  Ss   六03下午   0:00.01 /System/Library/Frameworks/AudioToolbox.framework/XPCServices/com.apple.audio.SandboxHelper.xpc/Contents/MacOS/com.apple.audio.SandboxHelper XPC_SERVICE_NAME=com.apple.audio.SandboxHelper PATH=/usr/bin:/bin:/usr/sbin:/sbin HOME=/Users/shcjveg TMPDIR=/var/folders/r0/_s4g94s95db201lhl035tww80000gn/T/ XPC_FLAGS=19 LOGNAME=shcjveg USER=shcjveg SHELL=/bin/bash
+_coreaudiod        279   0.0  0.0  4331728    124   ??  Ss   六03下午   0:00.01 /System/Library/Frameworks/AudioToolbox.framework/XPCServices/com.apple.audio.SandboxHelper.xpc/Contents/MacOS/com.apple.audio.SandboxHelper
+shcjveg            546   0.0  0.0  4324820    124   ??  Ss   六03下午   0:00.01 /System/Library/Frameworks/AudioToolbox.framework/XPCServices/com.apple.audio.SandboxHelper.xpc/Contents/MacOS/com.apple.audio.SandboxHelper XPC_SERVICE_NAME=com.apple.audio.SandboxHelper PATH=/usr/bin:/bin:/usr/sbin:/sbin SSH_AUTH_SOCK=/private/tmp/com.apple.launchd.CcC9BwPYF4/Listeners HOME=/Users/shcjveg TMPDIR=/var/folders/r0/_s4g94s95db201lhl035tww80000gn/T/ XPC_FLAGS=19 LOGNAME=shcjveg USER=shcjveg SHELL=/bin/bash
+root               359   0.0  0.0  4323580    124   ??  Ss   六03下午   0:00.02 /usr/libexec/bootinstalld
